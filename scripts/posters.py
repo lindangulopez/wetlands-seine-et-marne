@@ -106,72 +106,113 @@ def mouse(cx, cy, s=1):
 SKIN = {"spring": ("#5C3A24", "#7A4E33", "#3E2617"), "summer": ("#4A2C1C", "#6B412B", "#2E1A10"),
         "autumn": ("#6B4329", "#8A5A3B", "#432816"), "winter": ("#3F2618", "#5E3B27", "#24150C")}
 
-def face(cx, cy, sk):
-    """Face after West and Central African carved masks and figures: elongated oval, high forehead,
-    heart-shaped brow line into a long nose, half-closed almond eyes, small mouth, raised marks, polished sheen."""
+AGE = {"spring": "child", "summer": "young", "autumn": "mature", "winter": "elder"}
+
+def face(cx, cy, sk, age="young"):
+    """Face after West and Central African carved masks and figures, varied by age."""
     base, hi, dark = sk
-    gid = "wood" + base[1:]
+    g = dict(child=dict(w=50, top=92, chin=80, eye=1.18, ey=8, nose=26, mouth=56, marks=False),
+             young=dict(w=54, top=112, chin=100, eye=1.0, ey=-2, nose=34, mouth=70, marks=True),
+             mature=dict(w=57, top=110, chin=100, eye=1.0, ey=-2, nose=36, mouth=72, marks=True),
+             elder=dict(w=52, top=110, chin=98, eye=0.92, ey=0, nose=38, mouth=72, marks=True))[age]
+    w, top, chin = g["w"], g["top"], g["chin"]
+    gid = "wood" + base[1:] + age
     s = f'<defs><linearGradient id="{gid}" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{dark}"/><stop offset="0.38" stop-color="{base}"/><stop offset="0.5" stop-color="{hi}"/><stop offset="0.62" stop-color="{base}"/><stop offset="1" stop-color="{dark}"/></linearGradient></defs>'
-    # elongated oval with domed forehead and narrow chin
-    s += P(f"M{cx},{cy - 112} C{cx + 46},{cy - 112} {cx + 56},{cy - 60} {cx + 54},{cy - 6} C{cx + 52},{cy + 52} {cx + 30},{cy + 92} {cx},{cy + 100} C{cx - 30},{cy + 92} {cx - 52},{cy + 52} {cx - 54},{cy - 6} C{cx - 56},{cy - 60} {cx - 46},{cy - 112} {cx},{cy - 112}Z", f"url(#{gid})", dark, 2.2)
-    # forehead sheen
-    s += ellipse(cx, cy - 66, 14, 34, hi + "88")
-    # heart-shaped brow line flowing into the long nose
-    s += P(f"M{cx - 44},{cy - 8} Q{cx - 40},{cy - 40} {cx - 14},{cy - 34} Q{cx - 4},{cy - 30} {cx - 4},{cy - 14} L{cx - 6},{cy + 34} Q{cx - 14},{cy + 44} {cx - 12},{cy + 48}", "none", dark, 3)
-    s += P(f"M{cx + 44},{cy - 8} Q{cx + 40},{cy - 40} {cx + 14},{cy - 34} Q{cx + 4},{cy - 30} {cx + 4},{cy - 14} L{cx + 6},{cy + 34} Q{cx + 14},{cy + 44} {cx + 12},{cy + 48}", "none", dark, 3)
-    s += P(f"M{cx - 12},{cy + 48} Q{cx},{cy + 54} {cx + 12},{cy + 48}", "none", dark, 2.4)
-    s += P(f"M{cx},{cy - 26} L{cx},{cy + 40}", "none", hi + "AA", 3)  # nose ridge highlight
-    # half-closed almond (coffee-bean) eyes
+    jaw = 0.55 if age == "elder" else (0.62 if age == "child" else 0.56)
+    s += P(f"M{cx},{cy - top} C{cx + w * .85},{cy - top} {cx + w * 1.04},{cy - top * .55} {cx + w},{cy - 6} C{cx + w * .96},{cy + chin * jaw} {cx + w * .56},{cy + chin * .92} {cx},{cy + chin} C{cx - w * .56},{cy + chin * .92} {cx - w * .96},{cy + chin * jaw} {cx - w},{cy - 6} C{cx - w * 1.04},{cy - top * .55} {cx - w * .85},{cy - top} {cx},{cy - top}Z", f"url(#{gid})", dark, 2.2)
+    s += ellipse(cx, cy - top * .6, 13, top * .3, hi + "88")
+    if age == "child":
+        s += ellipse(cx - 30, cy + 30, 15, 11, hi + "55") + ellipse(cx + 30, cy + 30, 15, 11, hi + "55")
+    n = g["nose"]
     for sx in (-1, 1):
-        ex = cx + sx * 24; ey = cy - 2
-        s += P(f"M{ex - 15},{ey} Q{ex},{ey - 10} {ex + 15},{ey} Q{ex},{ey + 9} {ex - 15},{ey}Z", dark, "#140A05", 1.6)
-        s += P(f"M{ex - 13},{ey + 1} L{ex + 13},{ey + 1}", "none", hi, 1.6)
-    # small composed mouth
-    s += ellipse(cx, cy + 70, 11, 6.5, "#5E2A22", 0, "#2A0E0A", 1.6) + P(f"M{cx - 10},{cy + 70} L{cx + 10},{cy + 70}", "none", "#2A0E0A", 1.4)
-    # raised marks: three on each temple, a line of dots down the forehead
+        s += P(f"M{cx + sx * (w - 10)},{cy - 8} Q{cx + sx * (w - 14)},{cy - 40} {cx + sx * 14},{cy - 34} Q{cx + sx * 4},{cy - 30} {cx + sx * 4},{cy - 14} L{cx + sx * 6},{cy + n} Q{cx + sx * 14},{cy + n + 10} {cx + sx * 12},{cy + n + 14}", "none", dark, 3)
+    s += P(f"M{cx - 12},{cy + n + 14} Q{cx},{cy + n + 20} {cx + 12},{cy + n + 14}", "none", dark, 2.4)
+    s += P(f"M{cx},{cy - 26} L{cx},{cy + n + 4}", "none", hi + "AA", 3)
+    e = g["eye"]
     for sx in (-1, 1):
+        ex = cx + sx * 24; ey = cy + g["ey"]
+        s += P(f"M{ex - 15 * e},{ey} Q{ex},{ey - 10 * e} {ex + 15 * e},{ey} Q{ex},{ey + 9 * e} {ex - 15 * e},{ey}Z", dark, "#140A05", 1.6)
+        lid = 0 if age != "elder" else 2
+        s += P(f"M{ex - 13 * e},{ey + 1 + lid} L{ex + 13 * e},{ey + 1 + lid}", "none", hi, 1.6)
+        if age in ("mature", "elder"):
+            s += P(f"M{ex - 12},{ey + 11} Q{ex},{ey + 16} {ex + 12},{ey + 11}", "none", dark, 1.3)
+        if age == "elder":
+            s += P(f"M{ex + sx * 17},{ey - 3} l{sx * 9},-4 M{ex + sx * 17},{ey + 2} l{sx * 10},0 M{ex + sx * 17},{ey + 6} l{sx * 9},4", "none", dark, 1.2)
+    m = g["mouth"]
+    rx = 9 if age == "child" else (10 if age == "elder" else 11)
+    ry = 6.5 if age != "elder" else 5
+    s += ellipse(cx, cy + m, rx, ry, "#5E2A22", 0, "#2A0E0A", 1.6) + P(f"M{cx - rx + 1},{cy + m} L{cx + rx - 1},{cy + m}", "none", "#2A0E0A", 1.4)
+    if age in ("mature", "elder"):
+        for sx in (-1, 1):
+            s += P(f"M{cx + sx * 16},{cy + n + 12} Q{cx + sx * 24},{cy + m - 2} {cx + sx * 20},{cy + m + 12}", "none", dark, 1.5 if age == "elder" else 1.1)
+    if age == "elder":
         for k in range(3):
-            x = cx + sx * (42 - k * 0.5); y = cy + 14 + k * 9
-            s += P(f"M{x - sx * 8},{y} L{x + sx * 6},{y + 2}", "none", hi, 2.6) + P(f"M{x - sx * 8},{y + 1.5} L{x + sx * 6},{y + 3.5}", "none", dark, 1.2)
-    for k in range(5):
-        s += circle(cx, cy - 98 + k * 11, 2.6, hi, dark, 0.8)
-    # stylised ears with ornaments
+            y = cy - top * .62 + k * 10
+            s += P(f"M{cx - 28 + k * 2},{y} Q{cx},{y - 5} {cx + 28 - k * 2},{y}", "none", dark, 1.3)
+        s += P(f"M{cx - 40},{cy + 40} Q{cx - 44},{cy + 60} {cx - 34},{cy + 78} M{cx + 40},{cy + 40} Q{cx + 44},{cy + 60} {cx + 34},{cy + 78}", "none", dark, 1.2)
+    if g["marks"]:
+        for sx in (-1, 1):
+            for k in range(3):
+                x = cx + sx * (w - 12); y = cy + 14 + k * 9
+                s += P(f"M{x - sx * 8},{y} L{x + sx * 6},{y + 2}", "none", hi, 2.6) + P(f"M{x - sx * 8},{y + 1.5} L{x + sx * 6},{y + 3.5}", "none", dark, 1.2)
+    for k in range(5 if age != "child" else 3):
+        s += circle(cx, cy - top + 14 + k * 11, 2.6, hi, dark, 0.8)
     for sx in (-1, 1):
-        s += P(f"M{cx + sx * 52},{cy - 14} Q{cx + sx * 66},{cy + 4} {cx + sx * 54},{cy + 26}", base, dark, 2)
-        s += circle(cx + sx * 60, cy + 36, 7, "none", "#D4A84B", 3)
+        s += P(f"M{cx + sx * (w - 2)},{cy - 14} Q{cx + sx * (w + 12)},{cy + 4} {cx + sx * w},{cy + 26}", base, dark, 2)
+        s += circle(cx + sx * (w + 6), cy + 36, 6 if age == "child" else 7, "none", "#D4A84B", 3)
+    if age == "mature":
+        for sx in (-1, 1):
+            s += P(f"M{cx + sx * (w - 4)},{cy - top * .55} Q{cx + sx * (w + 2)},{cy - 30} {cx + sx * (w - 2)},{cy - 10}", "none", "#BDB6AE", 3)
     return s
 
-def body(cx, top, sk, dress, dress2, trim):
+BODY = dict(child=dict(sh=118, drop=0, waist=96, hem=138, hemy=600, belt=360),
+            young=dict(sh=160, drop=0, waist=120, hem=192, hemy=860, belt=400),
+            mature=dict(sh=166, drop=4, waist=148, hem=220, hemy=860, belt=410),
+            elder=dict(sh=148, drop=22, waist=142, hem=205, hemy=860, belt=420))
+
+def body(cx, top, sk, dress, dress2, trim, age="young"):
     base, hi, dark = sk
-    s = P(f"M{cx - 22},{top - 20} L{cx - 28},{top + 60} L{cx + 28},{top + 60} L{cx + 22},{top - 20}Z", base, dark, 2)  # neck
-    for k in range(4):
+    b = BODY[age]; sh, dr, wa, he, hy, bl = b["sh"], b["drop"], b["waist"], b["hem"], b["hemy"], b["belt"]
+    s = ""
+    if age == "child":  # legs and feet under a knee-length dress
+        for sx in (-1, 1):
+            s += P(f"M{cx + sx * 40},{top + hy - 20} L{cx + sx * 44},{top + 820}", "none", dark, 30) + P(f"M{cx + sx * 40},{top + hy - 20} L{cx + sx * 44},{top + 820}", "none", base, 24)
+            s += ellipse(cx + sx * 52, top + 830, 26, 12, base, 0, dark, 2)
+    s += P(f"M{cx - 22},{top - 20} L{cx - 28},{top + 60} L{cx + 28},{top + 60} L{cx + 22},{top - 20}Z", base, dark, 2)
+    for k in range(4 if age != "child" else 2):
         y = top - 2 + k * 14
         s += P(f"M{cx - 24 - k},{y} Q{cx},{y + 6} {cx + 24 + k},{y}", "none", "#D4A84B", 3.2)
-    s += P(f"M{cx - 30},{top + 50} Q{cx - 110},{top + 70} {cx - 160},{top + 120} L{cx + 160},{top + 120} Q{cx + 110},{top + 70} {cx + 30},{top + 50}Z", base, dark, 2)  # shoulders
-    # dress, flowing
-    s += P(f"M{cx - 150},{top + 112} Q{cx - 120},{top + 330} {cx - 120},{top + 420} Q{cx - 150},{top + 640} {cx - 190},{top + 860} Q{cx - 100},{top + 895} {cx},{top + 878} Q{cx + 100},{top + 900} {cx + 195},{top + 860} Q{cx + 150},{top + 640} {cx + 120},{top + 420} Q{cx + 120},{top + 330} {cx + 150},{top + 112} Q{cx},{top + 160} {cx - 150},{top + 112}Z", dress, "#2B1A10", 2.4)
+    # shoulders (sloping for the elder)
+    s += P(f"M{cx - 30},{top + 50} Q{cx - sh * .7},{top + 70 + dr} {cx - sh},{top + 120 + dr} L{cx + sh},{top + 120 + dr} Q{cx + sh * .7},{top + 70 + dr} {cx + 30},{top + 50}Z", base, dark, 2)
+    bust = 0 if age == "child" else (24 if age == "mature" else 14)
+    s += P(f"M{cx - sh + 10},{top + 112 + dr} Q{cx - sh + 10 - bust * .4},{top + 260} {cx - wa},{top + bl} Q{cx - wa - (he - wa) * .4},{top + (bl + hy) / 2} {cx - he},{top + hy} Q{cx - he * .5},{top + hy + 36} {cx},{top + hy + 18} Q{cx + he * .5},{top + hy + 40} {cx + he + 4},{top + hy} Q{cx + wa + (he - wa) * .4},{top + (bl + hy) / 2} {cx + wa},{top + bl} Q{cx + sh - 10 + bust * .4},{top + 260} {cx + sh - 10},{top + 112 + dr} Q{cx},{top + 160 + dr} {cx - sh + 10},{top + 112 + dr}Z", dress, "#2B1A10", 2.4)
     for k in range(-3, 4):
-        x0 = cx + k * 28
-        s += P(f"M{x0},{top + 430} Q{x0 + k * 10},{top + 650} {x0 + k * 24},{top + 872}", "none", dress2, 3)
-    s += P(f"M{cx - 122},{top + 400} Q{cx},{top + 440} {cx + 122},{top + 400} L{cx + 124},{top + 432} Q{cx},{top + 470} {cx - 124},{top + 432}Z", trim, "#2B1A10", 1.8)
-    s += P(f"M{cx + 40},{top + 446} Q{cx + 70},{top + 560} {cx + 30},{top + 660} M{cx + 56},{top + 444} Q{cx + 96},{top + 540} {cx + 70},{top + 640}", "none", trim, 7)
-    s += P(f"M{cx - 182},{top + 830} Q{cx - 100},{top + 862} {cx},{top + 846} Q{cx + 100},{top + 866} {cx + 188},{top + 830}", "none", trim, 10)
-    for k in range(-8, 9):
-        s += circle(cx + k * 21, top + 846 + abs(k) * 0.4 - 18, 4, trim, "#2B1A10", 1)
-    s += P(f"M{cx - 150},{top + 116} Q{cx},{top + 166} {cx + 150},{top + 116}", "none", trim, 10)
-    # necklace
+        x0 = cx + k * (wa / 4.3)
+        s += P(f"M{x0},{top + bl + 30} Q{x0 + k * 10},{top + (bl + hy) / 2 + 40} {x0 + k * (he - wa) / 4},{top + hy + 12}", "none", dress2, 3)
+    s += P(f"M{cx - wa - 2},{top + bl} Q{cx},{top + bl + 40} {cx + wa + 2},{top + bl} L{cx + wa + 4},{top + bl + 32} Q{cx},{top + bl + 70} {cx - wa - 4},{top + bl + 32}Z", trim, "#2B1A10", 1.8)
+    s += P(f"M{cx + 40},{top + bl + 46} Q{cx + 70},{top + bl + 160} {cx + 30},{top + bl + 250}", "none", trim, 7)
+    s += P(f"M{cx - he + 8},{top + hy - 30} Q{cx - he * .5},{top + hy + 2} {cx},{top + hy - 14} Q{cx + he * .5},{top + hy + 6} {cx + he},{top + hy - 30}", "none", trim, 10)
+    s += P(f"M{cx - sh + 10},{top + 116 + dr} Q{cx},{top + 166 + dr} {cx + sh - 10},{top + 116 + dr}", "none", trim, 10)
+    if age == "elder":  # shawl over the shoulders
+        s += P(f"M{cx - sh - 6},{top + 118 + dr} Q{cx - sh + 20},{top + 300} {cx - 30},{top + 330} L{cx + 30},{top + 330} Q{cx + sh - 20},{top + 300} {cx + sh + 6},{top + 118 + dr} Q{cx},{top + 190} {cx - sh - 6},{top + 118 + dr}Z", "#C9D6E2", "#14243A", 2)
+        for k in range(9):
+            s += P(f"M{cx - 30 + k * 7.5},{top + 330} l0,16", "none", "#C9D6E2", 2)
     s += P(f"M{cx - 44},{top + 66} Q{cx},{top + 110} {cx + 44},{top + 66}", "none", "#D4A84B", 4)
     for k in range(-3, 4):
         s += circle(cx + k * 11, top + 92 - abs(k) * 4, 4, "#D4A84B")
     return s
 
-def arms(cx, top, sk, hold_y):
+def arms(cx, top, sk, hold_y, age="young"):
     base, hi, dark = sk
+    b = BODY[age]; sh, dr = b["sh"], b["drop"]
     s = ""
     for sx in (-1, 1):
-        d = f"M{cx + sx * 150},{top + 130} Q{cx + sx * 175},{top + 300} {cx + sx * 70},{hold_y}"
-        s += P(d, "none", dark, 40) + P(d, "none", base, 34)
+        d = f"M{cx + sx * (sh - 10)},{top + 130 + dr} Q{cx + sx * (sh + 15)},{top + 300} {cx + sx * 70},{hold_y}"
+        th = 30 if age == "child" else (38 if age == "mature" else 34)
+        s += P(d, "none", dark, th + 6) + P(d, "none", base, th)
         s += ellipse(cx + sx * 52, hold_y - 4, 24, 16, base, sx * 20, dark, 2)
+    if age == "elder":  # walking staff
+        s += P(f"M{cx + 78},{hold_y - 120} L{cx + 96},{top + 880}", "none", "#5A3A22", 9) + circle(cx + 78, hold_y - 124, 9, "#8B5E3C", "#2B1A10", 1.5)
     return s
 
 # ---------- hair ----------
@@ -210,7 +251,9 @@ def hair_autumn(cx, cy):
 
 def hair_winter(cx, cy):
     s = P(f"M{cx - 120},{cy + 140} Q{cx - 140},{cy - 140} {cx},{cy - 160} Q{cx + 140},{cy - 140} {cx + 120},{cy + 140} Q{cx + 80},{cy - 30} {cx},{cy - 108} Q{cx - 80},{cy - 30} {cx - 120},{cy + 140}Z", "#2F4A6B", "#14243A", 2.4)
-    s += P(f"M{cx - 62},{cy - 30} Q{cx - 60},{cy - 100} {cx},{cy - 104} Q{cx + 60},{cy - 100} {cx + 62},{cy - 30} Q{cx + 30},{cy - 70} {cx},{cy - 72} Q{cx - 30},{cy - 70} {cx - 62},{cy - 30}Z", "#1B1110")
+    s += P(f"M{cx - 62},{cy - 30} Q{cx - 60},{cy - 104} {cx},{cy - 116} Q{cx + 60},{cy - 104} {cx + 62},{cy - 30} Q{cx + 30},{cy - 82} {cx},{cy - 84} Q{cx - 30},{cy - 82} {cx - 62},{cy - 30}Z", "#E4E1DA", "#9A958C", 1.4)
+    for k in range(6):
+        s += P(f"M{cx - 50 + k * 20},{cy - 96 + abs(k - 2.5) * 6} q4,8 0,16", "none", "#B9B4AA", 1.2)
     s += P(f"M{cx - 120},{cy + 140} Q{cx - 140},{cy - 140} {cx},{cy - 160} Q{cx + 140},{cy - 140} {cx + 120},{cy + 140}", "none", "#E9EEF3", 8)
     for k in range(-2, 3):
         s += reed(cx + k * 28, cy - 150, 60, k * .12, "#E3D9C6")
@@ -295,8 +338,9 @@ def poster(season):
     if season == "summer": s += HAIR[season](cx, cy)  # braids behind
     elif season != "winter": s += HAIR[season](cx, cy) if season == "spring" else ""
     if season == "winter": s += P(f"M{cx - 120},{cy + 140} Q{cx - 215},{cy + 700} {cx - 205},{cy + 830} L{cx + 205},{cy + 830} Q{cx + 215},{cy + 700} {cx + 120},{cy + 140}Z", "#2F4A6B", "#14243A", 2.4)  # cloak
-    s += body(cx, cy + 80, sk, c["dress"], c["dress2"], c["trim"])
-    s += face(cx, cy, sk)
+    bscale = 0.84 if AGE[season] == "child" else 1.0
+    s += f'<g transform="translate({cx},{cy + 70}) scale({bscale}) translate({-cx},{-(cy + 70)})">' + body(cx, cy + 80, sk, c["dress"], c["dress2"], c["trim"], AGE[season]) + "</g>"
+    s += face(cx, cy, sk, AGE[season])
     if season in ("autumn", "winter"): s += HAIR[season](cx, cy)
     # bouquet held at the waist
     hold_y = cy + 470
@@ -305,7 +349,7 @@ def poster(season):
           "autumn": lambda: "".join(leaf(cx, hold_y, 70, -60 - k * 22, ["#C2601F", "#D9822B", "#A3471E"][k % 3], "#5A3A22") for k in range(5)) + alder_cone(cx - 12, hold_y - 30, 10) + alder_cone(cx + 14, hold_y - 40, 10),
           "winter": lambda: "".join(reed(cx - 30 + k * 15, hold_y + 10, 150, (k - 2) * .08, "#E3D9C6") for k in range(5))}
     s += bq[season]()
-    s += arms(cx, cy + 80, sk, hold_y)
+    s += f'<g transform="translate({cx},{cy + 70}) scale({bscale}) translate({-cx},{-(cy + 70)})">' + arms(cx, cy + 80, sk, hold_y, AGE[season]) + "</g>"
     # lettering panel
     py = 1330
     s += P(f"M70,{py} Q{cx},{py - 40} {W - 70},{py} L{W - 70},{H - 70} L70,{H - 70}Z", c["bg"][0], c["frame"], 4)
