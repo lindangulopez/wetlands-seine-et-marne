@@ -16,7 +16,7 @@ Chaque post fait vérifier ses faits auprès d'une source nommée, citée sous l
 
 ## Les quatre saisons
 
-Le même format, une série par saison, avec des photos de plantes, d'animaux et de champignons : [hiver](winter.md) (à partir du 21 décembre 2026), [printemps](spring.md) (à partir du 20 mars 2027), [été](summer.md) (à partir du 21 juin 2027) et [automne](autumn.md) (à partir du 23 septembre 2027). Et un récit : [aux champignons dans les zones humides](mushrooms.md).
+Le même format, une série par saison, avec des photos de plantes, d'animaux et de champignons : [hiver](winter.md) (à partir du 21 décembre 2026), [printemps](spring.md) (à partir du 20 mars 2027), [été](summer.md) (à partir du 21 juin 2027) et [automne](autumn.md) (à partir du 23 septembre 2027). Et un récit : [aux champignons dans les zones humides](mushrooms.md), et [quatre affiches Art nouveau](posters.md), une par saison.
 
 ## Comment chaque post est construit
 

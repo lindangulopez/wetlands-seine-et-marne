@@ -14,3 +14,5 @@
   .md-typeset blockquote { margin-left: 0; }
 }
 .md-typeset .zoom-hint { font-size: .75rem; color: var(--md-default-fg-color--light); margin-top: -.6rem; }
+.md-typeset .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .8rem; }
+.md-typeset .grid img { width: 100%; height: auto; }

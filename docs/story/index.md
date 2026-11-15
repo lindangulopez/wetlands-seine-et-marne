@@ -16,7 +16,7 @@ Every post has its facts checked against a named source, listed under the post.
 
 ## The four seasons
 
-The same format, one series per season, with photos of plants, animals and fungi: [winter](winter.md) (from 21 December 2026), [spring](spring.md) (from 20 March 2027), [summer](summer.md) (from 21 June 2027) and [autumn](autumn.md) (from 23 September 2027). And a story: [mushroom hunting in the wetlands](mushrooms.md).
+The same format, one series per season, with photos of plants, animals and fungi: [winter](winter.md) (from 21 December 2026), [spring](spring.md) (from 20 March 2027), [summer](summer.md) (from 21 June 2027) and [autumn](autumn.md) (from 23 September 2027). And a story: [mushroom hunting in the wetlands](mushrooms.md), and [four Art Nouveau posters](posters.md), one per season.
 
 ## How each post is built
 

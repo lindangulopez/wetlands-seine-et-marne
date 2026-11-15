@@ -92,6 +92,7 @@ plugins:
             Summer: Été
             Autumn: Automne
             Mushroom hunting: Aux champignons
+            Four posters: Quatre affiches
             Learn the species: Apprendre les espèces
             Sources and method: Sources et méthode
 
@@ -125,5 +126,6 @@ nav:
       - "Summer": story/summer.md
       - "Autumn": story/autumn.md
       - "Mushroom hunting": story/mushrooms.md
+      - "Four posters": story/posters.md
   - Learn the species: flashcards.md
   - Sources and method: sources.md
