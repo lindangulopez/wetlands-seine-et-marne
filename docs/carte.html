@@ -11,6 +11,10 @@
   .info{background:#FAFBF7;padding:8px 10px;border-radius:8px;box-shadow:0 1px 4px #0003;font-size:12px;line-height:1.4;max-width:240px;color:#1C2822}
   .info b{font-size:13px}
   @media (max-width:600px){ .info{display:none} .leaflet-control-layers{font-size:12px} }
+  .legend{background:#FAFBF7;padding:6px;border-radius:8px;box-shadow:0 1px 4px #0003;max-height:45vh;overflow:auto;max-width:220px}
+  .legend img{display:block;max-width:100%;margin-bottom:6px}
+  .legend b{font-size:12px}
+  @media (max-width:600px){ .legend{max-width:46vw;max-height:38vh} }
   .sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:middle}
 </style>
 </head>
@@ -22,10 +26,16 @@ const map = L.map('map', {preferCanvas:true}).setView([48.62, 2.95], 9);
 const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom:18, attribution:'© OpenStreetMap contributors'}).addTo(map);
 const planign = L.tileLayer('https://data.geopf.fr/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image/png', {maxZoom:18, attribution:'IGN Plan IGN v2'});
 const ortho = L.tileLayer('https://data.geopf.fr/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTHOIMAGERY.ORTHOPHOTOS&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image/jpeg', {maxZoom:19, attribution:'IGN orthophotos'});
-const wms = (layer, attr) => L.tileLayer.wms('https://data.geopf.fr/wms-r/wms', {layers:layer, format:'image/png', transparent:true, opacity:0.6, attribution:attr});
+const wms = (layer, attr) => L.tileLayer.wms('https://data.geopf.fr/wms-r/wms', {layers:layer, version:'1.3.0', styles:'', format:'image/png', transparent:true, opacity:0.65, attribution:attr});
 const sols = wms('INRAE_CARTE-SOLS', 'INRAE, sols dominants');
 const clc = wms('LANDCOVER.CLC18', 'CORINE Land Cover 2018');
 
+// Simple world map: Natural Earth countries from the QGIS world_map.gpkg, as a light vector base layer
+map.createPane('worldPane'); map.getPane('worldPane').style.zIndex = 150;
+const world = L.geoJSON(null, {pane:'worldPane', interactive:false, attribution:'Natural Earth (QGIS world map)',
+  style:{color:'#9AA59E', weight:0.6, fillColor:'#EEF0E8', fillOpacity:1}});
+fetch('data/world_countries.geojson').then(r=>r.json()).then(g=>world.addData(g));
+map.on('baselayerchange', e => { document.getElementById('map').style.background = (e.layer === world) ? '#CFE3EE' : ''; });
 const PAL = ['#7FB3D5','#D8C27A','#8FBF7F','#E5A58A','#A99BD0','#E9CF6B','#6FBFA8','#D69AB8','#B8AA8C','#89A9DB','#D9B98F','#7EC3B5','#C9A56A','#9DB0C4'];
 const catch_ = L.geoJSON(null, {style:(f)=>({color:'#1C2822', weight:1, fillColor:PAL[f.properties._i % PAL.length], fillOpacity:0.18}),
   onEachFeature:(f,l)=>l.bindPopup(`<b>Bassin : ${f.properties.catchment}</b><br>${f.properties.zones} zones hydrographiques`)}).addTo(map);
@@ -52,7 +62,7 @@ fetch('data/gbif.geojson').then(r=>r.json()).then(g=>{
 });
 
 L.control.layers(
-  {'OpenStreetMap':osm, 'Plan IGN':planign, 'Photos aériennes IGN':ortho},
+  {'OpenStreetMap':osm, 'Plan IGN':planign, 'Photos aériennes IGN':ortho, 'Carte du monde simple (QGIS)':world},
   {'Bassins versants':catch_, 'Seine-et-Marne':dep, 'Sols dominants (INRAE)':sols, 'Occupation du sol (CLC 2018)':clc,
    'Natura 2000':n2k, 'ZNIEFF type 1':zn,
    '<span class="sw" style="background:#2E6650"></span>Plantes indicatrices (GBIF)':groups.plante,
@@ -64,6 +74,15 @@ const info = L.control({position:'bottomleft'});
 info.onAdd = () => { const d=L.DomUtil.create('div','info'); d.innerHTML='<b>Bassins versants de la Seine-et-Marne</b><br>Cliquez un bassin, un site ou un point. Couches dans le menu en haut à droite. Données : GBIF.org, INRAE, CLC 2018, IGN, PatriNat/INPN.'; return d; };
 info.addTo(map);
 L.control.scale({imperial:false}).addTo(map);
+// Legends for the two WMS layers, shown only while the layer is on
+const LEG = new Map([[sols, ['Sols dominants (INRAE)', 'https://data.geopf.fr/annexes/gissol-osf/legendes/INRAE_CARTE-SOLS.png']],
+                     [clc,  ['Occupation du sol (CLC 2018)', 'https://data.geopf.fr/annexes/ressources/legendes/CLC.png']]]);
+const legend = L.control({position:'bottomright'});
+legend.onAdd = () => { const d=L.DomUtil.create('div','legend'); d.hidden=true; L.DomEvent.disableScrollPropagation(d); L.DomEvent.disableClickPropagation(d); return d; };
+legend.addTo(map);
+function drawLegend(){ const d=legend.getContainer(); const on=[...LEG].filter(([l])=>map.hasLayer(l));
+  d.innerHTML=on.map(([,v])=>`<b>${v[0]}</b><img src="${v[1]}" alt="Légende ${v[0]}">`).join(''); d.hidden=!on.length; }
+map.on('overlayadd overlayremove', drawLegend);
 </script>
 </body>
 </html>

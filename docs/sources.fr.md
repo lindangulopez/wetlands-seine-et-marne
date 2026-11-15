@@ -11,6 +11,7 @@ Toutes les données sont ouvertes et ont été lues le 15 novembre 2026. Chaque 
 | Sols dominants | INRAE, *Les sols dominants de France métropolitaine*, carte harmonisée | WFS Géoplateforme `INRAE_CARTE-SOLS:sols_dominants_france_metropolitaine` |
 | Occupation du sol | CORINE Land Cover 2018, Copernicus (UE), édition française du SDES | WFS Géoplateforme `LANDCOVER.CLC18_FR` |
 | Natura 2000, ZNIEFF de type 1 | PatriNat (OFB, MNHN, CNRS, IRD), INPN | WFS Géoplateforme `patrinat_sic`, `patrinat_zps`, `patrinat_znieff1` |
+| Fond du monde (carte interactive) | Pays Natural Earth, depuis le `world_map.gpkg` de QGIS | Simplifié avec GDAL ogr2ogr |
 | Observations d'espèces | API d'occurrences de GBIF.org | [api.gbif.org](https://api.gbif.org/v1/occurrence/search) |
 
 ## Méthode
