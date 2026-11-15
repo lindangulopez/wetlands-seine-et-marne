@@ -1,0 +1,110 @@
+[
+{
+"rank": 1,
+"name": "La Bassée",
+"commune": "Mouy-sur-Seine (77)",
+"A_km2": 56.1,
+"lat": 48.4377,
+"lon": 3.2396,
+"protection": "Natura 2000 Bassée et plaines adjacentes"
+},
+{
+"rank": 2,
+"name": "Étangs et mares de Villefermoy",
+"commune": "Coutençon (77)",
+"A_km2": 14.1,
+"lat": 48.4844,
+"lon": 2.9885,
+"protection": "Natura 2000 Massif de Villefermoy"
+},
+{
+"rank": 3,
+"name": "Haute vallée de l'Yerres",
+"commune": "Liverdy-en-Brie (77)",
+"A_km2": 13.8,
+"lat": 48.6854,
+"lon": 2.7825,
+"protection": "près de la ZNIEFF Tourbière du Cormier"
+},
+{
+"rank": 4,
+"name": "Vallée du Lunain",
+"commune": "Villemer (77)",
+"A_km2": 8.3,
+"lat": 48.3094,
+"lon": 2.8438,
+"protection": "Natura 2000 Rivières du Loing et du Lunain"
+},
+{
+"rank": 5,
+"name": "Grand Marais de l'Ourcq",
+"commune": "May-en-Multien (77)",
+"A_km2": 6.8,
+"lat": 49.06,
+"lon": 3.0517,
+"protection": "ZNIEFF Le Grand Marais et marais associés"
+},
+{
+"rank": 6,
+"name": "Vallée du Petit Morin",
+"commune": "Orly-sur-Morin (77)",
+"A_km2": 6.2,
+"lat": 48.8958,
+"lon": 3.236,
+"protection": "Natura 2000 Le Petit Morin de Verdelot à Saint-Cyr-sur-Morin"
+},
+{
+"rank": 7,
+"name": "Boucles de la Marne, Grand-Voyeux",
+"commune": "Étrépilly (77)",
+"A_km2": 4.1,
+"lat": 49.0301,
+"lon": 2.9319,
+"protection": "Natura 2000 Boucles de la Marne"
+},
+{
+"rank": 8,
+"name": "Anciennes tourbières de la Voulzie et du ru des Méances",
+"commune": "Longueville (77)",
+"A_km2": 4.0,
+"lat": 48.508,
+"lon": 3.2491,
+"protection": "ZNIEFF"
+},
+{
+"rank": 9,
+"name": "Marais de Cercanceaux",
+"commune": "Souppes-sur-Loing (77)",
+"A_km2": 4.0,
+"lat": 48.1828,
+"lon": 2.7227,
+"protection": "ZNIEFF Marais de Cercanceaux et plan d'eau de Varennes"
+},
+{
+"rank": 10,
+"name": "Massif de Villefermoy",
+"commune": "Valence-en-Brie (77)",
+"A_km2": 3.9,
+"lat": 48.4717,
+"lon": 2.894,
+"protection": "Natura 2000 Massif de Villefermoy"
+},
+{
+"rank": 11,
+"name": "Vallée de la Marne",
+"commune": "Méry-sur-Marne (77)",
+"A_km2": 3.7,
+"lat": 48.9823,
+"lon": 3.213,
+"protection": "près de la ZNIEFF Plan d'eau de Messy"
+},
+{
+"rank": 12,
+"name": "Plateau de Brie",
+"commune": "Fontains (77)",
+"A_km2": 3.7,
+"lat": 48.5198,
+"lon": 3.0316,
+"protection": "hors site protégé"
+}
+]

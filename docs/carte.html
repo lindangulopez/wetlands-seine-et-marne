@@ -15,6 +15,15 @@
   .legend img{display:block;max-width:100%;margin-bottom:6px}
   .legend b{font-size:12px}
   @media (max-width:600px){ .legend{max-width:46vw;max-height:38vh} }
+  .search{background:#FAFBF7;border-radius:8px;box-shadow:0 1px 4px #0003;padding:6px;width:250px;max-width:70vw}
+  .search input{width:100%;box-sizing:border-box;padding:7px 8px;border:1px solid #CDD5CB;border-radius:6px;font-size:14px}
+  .search ul{list-style:none;margin:6px 0 0;padding:0;max-height:40vh;overflow:auto}
+  .search li{padding:6px 6px;border-radius:5px;cursor:pointer;font-size:13px;line-height:1.3}
+  .search li:hover,.search li:focus{background:#E3ECE5;outline:none}
+  .search li small{color:#5B6A61;display:block}
+  .bm{background:#FAFBF7;border-radius:8px;box-shadow:0 1px 4px #0003;padding:6px}
+  .bm select{font-size:13px;max-width:62vw;padding:5px}
+  .anum{background:#fff;border:2px solid #6A2C91;color:#6A2C91;border-radius:50%;font:bold 12px/20px system-ui;text-align:center;width:20px;height:20px}
   .sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:middle}
 </style>
 </head>
@@ -27,6 +36,10 @@ const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZo
 const planign = L.tileLayer('https://data.geopf.fr/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image/png', {maxZoom:18, attribution:'IGN Plan IGN v2'});
 const ortho = L.tileLayer('https://data.geopf.fr/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTHOIMAGERY.ORTHOPHOTOS&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image/jpeg', {maxZoom:19, attribution:'IGN orthophotos'});
 const wms = (layer, attr) => L.tileLayer.wms('https://data.geopf.fr/wms-r/wms', {layers:layer, version:'1.3.0', styles:'', format:'image/png', transparent:true, opacity:0.65, attribution:attr});
+// Wetlands: DRIEAT classes A, B, D inside Île-de-France and AESN potential wetlands outside, pre-rendered at 40 m
+const zh = L.layerGroup();
+fetch('data/wetlands_overlay.json').then(r=>r.json()).then(j=>{ L.imageOverlay('data/wetlands_overlay.png', j.bounds, {opacity:0.85, interactive:false,
+  attribution:'DRIEAT 2021, AESN 2016 (zones humides)'}).addTo(zh); });
 const sols = wms('INRAE_CARTE-SOLS', 'INRAE, sols dominants');
 const clc = wms('LANDCOVER.CLC18', 'CORINE Land Cover 2018');
 
@@ -44,6 +57,14 @@ const n2k = L.geoJSON(null, {style:(f)=>({color:'#B03A2E', weight:1.5, fillOpaci
   onEachFeature:(f,l)=>l.bindPopup(`<b>${f.properties.nom_site}</b><br>Natura 2000, ${f.properties.type}<br><a href="${f.properties.url_fiche}" target="_blank" rel="noopener">Fiche INPN</a>`)});
 const zn = L.geoJSON(null, {style:{color:'#6B4E9B', weight:1, dashArray:'2 3', fillOpacity:0.05},
   onEachFeature:(f,l)=>l.bindPopup(`<b>${f.properties.nom_site}</b><br>ZNIEFF type 1<br><a href="${f.properties.url_fiche}" target="_blank" rel="noopener">Fiche INPN</a>`)});
+const sitesA = L.layerGroup(); let SITES=[];
+fetch('data/classA_sites.json').then(r=>r.json()).then(list=>{ SITES=list;
+  list.forEach(s=>{ L.marker([s.lat,s.lon],{icon:L.divIcon({className:'anum',html:String(s.rank),iconSize:[24,24]}),title:s.name})
+    .bindPopup(`<b>${s.rank}. ${s.name}</b><br>${s.commune}<br>Zone humide avérée (classe A) : ${String(s.A_km2).replace('.',',')} km²<br>${s.protection}`).addTo(sitesA); });
+  const sel=document.getElementById('bmsel');
+  list.forEach(s=>{ const o=document.createElement('option'); o.value=s.rank; o.textContent=`${s.rank}. ${s.name}`; sel.appendChild(o); });
+});
+sitesA.addTo(map);
 const COL = {plante:'#2E6650', oiseau:'#2C5D8A', invasive:'#B03A2E', fontainebleau:'#E0A100'};
 const groups = {plante:L.layerGroup(), oiseau:L.layerGroup(), invasive:L.layerGroup(), fontainebleau:L.layerGroup()};
 
@@ -64,25 +85,58 @@ fetch('data/gbif.geojson').then(r=>r.json()).then(g=>{
 L.control.layers(
   {'OpenStreetMap':osm, 'Plan IGN':planign, 'Photos aériennes IGN':ortho, 'Carte du monde simple (QGIS)':world},
   {'Bassins versants':catch_, 'Seine-et-Marne':dep, 'Sols dominants (INRAE)':sols, 'Occupation du sol (CLC 2018)':clc,
-   'Natura 2000':n2k, 'ZNIEFF type 1':zn,
+   'Zones humides (classes A, B, eaux ; AESN hors IDF)':zh, 'Sites de classe A (numérotés)':sitesA, 'Natura 2000':n2k, 'ZNIEFF type 1':zn,
    '<span class="sw" style="background:#2E6650"></span>Plantes indicatrices (GBIF)':groups.plante,
    '<span class="sw" style="background:#2C5D8A"></span>Oiseaux d\'eau hivernants (GBIF)':groups.oiseau,
    '<span class="sw" style="background:#B03A2E"></span>Espèces envahissantes (GBIF)':groups.invasive,
    '<span class="sw" style="background:#E0A100"></span>Arenaria grandiflora (GBIF)':groups.fontainebleau},
   {collapsed: window.innerWidth < 700}).addTo(map);
 const info = L.control({position:'bottomleft'});
-info.onAdd = () => { const d=L.DomUtil.create('div','info'); d.innerHTML='<b>Bassins versants de la Seine-et-Marne</b><br>Cliquez un bassin, un site ou un point. Couches dans le menu en haut à droite. Données : GBIF.org, INRAE, CLC 2018, IGN, PatriNat/INPN.'; return d; };
+info.onAdd = () => { const d=L.DomUtil.create('div','info'); d.innerHTML='<b>Bassins versants de la Seine-et-Marne</b><br>Choisissez un site de classe A ou cherchez un lieu en haut à gauche ; couches et fonds en haut à droite ; cliquez un objet pour sa fiche. Données : GBIF.org, INRAE, CLC 2018, DRIEAT, AESN, IGN, PatriNat/INPN.'; return d; };
 info.addTo(map);
 L.control.scale({imperial:false}).addTo(map);
 // Legends for the two WMS layers, shown only while the layer is on
 const LEG = new Map([[sols, ['Sols dominants (INRAE)', 'https://data.geopf.fr/annexes/gissol-osf/legendes/INRAE_CARTE-SOLS.png']],
                      [clc,  ['Occupation du sol (CLC 2018)', 'https://data.geopf.fr/annexes/ressources/legendes/CLC.png']]]);
+const sq=c=>`<span style="display:inline-block;width:12px;height:12px;background:${c};margin-right:6px;vertical-align:-1px;border-radius:2px"></span>`;
+LEG.set(zh, ['Zones humides', null, `<div style="font-size:12px;line-height:1.7">${sq('#6A2C91')}Classe A, avérées<br>${sq('#F2A93B')}Classe B, probables<br>${sq('#1F78B4')}Classe D, plans d'eau, cours d'eau<br>${sq('#1B9E8A')}Hors Île-de-France : potentielles (AESN)</div>`]);
 const legend = L.control({position:'bottomright'});
 legend.onAdd = () => { const d=L.DomUtil.create('div','legend'); d.hidden=true; L.DomEvent.disableScrollPropagation(d); L.DomEvent.disableClickPropagation(d); return d; };
 legend.addTo(map);
 function drawLegend(){ const d=legend.getContainer(); const on=[...LEG].filter(([l])=>map.hasLayer(l));
-  d.innerHTML=on.map(([,v])=>`<b>${v[0]}</b><img src="${v[1]}" alt="Légende ${v[0]}">`).join(''); d.hidden=!on.length; }
+  d.innerHTML=on.map(([,v])=>`<b>${v[0]}</b>`+(v[2]||`<img src="${v[1]}" alt="Légende ${v[0]}">`)).join(''); d.hidden=!on.length; }
 map.on('overlayadd overlayremove', drawLegend);
+// Bookmarks: the 12 largest class A wetlands
+const bm = L.control({position:'topleft'});
+bm.onAdd = () => { const d=L.DomUtil.create('div','bm'); d.innerHTML='<label for="bmsel" style="font-size:12px;font-weight:600;display:block;margin-bottom:3px">Sites de classe A</label><select id="bmsel"><option value="">Aller à un site…</option></select>';
+  L.DomEvent.disableClickPropagation(d); return d; };
+bm.addTo(map);
+document.getElementById('bmsel').addEventListener('change', e => { const s=SITES.find(x=>String(x.rank)===e.target.value); if(!s) return;
+  if(!map.hasLayer(sitesA)) map.addLayer(sitesA); if(!map.hasLayer(zh)) { map.addLayer(zh); drawLegend(); }
+  map.setView([s.lat,s.lon],13); sitesA.eachLayer(m=>{ if(m.options.title===s.name) m.openPopup(); }); });
+// Search: sites, catchments, Natura 2000, ZNIEFF, then communes and addresses (api-adresse.data.gouv.fr)
+const search = L.control({position:'topleft'});
+search.onAdd = () => { const d=L.DomUtil.create('div','search');
+  d.innerHTML='<input id="q" type="search" placeholder="Chercher un lieu, un site, une commune…" aria-label="Rechercher"><ul id="res" role="listbox"></ul>';
+  L.DomEvent.disableClickPropagation(d); L.DomEvent.disableScrollPropagation(d); return d; };
+search.addTo(map);
+const norm = t => (t||'').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+function localHits(q){ const n=norm(q), hits=[];
+  SITES.forEach(s=>{ if(norm(s.name+' '+s.commune).includes(n)) hits.push({label:`${s.rank}. ${s.name}`, sub:'Site de classe A · '+s.commune, go:()=>{ map.setView([s.lat,s.lon],13); sitesA.eachLayer(m=>{ if(m.options.title===s.name) m.openPopup(); }); }}); });
+  const fromGeo=(layer,kind,prop,add)=>layer.eachLayer(l=>{ const v=l.feature.properties[prop]; if(norm(v).includes(n)) hits.push({label:v, sub:kind, go:()=>{ if(add && !map.hasLayer(layer)) map.addLayer(layer); map.fitBounds(l.getBounds()); l.openPopup(); }}); });
+  fromGeo(catch_,'Bassin versant','catchment',false); fromGeo(n2k,'Natura 2000','nom_site',true); fromGeo(zn,'ZNIEFF type 1','nom_site',true);
+  return hits.slice(0,8); }
+let timer=null;
+function show(items){ const ul=document.getElementById('res'); ul.innerHTML='';
+  items.forEach(it=>{ const li=document.createElement('li'); li.tabIndex=0; li.innerHTML=`${it.label}<small>${it.sub}</small>`;
+    const act=()=>{ it.go(); ul.innerHTML=''; }; li.onclick=act; li.onkeydown=e=>{ if(e.key==='Enter') act(); }; ul.appendChild(li); }); }
+document.getElementById('q').addEventListener('input', e => { const q=e.target.value.trim(); clearTimeout(timer);
+  if(q.length<2){ show([]); return; }
+  const loc=localHits(q); show(loc);
+  timer=setTimeout(()=>{ fetch('https://api-adresse.data.gouv.fr/search/?'+new URLSearchParams({q, limit:5, lat:48.6, lon:2.95}))
+    .then(r=>r.json()).then(g=>{ const geo=(g.features||[]).map(f=>({label:f.properties.label, sub:(f.properties.type==='municipality'?'Commune':'Adresse')+' · '+(f.properties.context||''),
+      go:()=>{ const [x,y]=f.geometry.coordinates; map.setView([y,x], f.properties.type==='municipality'?13:16); L.popup().setLatLng([y,x]).setContent(f.properties.label).openOn(map); }}));
+      show(localHits(q).concat(geo)); }).catch(()=>{}); }, 300); });
 </script>
 </body>
 </html>
