@@ -1,0 +1,760 @@
+{
+ "Caltha palustris": {
+  "key": 5371685,
+  "n77": 654,
+  "months": {
+   "4": 156,
+   "5": 132,
+   "6": 100,
+   "7": 64,
+   "3": 55,
+   "8": 40,
+   "1": 27,
+   "10": 18,
+   "9": 12,
+   "2": 10,
+   "11": 8,
+   "12": 4
+  },
+  "iucn": "LC",
+  "matched": "Caltha palustris L."
+ },
+ "Acrocephalus scirpaceus": {
+  "key": 2493118,
+  "n77": 6119,
+  "months": {
+   "5": 2167,
+   "6": 1537,
+   "8": 784,
+   "7": 750,
+   "4": 484,
+   "9": 315,
+   "10": 45,
+   "11": 4,
+   "3": 2,
+   "12": 1
+  },
+  "iucn": "LC",
+  "matched": "Acrocephalus scirpaceus (Hermann, 1804)"
+ },
+ "Coenagrion puella": {
+  "key": 1421964,
+  "n77": 5465,
+  "months": {
+   "6": 2240,
+   "5": 1585,
+   "7": 1265,
+   "8": 201,
+   "4": 77,
+   "1": 21,
+   "9": 20,
+   "10": 2,
+   "3": 1
+  },
+  "iucn": "LC",
+  "matched": "Coenagrion puella (Linnaeus, 1758)"
+ },
+ "Bufo bufo": {
+  "key": 5217160,
+  "n77": 14534,
+  "months": {
+   "3": 8547,
+   "2": 2351,
+   "4": 2076,
+   "5": 382,
+   "6": 371,
+   "1": 147,
+   "7": 136,
+   "9": 109,
+   "8": 91,
+   "10": 85,
+   "11": 24,
+   "12": 4
+  },
+  "iucn": "LC",
+  "matched": "Bufo bufo (Linnaeus, 1758)"
+ },
+ "Sarcoscypha austriaca": {
+  "key": 8689016,
+  "n77": 1,
+  "months": {
+   "2": 1
+  },
+  "iucn": "NE",
+  "matched": "Sarcoscypha austriaca (Beck ex Sacc.) Boud."
+ },
+ "Sarcoscypha coccinea": {
+  "key": 8156721,
+  "n77": 50,
+  "months": {
+   "2": 18,
+   "3": 17,
+   "1": 11,
+   "4": 1,
+   "12": 1
+  },
+  "iucn": "NE",
+  "matched": "Sarcoscypha coccinea (Jacq.) Lambotte"
+ },
+ "Mitrula paludosa": {
+  "key": 5256775,
+  "n77": 1,
+  "months": {
+   "4": 1
+  },
+  "iucn": "NE",
+  "matched": "Mitrula paludosa Fr."
+ },
+ "Esox lucius": {
+  "key": 2346633,
+  "n77": 560,
+  "months": {
+   "9": 148,
+   "4": 69,
+   "7": 64,
+   "10": 64,
+   "8": 60,
+   "5": 53,
+   "6": 29,
+   "11": 17,
+   "3": 16,
+   "1": 13,
+   "12": 9,
+   "2": 2
+  },
+  "iucn": "LC",
+  "matched": "Esox lucius Linnaeus, 1758"
+ },
+ "Lythrum salicaria": {
+  "key": 3188736,
+  "n77": 6256,
+  "months": {
+   "7": 1526,
+   "8": 1389,
+   "9": 942,
+   "6": 877,
+   "5": 392,
+   "10": 363,
+   "4": 195,
+   "1": 152,
+   "11": 78,
+   "12": 75,
+   "3": 72,
+   "2": 64
+  },
+  "iucn": "LC",
+  "matched": "Lythrum salicaria L."
+ },
+ "Alcedo atthis": {
+  "key": 2475532,
+  "n77": 11228,
+  "months": {
+   "9": 1317,
+   "8": 1238,
+   "10": 1097,
+   "7": 1050,
+   "5": 986,
+   "6": 985,
+   "11": 941,
+   "12": 874,
+   "4": 839,
+   "1": 700,
+   "3": 652,
+   "2": 449
+  },
+  "iucn": "LC",
+  "matched": "Alcedo atthis (Linnaeus, 1758)"
+ },
+ "Calopteryx splendens": {
+  "key": 1427067,
+  "n77": 6657,
+  "months": {
+   "6": 2390,
+   "7": 1978,
+   "5": 1298,
+   "8": 673,
+   "9": 164,
+   "4": 68,
+   "1": 18,
+   "10": 10,
+   "3": 2,
+   "2": 1
+  },
+  "iucn": "LC",
+  "matched": "Calopteryx splendens (Harris, 1780)"
+ },
+ "Myotis daubentonii": {
+  "key": 2432439,
+  "n77": 835,
+  "months": {
+   "7": 155,
+   "6": 116,
+   "2": 103,
+   "9": 87,
+   "5": 85,
+   "4": 53,
+   "12": 52,
+   "1": 45,
+   "11": 42,
+   "8": 39,
+   "10": 22,
+   "3": 16
+  },
+  "iucn": "LC",
+  "matched": "Myotis daubentonii (Kuhl, 1817)"
+ },
+ "Daedaleopsis confragosa": {
+  "key": 2545670,
+  "n77": 22,
+  "months": {
+   "1": 7,
+   "11": 7,
+   "10": 2,
+   "12": 2,
+   "2": 1,
+   "3": 1,
+   "4": 1,
+   "9": 1
+  },
+  "iucn": "NE"
+ },
+ "Phellinus igniarius": {
+  "key": 2520862,
+  "n77": 3,
+  "months": {
+   "3": 1,
+   "8": 1,
+   "9": 1
+  },
+  "iucn": "NE",
+  "matched": "Phellinus igniarius (L.) Qu\u00e9l."
+ },
+ "Alnus glutinosa": {
+  "key": 2876213,
+  "n77": 4649,
+  "months": {
+   "7": 814,
+   "6": 730,
+   "8": 653,
+   "9": 599,
+   "5": 576,
+   "10": 381,
+   "4": 310,
+   "1": 127,
+   "3": 112,
+   "2": 90,
+   "12": 74,
+   "11": 62
+  },
+  "iucn": "LC",
+  "matched": "Alnus glutinosa (L.) Gaertn."
+ },
+ "Gallinago gallinago": {
+  "key": 2481819,
+  "n77": 5800,
+  "months": {
+   "9": 1028,
+   "3": 910,
+   "10": 756,
+   "8": 721,
+   "4": 707,
+   "11": 451,
+   "1": 351,
+   "12": 341,
+   "2": 326,
+   "7": 115,
+   "5": 70,
+   "6": 6
+  },
+  "iucn": "LC",
+  "matched": "Gallinago gallinago (Linnaeus, 1758)"
+ },
+ "Sympetrum sanguineum": {
+  "key": 1428217,
+  "n77": 5258,
+  "months": {
+   "7": 1927,
+   "8": 1304,
+   "6": 967,
+   "9": 791,
+   "10": 105,
+   "5": 83,
+   "1": 23,
+   "11": 10,
+   "2": 1,
+   "3": 1,
+   "4": 1
+  },
+  "iucn": "LC",
+  "matched": "Sympetrum sanguineum (M\u00fcller, 1764)"
+ },
+ "Micromys minutus": {
+  "key": 5219833,
+  "n77": 82,
+  "months": {
+   "8": 17,
+   "10": 15,
+   "7": 10,
+   "9": 8,
+   "4": 7,
+   "3": 6,
+   "6": 4,
+   "1": 2,
+   "2": 2,
+   "5": 2,
+   "11": 2,
+   "12": 2
+  },
+  "iucn": "LC",
+  "matched": "Micromys minutus (Pallas, 1771)"
+ },
+ "Paxillus rubicundulus": {
+  "key": 5239994,
+  "n77": 0,
+  "months": {},
+  "iucn": "NE",
+  "matched": "Paxillus rubicundulus P.D.Orton"
+ },
+ "Lactarius obscuratus": {
+  "key": 5248651,
+  "n77": 0,
+  "months": {},
+  "iucn": "LC",
+  "matched": "Lactarius obscuratus (Lasch) Fr."
+ },
+ "Gyrodon lividus": {
+  "key": 8972210,
+  "n77": 2,
+  "months": {
+   "4": 1,
+   "9": 1
+  },
+  "iucn": "NE",
+  "matched": "Gyrodon lividus (Bull.) Sacc."
+ },
+ "Phragmites australis": {
+  "key": 5290149,
+  "n77": 3422,
+  "months": {
+   "7": 677,
+   "6": 584,
+   "8": 538,
+   "9": 462,
+   "5": 352,
+   "10": 205,
+   "4": 152,
+   "1": 113,
+   "3": 64,
+   "2": 61,
+   "12": 51,
+   "11": 49
+  },
+  "iucn": "LC",
+  "matched": "Phragmites australis (Cav.) Trin. ex Steud."
+ },
+ "Ardea alba": {
+  "key": 9752617,
+  "n77": 9213,
+  "months": {
+   "1": 1330,
+   "12": 1165,
+   "10": 1098,
+   "11": 982,
+   "2": 958,
+   "9": 838,
+   "3": 823,
+   "8": 691,
+   "4": 458,
+   "7": 347,
+   "5": 315,
+   "6": 192
+  },
+  "iucn": "LC",
+  "matched": "Ardea alba Linnaeus, 1758"
+ },
+ "Dytiscus marginalis": {
+  "key": 1038064,
+  "n77": 173,
+  "months": {
+   "3": 46,
+   "4": 41,
+   "6": 27,
+   "7": 20,
+   "5": 10,
+   "2": 5,
+   "9": 5,
+   "1": 4,
+   "8": 3,
+   "10": 1
+  },
+  "iucn": "NE",
+  "matched": "Dytiscus marginalis Linnaeus, 1758"
+ },
+ "Flammulina velutipes": {
+  "key": 3341441,
+  "n77": 5,
+  "months": {
+   "12": 3,
+   "1": 1,
+   "11": 1
+  },
+  "iucn": "LC",
+  "matched": "Flammulina velutipes (Curtis) Singer"
+ },
+ "Exidia glandulosa": {
+  "key": 2553607,
+  "n77": 26,
+  "months": {
+   "12": 12,
+   "2": 4,
+   "1": 3,
+   "11": 3,
+   "3": 2,
+   "5": 2
+  },
+  "iucn": "NE",
+  "matched": "Exidia glandulosa (Bull.) Fr."
+ },
+ "Auricularia auricula-judae": {
+  "key": 5249271,
+  "n77": 66,
+  "months": {
+   "2": 13,
+   "11": 13,
+   "12": 12,
+   "3": 7,
+   "1": 6,
+   "5": 5,
+   "4": 4,
+   "6": 3,
+   "10": 3
+  },
+  "iucn": "NE"
+ },
+ "Trametes suaveolens": {
+  "key": 9166502,
+  "n77": 0,
+  "months": {},
+  "iucn": "NE",
+  "matched": "Trametes suaveolens (L.) Fr."
+ },
+ "Claviceps purpurea": {
+  "key": 9378152,
+  "n77": 1,
+  "months": {
+   "6": 1
+  },
+  "iucn": "NE",
+  "matched": "Claviceps purpurea (Fr.) Tul."
+ },
+ "Naucoria escharioides": {
+  "key": 2534014,
+  "n77": 0,
+  "months": {},
+  "iucn": "NE",
+  "matched": "Naucoria escharioides (Fr.) P.Kumm."
+ },
+ "Emberiza schoeniclus": {
+  "key": 2491557,
+  "n77": 8364,
+  "months": {
+   "5": 1187,
+   "3": 1186,
+   "4": 1136,
+   "6": 743,
+   "10": 688,
+   "1": 646,
+   "12": 634,
+   "11": 605,
+   "2": 523,
+   "9": 348,
+   "7": 335,
+   "8": 305
+  },
+  "iucn": "LC",
+  "matched": "Emberiza schoeniclus (Linnaeus, 1758)"
+ },
+ "Hyla arborea": {
+  "key": 2427573,
+  "n77": 1061,
+  "months": {
+   "4": 347,
+   "5": 209,
+   "3": 122,
+   "6": 109,
+   "9": 63,
+   "7": 60,
+   "8": 49,
+   "10": 32,
+   "11": 4,
+   "2": 3,
+   "1": 2
+  },
+  "iucn": "LC",
+  "matched": "Hyla arborea (Linnaeus, 1758)"
+ },
+ "Botaurus stellaris": {
+  "key": 2480910,
+  "n77": 664,
+  "months": {
+   "1": 178,
+   "12": 117,
+   "11": 114,
+   "2": 109,
+   "3": 56,
+   "10": 47,
+   "9": 15,
+   "4": 9,
+   "7": 6,
+   "5": 3,
+   "8": 2,
+   "6": 1
+  },
+  "iucn": "LC",
+  "matched": "Botaurus stellaris (Linnaeus, 1758)"
+ },
+ "Lycaena dispar": {
+  "key": 1929270,
+  "n77": 346,
+  "months": {
+   "8": 217,
+   "6": 36,
+   "5": 31,
+   "9": 28,
+   "7": 27,
+   "4": 1
+  },
+  "iucn": "NT",
+  "matched": "Lycaena dispar (Haworth, 1803)"
+ },
+ "Lactarius lilacinus": {
+  "key": 5248719,
+  "n77": 0,
+  "months": {},
+  "iucn": "LC",
+  "matched": "Lactarius lilacinus Fr."
+ },
+ "Hypholoma fasciculare": {
+  "key": 3293632,
+  "n77": 188,
+  "months": {
+   "10": 90,
+   "11": 69,
+   "9": 11,
+   "12": 7,
+   "4": 3,
+   "5": 3,
+   "3": 2,
+   "1": 1,
+   "2": 1,
+   "8": 1
+  },
+  "iucn": "NE",
+  "matched": "Hypholoma fasciculare (Huds.) P.Kumm."
+ },
+ "Iris pseudacorus": {
+  "key": 5298231,
+  "n77": 5566,
+  "months": {
+   "6": 1012,
+   "7": 916,
+   "8": 909,
+   "5": 897,
+   "9": 655,
+   "4": 321,
+   "10": 305,
+   "1": 134,
+   "3": 104,
+   "2": 74,
+   "11": 70,
+   "12": 59
+  },
+  "iucn": "LC",
+  "matched": "Iris pseudacorus L."
+ },
+ "Rana dalmatina": {
+  "key": 2426760,
+  "n77": 7591,
+  "months": {
+   "3": 3988,
+   "2": 1326,
+   "4": 877,
+   "5": 315,
+   "6": 271,
+   "7": 186,
+   "9": 133,
+   "8": 109,
+   "10": 73,
+   "1": 56,
+   "11": 10,
+   "12": 5
+  },
+  "iucn": "LC",
+  "matched": "Rana dalmatina Fitzinger, 1838"
+ },
+ "Filipendula ulmaria": {
+  "key": 2987999,
+  "n77": 4656,
+  "months": {
+   "7": 996,
+   "6": 873,
+   "5": 689,
+   "8": 625,
+   "9": 481,
+   "4": 322,
+   "10": 272,
+   "1": 109,
+   "3": 86,
+   "2": 44,
+   "11": 43,
+   "12": 40
+  },
+  "iucn": "LC",
+  "matched": "Filipendula ulmaria (L.) Maxim."
+ },
+ "Tachybaptus ruficollis": {
+  "key": 2482048,
+  "n77": 11210,
+  "months": {
+   "1": 1417,
+   "3": 1130,
+   "11": 1129,
+   "12": 1121,
+   "10": 1080,
+   "2": 992,
+   "9": 955,
+   "4": 908,
+   "8": 797,
+   "5": 729,
+   "7": 475,
+   "6": 448
+  },
+  "iucn": "LC",
+  "matched": "Tachybaptus ruficollis (Pallas, 1764)"
+ },
+ "Anax imperator": {
+  "key": 5051775,
+  "n77": 5151,
+  "months": {
+   "6": 1912,
+   "7": 1835,
+   "5": 646,
+   "8": 570,
+   "9": 61,
+   "1": 42,
+   "10": 13,
+   "4": 10,
+   "3": 3,
+   "2": 2
+  },
+  "iucn": "LC",
+  "matched": "Anax imperator Leach, 1815"
+ },
+ "Typha latifolia": {
+  "key": 5289423,
+  "n77": 1418,
+  "months": {
+   "7": 297,
+   "8": 221,
+   "6": 197,
+   "9": 187,
+   "5": 112,
+   "1": 82,
+   "10": 73,
+   "4": 66,
+   "12": 28,
+   "3": 24,
+   "11": 19,
+   "2": 17
+  },
+  "iucn": "LC",
+  "matched": "Typha latifolia L."
+ },
+ "Natrix helvetica": {
+  "key": 9350124,
+  "n77": 1310,
+  "months": {
+   "6": 343,
+   "5": 303,
+   "4": 238,
+   "7": 173,
+   "8": 101,
+   "9": 93,
+   "3": 25,
+   "10": 16,
+   "12": 3,
+   "2": 2,
+   "11": 2,
+   "1": 1
+  },
+  "iucn": "LC"
+ },
+ "Cerioporus squamosus": {
+  "key": 2547092,
+  "n77": 29,
+  "months": {
+   "7": 7,
+   "4": 6,
+   "5": 6,
+   "10": 3,
+   "8": 2,
+   "9": 2,
+   "6": 1
+  },
+  "iucn": "NE"
+ },
+ "Ganoderma lucidum": {
+  "key": 2549730,
+  "n77": 21,
+  "months": {
+   "10": 5,
+   "12": 4,
+   "2": 3,
+   "3": 3,
+   "5": 3,
+   "1": 2,
+   "11": 1
+  },
+  "iucn": "NE"
+ },
+ "Lactarius lacunarum": {
+  "key": 5248592,
+  "n77": 37,
+  "months": {
+   "9": 15,
+   "8": 6,
+   "7": 5,
+   "10": 4,
+   "3": 3,
+   "1": 1,
+   "2": 1,
+   "11": 1,
+   "12": 1
+  },
+  "iucn": "NE"
+ },
+ "Pleurotus ostreatus": {
+  "key": 2526530,
+  "n77": 29,
+  "months": {
+   "11": 13,
+   "12": 11,
+   "10": 4,
+   "1": 1
+  },
+  "iucn": "NE"
+ },
+ "Kuehneromyces mutabilis": {
+  "key": 2533962,
+  "n77": 24,
+  "months": {
+   "9": 7,
+   "10": 7,
+   "8": 5,
+   "7": 2,
+   "11": 2,
+   "1": 1
+  },
+  "iucn": "LC"
+ }
+}

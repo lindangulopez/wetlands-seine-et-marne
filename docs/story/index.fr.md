@@ -14,6 +14,10 @@ Un post par jour pendant six jours, chacun une pièce de la même zone humide à
 
 Chaque post fait vérifier ses faits auprès d'une source nommée, citée sous le post.
 
+## Les quatre saisons
+
+Le même format, une série par saison, avec des photos de plantes, d'animaux et de champignons : [hiver](winter.md) (à partir du 21 décembre 2026), [printemps](spring.md) (à partir du 20 mars 2027), [été](summer.md) (à partir du 21 juin 2027) et [automne](autumn.md) (à partir du 23 septembre 2027). Et un récit : [aux champignons dans les zones humides](mushrooms.md).
+
 ## Comment chaque post est construit
 
 (i) Une question d'une ligne en accroche, avec deux émojis.

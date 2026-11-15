@@ -85,6 +85,12 @@ plugins:
             Day 4, agile frog: Jour 4, grenouille agile
             Day 5, wet soils: Jour 5, sols humides
             Day 6, the ecosystem: Jour 6, l'écosystème
+            Seasons: Saisons
+            Winter: Hiver
+            Spring: Printemps
+            Summer: Été
+            Autumn: Automne
+            Mushroom hunting: Aux champignons
             Learn the species: Apprendre les espèces
             Sources and method: Sources et méthode
 
@@ -110,5 +116,11 @@ nav:
       - "Day 4, agile frog": story/day-4-agile-frog.md
       - "Day 5, wet soils": story/day-5-wet-soils.md
       - "Day 6, the ecosystem": story/day-6-ecosystem.md
+  - Seasons:
+      - "Winter": story/winter.md
+      - "Spring": story/spring.md
+      - "Summer": story/summer.md
+      - "Autumn": story/autumn.md
+      - "Mushroom hunting": story/mushrooms.md
   - Learn the species: flashcards.md
   - Sources and method: sources.md

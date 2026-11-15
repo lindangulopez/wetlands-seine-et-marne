@@ -59,3 +59,35 @@ Brisset et al. (2025). Genetic rescue in action: long-term monitoring reveals ad
 ## Refaire les cartes
 
 Le dossier `scripts/` contient le code : `fetch_layers.py` (couches WFS et bassins), `gbif_species_counts.py` et `gbif_catchment_records.py` (GBIF), `render_maps.py` et `render_extras.py` (cartes, statistiques, couches web). Python 3 avec shapely, pyproj et matplotlib.
+
+## Crédits photo { #photo-credits }
+
+Les photos d'espèces des pages du récit sont les images principales des articles de Wikipédia en anglais, hébergées sur Wikimedia Commons ; une photo (lactaire des flaques) est un fichier Commons. Chaque page de fichier donne l'auteur et la licence (Creative Commons ou domaine public).
+
+| Espèce | Fichier Wikimedia Commons |
+| --- | --- |
+| *Acrocephalus scirpaceus* | [PleidelsheimerWiesentalTeichrohrsaenger.jpg](https://commons.wikimedia.org/wiki/File:PleidelsheimerWiesentalTeichrohrsaenger.jpg) |
+| *Alcedo atthis* | [Alcedo_atthis_-England-8_%28cropped%29.jpg](https://commons.wikimedia.org/wiki/File:Alcedo_atthis_-England-8_%28cropped%29.jpg) |
+| *Alnus glutinosa* | [20120904Alnus_glutinosa01.jpg](https://commons.wikimedia.org/wiki/File:20120904Alnus_glutinosa01.jpg) |
+| *Auricularia auricula-judae* | [Jelly_Ear%2C_Auricularia_auricula-judae%2C_UK_2.jpg](https://commons.wikimedia.org/wiki/File:Jelly_Ear%2C_Auricularia_auricula-judae%2C_UK_2.jpg) |
+| *Botaurus stellaris* | [Eurasian_Bittern_-_Torrile_-_Italy_4528_%2815409347121%29.jpg](https://commons.wikimedia.org/wiki/File:Eurasian_Bittern_-_Torrile_-_Italy_4528_%2815409347121%29.jpg) |
+| *Bufo bufo* | [Common_Toad_Cornwall.jpeg](https://commons.wikimedia.org/wiki/File:Common_Toad_Cornwall.jpeg) |
+| *Calopteryx splendens* | [Banded_demoiselle_damselfly_%28Calopteryx_splendens%29_male_4.jpg](https://commons.wikimedia.org/wiki/File:Banded_demoiselle_damselfly_%28Calopteryx_splendens%29_male_4.jpg) |
+| *Caltha palustris* | [Caltha_palustris_plant.JPG](https://commons.wikimedia.org/wiki/File:Caltha_palustris_plant.JPG) |
+| *Cerioporus squamosus* | [Polyporus_squamosus_Molter.jpg](https://commons.wikimedia.org/wiki/File:Polyporus_squamosus_Molter.jpg) |
+| *Coenagrion puella* | [Azure_damselfly_%28Coenagrion_puella%29_male_Montiaghs_Moss.jpg](https://commons.wikimedia.org/wiki/File:Azure_damselfly_%28Coenagrion_puella%29_male_Montiaghs_Moss.jpg) |
+| *Daedaleopsis confragosa* | [R%C3%B6tende_Bl%C3%A4tterwirrling_Daedaleopsis_confragosa.JPG](https://commons.wikimedia.org/wiki/File:R%C3%B6tende_Bl%C3%A4tterwirrling_Daedaleopsis_confragosa.JPG) |
+| *Dytiscus marginalis* | [Geelgerande02.jpg](https://commons.wikimedia.org/wiki/File:Geelgerande02.jpg) |
+| *Esox lucius* | [Esox_lucius_ZOO_1.jpg](https://commons.wikimedia.org/wiki/File:Esox_lucius_ZOO_1.jpg) |
+| *Filipendula ulmaria* | [20140715Filipendula_ulmaria.jpg](https://commons.wikimedia.org/wiki/File:20140715Filipendula_ulmaria.jpg) |
+| *Gallinago gallinago* | [Common_snipe_%28Gallinago_gallinago%29_2022.jpg](https://commons.wikimedia.org/wiki/File:Common_snipe_%28Gallinago_gallinago%29_2022.jpg) |
+| *Kuehneromyces mutabilis* | [Stockschwaemmchen.jpg](https://commons.wikimedia.org/wiki/File:Stockschwaemmchen.jpg) |
+| *Lactarius lacunarum* | [Lactarius_lacunarum_a1_(1).JPG](https://commons.wikimedia.org/wiki/File:Lactarius_lacunarum_a1_(1).JPG) |
+| *Lythrum salicaria* | [Lythrum_salicaria_-_harilik_kukesaba.jpg](https://commons.wikimedia.org/wiki/File:Lythrum_salicaria_-_harilik_kukesaba.jpg) |
+| *Micromys minutus* | [Micromysminutus1.jpg](https://commons.wikimedia.org/wiki/File:Micromysminutus1.jpg) |
+| *Myotis daubentonii* | [Myotis_daubentoni01.jpg](https://commons.wikimedia.org/wiki/File:Myotis_daubentoni01.jpg) |
+| *Natrix helvetica* | [BennyTrapp_Natrix_helvetica.jpg](https://commons.wikimedia.org/wiki/File:BennyTrapp_Natrix_helvetica.jpg) |
+| *Phragmites australis* | [Reed_panicle_at_Brodalen_1.jpg](https://commons.wikimedia.org/wiki/File:Reed_panicle_at_Brodalen_1.jpg) |
+| *Pleurotus ostreatus* | [Pleurotus_ostreatus_JPG7.jpg](https://commons.wikimedia.org/wiki/File:Pleurotus_ostreatus_JPG7.jpg) |
+| *Sarcoscypha coccinea* | [Sarcoscypha_coccinea_74716.jpg](https://commons.wikimedia.org/wiki/File:Sarcoscypha_coccinea_74716.jpg) |
+| *Sympetrum sanguineum* | [Sympetrum_sanguineum_LC0316.jpg](https://commons.wikimedia.org/wiki/File:Sympetrum_sanguineum_LC0316.jpg) |
