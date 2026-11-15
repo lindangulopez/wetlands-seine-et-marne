@@ -16,7 +16,7 @@
 
 (v) [Loing valley](loing.md): a close-up of the lower Loing and the Fontainebleau forest, with the large-flowered sandwort.
 
-(vi) [Wetlands](wetlands.md): the wetlands alone, from the regional wetland map: 28.4 % of the département confirmed or probable.
+(vi) [Wetlands](wetlands.md): the wetlands alone, catchment by catchment, from the regional wetland map: 27.8 % of the area it covers confirmed or probable.
 
 Then: the [interactive map](map.md), a [November wetland story](story/index.md) told one post a day, [flashcards](flashcards.md) to learn the species, and the [sources and method](sources.md).
 

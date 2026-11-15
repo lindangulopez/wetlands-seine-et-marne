@@ -16,7 +16,7 @@
 
 (v) [Vallée du Loing](loing.md) : un zoom sur le Loing aval et la forêt de Fontainebleau, avec la sabline à grandes fleurs.
 
-(vi) [Zones humides](wetlands.md) : les zones humides seules, d'après la cartographie régionale : 28,4 % du département avérées ou probables.
+(vi) [Zones humides](wetlands.md) : les zones humides seules, bassin par bassin, d'après la cartographie régionale : 27,8 % de la surface couverte avérées ou probables.
 
 Ensuite : la [carte interactive](map.md), un [récit de novembre](story/index.md) raconté un post par jour, des [cartes mémoire](flashcards.md) pour apprendre les espèces, et les [sources et la méthode](sources.md).
 

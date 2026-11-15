@@ -1,0 +1,122 @@
+{
+ "catch_km2": 9318,
+ "covered_km2": 6793,
+ "A_km2": 229.3,
+ "B_km2": 1657.6,
+ "D_km2": 98.9,
+ "AB_pct_covered": 27.8,
+ "catchments": [
+  {
+   "catchment": "Yerres",
+   "km2": 1011,
+   "covered_pct": 100,
+   "A_km2": 34.6,
+   "B_km2": 352.0,
+   "AB_pct": 38.3
+  },
+  {
+   "catchment": "Seine (Melun)",
+   "km2": 655,
+   "covered_pct": 100,
+   "A_km2": 30.8,
+   "B_km2": 214.1,
+   "AB_pct": 37.4
+  },
+  {
+   "catchment": "Seine (Bassée)",
+   "km2": 926,
+   "covered_pct": 63,
+   "A_km2": 59.4,
+   "B_km2": 145.5,
+   "AB_pct": 34.9
+  },
+  {
+   "catchment": "Petit Morin",
+   "km2": 337,
+   "covered_pct": 47,
+   "A_km2": 7.5,
+   "B_km2": 46.8,
+   "AB_pct": 34.3
+  },
+  {
+   "catchment": "Almont",
+   "km2": 305,
+   "covered_pct": 100,
+   "A_km2": 13.2,
+   "B_km2": 81.6,
+   "AB_pct": 31.1
+  },
+  {
+   "catchment": "Voulzie",
+   "km2": 287,
+   "covered_pct": 98,
+   "A_km2": 4.4,
+   "B_km2": 82.3,
+   "AB_pct": 30.8
+  },
+  {
+   "catchment": "Grand Morin",
+   "km2": 1196,
+   "covered_pct": 71,
+   "A_km2": 15.6,
+   "B_km2": 242.0,
+   "AB_pct": 30.5
+  },
+  {
+   "catchment": "Marne",
+   "km2": 1359,
+   "covered_pct": 82,
+   "A_km2": 22.3,
+   "B_km2": 271.5,
+   "AB_pct": 26.5
+  },
+  {
+   "catchment": "Ourcq",
+   "km2": 316,
+   "covered_pct": 36,
+   "A_km2": 9.4,
+   "B_km2": 16.5,
+   "AB_pct": 22.7
+  },
+  {
+   "catchment": "Yonne",
+   "km2": 250,
+   "covered_pct": 24,
+   "A_km2": 2.3,
+   "B_km2": 10.7,
+   "AB_pct": 22.1
+  },
+  {
+   "catchment": "Crould, Oise",
+   "km2": 682,
+   "covered_pct": 61,
+   "A_km2": 5.2,
+   "B_km2": 62.8,
+   "AB_pct": 16.2
+  },
+  {
+   "catchment": "École",
+   "km2": 390,
+   "covered_pct": 100,
+   "A_km2": 4.7,
+   "B_km2": 46.7,
+   "AB_pct": 13.2
+  },
+  {
+   "catchment": "Loing",
+   "km2": 1300,
+   "covered_pct": 59,
+   "A_km2": 16.1,
+   "B_km2": 80.7,
+   "AB_pct": 12.5
+  },
+  {
+   "catchment": "Essonne",
+   "km2": 303,
+   "covered_pct": 29,
+   "A_km2": 3.7,
+   "B_km2": 4.5,
+   "AB_pct": 9.5
+  }
+ ]
+}
