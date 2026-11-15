@@ -77,7 +77,8 @@ plugins:
             5 · Loing valley: 5 · Vallée du Loing
             6 · Wetlands: 6 · Zones humides
             Interactive map: Carte interactive
-            November story: Récit de novembre
+            Stories: Récits
+            November: Novembre
             Day 1, meadowsweet: Jour 1, reine-des-prés
             Habitat, the mégaphorbiaie: Habitat, la mégaphorbiaie
             Day 2, little grebe: Jour 2, grèbe castagneux
@@ -85,7 +86,6 @@ plugins:
             Day 4, agile frog: Jour 4, grenouille agile
             Day 5, wet soils: Jour 5, sols humides
             Day 6, the ecosystem: Jour 6, l'écosystème
-            Seasons: Saisons
             Winter: Hiver
             Spring: Printemps
             Summer: Été
@@ -107,16 +107,16 @@ nav:
       - 5 · Loing valley: loing.md
       - 6 · Wetlands: wetlands.md
   - Interactive map: map.md
-  - November story:
+  - Stories:
       - story/index.md
-      - "Habitat, the mégaphorbiaie": story/megaphorbiaie.md
-      - "Day 1, meadowsweet": story/day-1-meadowsweet.md
-      - "Day 2, little grebe": story/day-2-little-grebe.md
-      - "Day 3, emperor dragonfly": story/day-3-emperor-dragonfly.md
-      - "Day 4, agile frog": story/day-4-agile-frog.md
-      - "Day 5, wet soils": story/day-5-wet-soils.md
-      - "Day 6, the ecosystem": story/day-6-ecosystem.md
-  - Seasons:
+      - November:
+          - "Habitat, the mégaphorbiaie": story/megaphorbiaie.md
+          - "Day 1, meadowsweet": story/day-1-meadowsweet.md
+          - "Day 2, little grebe": story/day-2-little-grebe.md
+          - "Day 3, emperor dragonfly": story/day-3-emperor-dragonfly.md
+          - "Day 4, agile frog": story/day-4-agile-frog.md
+          - "Day 5, wet soils": story/day-5-wet-soils.md
+          - "Day 6, the ecosystem": story/day-6-ecosystem.md
       - "Winter": story/winter.md
       - "Spring": story/spring.md
       - "Summer": story/summer.md
