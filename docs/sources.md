@@ -91,3 +91,4 @@ Species photos on the story pages are the lead images of the English Wikipedia a
 | *Pleurotus ostreatus* | [Pleurotus_ostreatus_JPG7.jpg](https://commons.wikimedia.org/wiki/File:Pleurotus_ostreatus_JPG7.jpg) |
 | *Sarcoscypha coccinea* | [Sarcoscypha_coccinea_74716.jpg](https://commons.wikimedia.org/wiki/File:Sarcoscypha_coccinea_74716.jpg) |
 | *Sympetrum sanguineum* | [Sympetrum_sanguineum_LC0316.jpg](https://commons.wikimedia.org/wiki/File:Sympetrum_sanguineum_LC0316.jpg) |
+| *Anax imperator* | [Anax_imperator_qtl2.jpg](https://commons.wikimedia.org/wiki/File:Anax_imperator_qtl2.jpg) |
