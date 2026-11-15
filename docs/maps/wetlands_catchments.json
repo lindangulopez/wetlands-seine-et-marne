@@ -1,4 +1,221 @@
 {
+ "zdh_outside_km2": 357.3,
+ "outside_km2": 2526,
+ "zdh_outside_pct": 14.1,
+ "top_classA": [
+  {
+   "rank": 1,
+   "A_km2": 56.1,
+   "lon": 3.2396,
+   "lat": 48.4377,
+   "commune": "Mouy-sur-Seine (77)",
+   "sites": [
+    {
+     "type": "Natura 2000",
+     "name": "Bassée et plaines adjacentes",
+     "share": 94
+    },
+    {
+     "type": "Natura 2000",
+     "name": "La Bassée",
+     "share": 23
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "A_km2": 14.1,
+   "lon": 2.9885,
+   "lat": 48.4844,
+   "commune": "Coutençon (77)",
+   "sites": [
+    {
+     "type": "Natura 2000",
+     "name": "Massif de Villefermoy",
+     "share": 24
+    },
+    {
+     "type": "ZNIEFF 1",
+     "name": "Etang et mares des Billettes à Coutençon",
+     "share": 5
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "A_km2": 13.8,
+   "lon": 2.7825,
+   "lat": 48.6854,
+   "commune": "Liverdy-en-Brie (77)",
+   "sites": [
+    {
+     "type": "Natura 2000",
+     "name": "L'Yerres de sa source a Chaumes-en-Brie",
+     "share": 1
+    },
+    {
+     "type": "ZNIEFF 1",
+     "name": "TOURBIERE DU CORMIER",
+     "share": 1
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "A_km2": 8.3,
+   "lon": 2.8438,
+   "lat": 48.3094,
+   "commune": "Villemer (77)",
+   "sites": [
+    {
+     "type": "Natura 2000",
+     "name": "Rivières du Loing et du Lunain",
+     "share": 17
+    },
+    {
+     "type": "ZNIEFF 1",
+     "name": "VALLEE DU LUNAIN ENTRE NONVILLE ET NANTEAU SUR LUNAIN",
+     "share": 10
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "A_km2": 6.8,
+   "lon": 3.0517,
+   "lat": 49.06,
+   "commune": "May-en-Multien (77)",
+   "sites": [
+    {
+     "type": "ZNIEFF 1",
+     "name": "LE GRAND MARAIS ET MARAIS ASSOCIES",
+     "share": 17
+    },
+    {
+     "type": "ZNIEFF 1",
+     "name": "VALLEE DE L'OURCQ DE LA PRAIRIE DU CORROY AU PRE SEC",
+     "share": 16
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "A_km2": 6.2,
+   "lon": 3.236,
+   "lat": 48.8958,
+   "commune": "Orly-sur-Morin (77)",
+   "sites": [
+    {
+     "type": "Natura 2000",
+     "name": "Le Petit Morin de Verdelot à Saint-Cyr-sur-Morin",
+     "share": 75
+    },
+    {
+     "type": "ZNIEFF 1",
+     "name": "COTEAU DES GOBAS A LA TRETOIRE",
+     "share": 11
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "A_km2": 4.1,
+   "lon": 2.9319,
+   "lat": 49.0301,
+   "commune": "Étrépilly (77)",
+   "sites": [
+    {
+     "type": "Natura 2000",
+     "name": "Boucles de la Marne",
+     "share": 9
+    },
+    {
+     "type": "ZNIEFF 1",
+     "name": "ESPACE NATUREL DU GRAND-VOYEUX ET ÎLE L'ANCRE",
+     "share": 7
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "A_km2": 4.0,
+   "lon": 3.2491,
+   "lat": 48.508,
+   "commune": "Longueville (77)",
+   "sites": [
+    {
+     "type": "ZNIEFF 1",
+     "name": "ANCIENNE TOURBIERE DU RU DE MEANCES",
+     "share": 9
+    },
+    {
+     "type": "ZNIEFF 1",
+     "name": "ANCIENNE TOURBIERE DE LA VOULZIE",
+     "share": 7
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "A_km2": 4.0,
+   "lon": 2.7227,
+   "lat": 48.1828,
+   "commune": "Souppes-sur-Loing (77)",
+   "sites": [
+    {
+     "type": "ZNIEFF 1",
+     "name": "MARAIS DE CERCANCEAUX ET PLAN D'EAU DE VARENNES",
+     "share": 14
+    },
+    {
+     "type": "Natura 2000",
+     "name": "Rivières du Loing et du Lunain",
+     "share": 10
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "A_km2": 3.9,
+   "lon": 2.894,
+   "lat": 48.4717,
+   "commune": "Valence-en-Brie (77)",
+   "sites": [
+    {
+     "type": "Natura 2000",
+     "name": "Massif de Villefermoy",
+     "share": 78
+    }
+   ]
+  },
+  {
+   "rank": 11,
+   "A_km2": 3.7,
+   "lon": 3.213,
+   "lat": 48.9823,
+   "commune": "Méry-sur-Marne (77)",
+   "sites": [
+    {
+     "type": "Natura 2000",
+     "name": "Boucles de la Marne",
+     "share": 2
+    },
+    {
+     "type": "ZNIEFF 1",
+     "name": "PLAN D'EAU DE MESSY",
+     "share": 1
+    }
+   ]
+  },
+  {
+   "rank": 12,
+   "A_km2": 3.7,
+   "lon": 3.0316,
+   "lat": 48.5198,
+   "commune": "Fontains (77)",
+   "sites": []
+  }
+ ],
  "catch_km2": 9318,
  "covered_km2": 6793,
  "A_km2": 229.3,
@@ -10,6 +227,8 @@
    "catchment": "Yerres",
    "km2": 1011,
    "covered_pct": 100,
+   "outside_km2": 0,
+   "zdh_out_pct": null,
    "A_km2": 34.6,
    "B_km2": 352.0,
    "AB_pct": 38.3
@@ -18,6 +237,8 @@
    "catchment": "Seine (Melun)",
    "km2": 655,
    "covered_pct": 100,
+   "outside_km2": 0,
+   "zdh_out_pct": null,
    "A_km2": 30.8,
    "B_km2": 214.1,
    "AB_pct": 37.4
@@ -26,6 +247,8 @@
    "catchment": "Seine (Bassée)",
    "km2": 926,
    "covered_pct": 63,
+   "outside_km2": 339,
+   "zdh_out_pct": 23.2,
    "A_km2": 59.4,
    "B_km2": 145.5,
    "AB_pct": 34.9
@@ -34,6 +257,8 @@
    "catchment": "Petit Morin",
    "km2": 337,
    "covered_pct": 47,
+   "outside_km2": 179,
+   "zdh_out_pct": 9.8,
    "A_km2": 7.5,
    "B_km2": 46.8,
    "AB_pct": 34.3
@@ -42,6 +267,8 @@
    "catchment": "Almont",
    "km2": 305,
    "covered_pct": 100,
+   "outside_km2": 0,
+   "zdh_out_pct": null,
    "A_km2": 13.2,
    "B_km2": 81.6,
    "AB_pct": 31.1
@@ -50,6 +277,8 @@
    "catchment": "Voulzie",
    "km2": 287,
    "covered_pct": 98,
+   "outside_km2": 5,
+   "zdh_out_pct": 12.2,
    "A_km2": 4.4,
    "B_km2": 82.3,
    "AB_pct": 30.8
@@ -58,6 +287,8 @@
    "catchment": "Grand Morin",
    "km2": 1196,
    "covered_pct": 71,
+   "outside_km2": 352,
+   "zdh_out_pct": 10.8,
    "A_km2": 15.6,
    "B_km2": 242.0,
    "AB_pct": 30.5
@@ -66,6 +297,8 @@
    "catchment": "Marne",
    "km2": 1359,
    "covered_pct": 82,
+   "outside_km2": 249,
+   "zdh_out_pct": 9.2,
    "A_km2": 22.3,
    "B_km2": 271.5,
    "AB_pct": 26.5
@@ -74,6 +307,8 @@
    "catchment": "Ourcq",
    "km2": 316,
    "covered_pct": 36,
+   "outside_km2": 203,
+   "zdh_out_pct": 9.8,
    "A_km2": 9.4,
    "B_km2": 16.5,
    "AB_pct": 22.7
@@ -82,6 +317,8 @@
    "catchment": "Yonne",
    "km2": 250,
    "covered_pct": 24,
+   "outside_km2": 191,
+   "zdh_out_pct": 22.5,
    "A_km2": 2.3,
    "B_km2": 10.7,
    "AB_pct": 22.1
@@ -90,6 +327,8 @@
    "catchment": "Crould, Oise",
    "km2": 682,
    "covered_pct": 61,
+   "outside_km2": 263,
+   "zdh_out_pct": 14.2,
    "A_km2": 5.2,
    "B_km2": 62.8,
    "AB_pct": 16.2
@@ -98,6 +337,8 @@
    "catchment": "École",
    "km2": 390,
    "covered_pct": 100,
+   "outside_km2": 0,
+   "zdh_out_pct": null,
    "A_km2": 4.7,
    "B_km2": 46.7,
    "AB_pct": 13.2
@@ -106,6 +347,8 @@
    "catchment": "Loing",
    "km2": 1300,
    "covered_pct": 59,
+   "outside_km2": 528,
+   "zdh_out_pct": 17.4,
    "A_km2": 16.1,
    "B_km2": 80.7,
    "AB_pct": 12.5
@@ -114,6 +357,8 @@
    "catchment": "Essonne",
    "km2": 303,
    "covered_pct": 29,
+   "outside_km2": 216,
+   "zdh_out_pct": 3.6,
    "A_km2": 3.7,
    "B_km2": 4.5,
    "AB_pct": 9.5

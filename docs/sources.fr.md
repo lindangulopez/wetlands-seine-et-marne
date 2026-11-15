@@ -13,6 +13,7 @@ Toutes les données sont ouvertes et ont été lues le 15 novembre 2026. Chaque 
 | Natura 2000, ZNIEFF de type 1 | PatriNat (OFB, MNHN, CNRS, IRD), INPN | WFS Géoplateforme `patrinat_sic`, `patrinat_zps`, `patrinat_znieff1` |
 | Fond du monde (carte interactive) | Pays Natural Earth, depuis le `world_map.gpkg` de QGIS | Simplifié avec GDAL ogr2ogr |
 | Zones humides (diapositive 6) | DRIEAT Île-de-France, Enveloppes d'alerte des zones humides, mise à jour 2021, Licence Ouverte 2.0 | [data.gouv.fr](https://www.data.gouv.fr/datasets/enveloppes-dalerte-des-zones-humides-dile-de-france-1), shapefile, rastérisé à 20 m |
+| Zones humides hors Île-de-France (diapositive 6) | Agence de l'eau Seine-Normandie, Prélocalisation des zones humides potentielles, 2016, Licence Ouverte 2.0 | [data.gouv.fr](https://www.data.gouv.fr/datasets/prelocalisation-des-zones-humides-potentielles-dans-le-bassin-seine-normandie), shapefile, rastérisé à 20 m |
 | Observations d'espèces | API d'occurrences de GBIF.org | [api.gbif.org](https://api.gbif.org/v1/occurrence/search) |
 
 ## Méthode
