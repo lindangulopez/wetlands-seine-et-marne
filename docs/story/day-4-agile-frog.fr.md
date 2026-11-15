@@ -4,25 +4,13 @@
 
 ![Observations GBIF de la grenouille agile dans les bassins versants de la Seine-et-Marne](../maps/day4-frog.png)
 
-## Le post
+## Le récit
 
-> 🐸🍂 Pourquoi voit-on si peu de grenouilles en novembre ?
->
-> La grenouille agile (Rana dalmatina) est une grenouille brune et élancée des bois humides, aux pattes arrière très longues ; elle peut sauter jusqu'à deux mètres. En novembre, elle gagne son abri d'hiver, dans la litière de feuilles, sous une souche ou au fond d'une mare, et disparaît presque des observations. Le GBIF en compte 7 414 en Seine-et-Marne depuis 2000 : seulement 10 en novembre, mais 70 % en février et mars, quand elle revient parmi les premiers amphibiens pondre dans les mares.
->
-> Elle pond ses œufs en amas fixés aux brindilles et aux tiges sous l'eau, dans les mêmes mares où chassent les larves de libellules d'hier et où se nourrissent les grèbes castagneux. Il lui faut deux milieux à quelques centaines de mètres l'un de l'autre, un bois et une mare, et le chemin entre les deux. Mares drainées, fossés comblés et routes fréquentées coupent ce chemin : c'est pourquoi l'espèce est protégée en France.
->
-> Jour 4 d'une semaine sur les zones humides de Seine-et-Marne à l'entrée de l'hiver : une plante, un oiseau, un insecte, un animal et un sol, puis tout l'écosystème samedi.
->
-> Cartes et sources : 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/fr/story/day-4-agile-frog/
->
-> #ZonesHumides #SeineEtMarne #Amphibiens #GrenouilleAgile #RanaDalmatina #Mares #Biodiversite #Novembre #GBIF #DonneesOuvertes
+*Pourquoi voit-on si peu de grenouilles en novembre ?*
 
-**Commentaire de l'autrice, sous le post :**
+La grenouille agile (Rana dalmatina) est une grenouille brune et élancée des bois humides, aux pattes arrière très longues ; elle peut sauter jusqu'à deux mètres. En novembre, elle gagne son abri d'hiver, dans la litière de feuilles, sous une souche ou au fond d'une mare, et disparaît presque des observations. Le GBIF en compte 7 414 en Seine-et-Marne depuis 2000 : seulement 10 en novembre, mais 70 % en février et mars, quand elle revient parmi les premiers amphibiens pondre dans les mares.
 
-> Demain, ce qui garde toutes ces mares et ces berges humides : les sols des vallées.
->
-> Savez-vous où les grenouilles traversent la route près de chez vous en février ?
+Elle pond ses œufs en amas fixés aux brindilles et aux tiges sous l'eau, dans les mêmes mares où chassent les larves de libellules d'hier et où se nourrissent les grèbes castagneux. Il lui faut deux milieux à quelques centaines de mètres l'un de l'autre, un bois et une mare, et le chemin entre les deux. Mares drainées, fossés comblés et routes fréquentées coupent ce chemin : c'est pourquoi l'espèce est protégée en France.
 
 ## Valeur culturelle et statut
 

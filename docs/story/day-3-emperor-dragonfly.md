@@ -4,25 +4,13 @@
 
 ![GBIF records of the emperor dragonfly in the catchments draining Seine-et-Marne](../maps/day3-anax.png)
 
-## The post
+## The story
 
-> 🐉💧 Where is a dragonfly in November?
->
-> The anax empereur, emperor dragonfly (Anax imperator), is one of the largest dragonflies in Europe, blue and green, patrolling ponds from late spring to early autumn. GBIF holds 5,151 records of it in Seine-et-Marne since 2000: almost all between May and September, and not one in November. By now the adults are dead. The species lives on as larvae at the bottom of ponds, where in the north of its range most take two years to grow.
->
-> The larva is a hunter. It waits in the mud and the water plants, and shoots out a hinged lower lip to catch insect larvae, tadpoles and small fish. In late spring it climbs a reed or a standing stem out of the water and the adult breaks free of its larval skin. A pond needs clean water, water plants and tall stems on its banks for the whole cycle, which is why dragonflies are used to read the state of a wetland.
->
-> Day 3 of a week on the wetlands of Seine-et-Marne as winter sets in: a plant, a bird, an insect, an animal and a soil, then the whole ecosystem on Saturday.
->
-> Maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/day-3-emperor-dragonfly/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #Dragonflies #Odonata #AnaxImperator #Insects #Biodiversity #GBIF #OpenData
+*Where is a dragonfly in November?*
 
-**Author comment, under the post:**
+The anax empereur, emperor dragonfly (Anax imperator), is one of the largest dragonflies in Europe, blue and green, patrolling ponds from late spring to early autumn. GBIF holds 5,151 records of it in Seine-et-Marne since 2000: almost all between May and September, and not one in November. By now the adults are dead. The species lives on as larvae at the bottom of ponds, where in the north of its range most take two years to grow.
 
-> Tomorrow, an animal whose tadpoles share these ponds with the dragonfly larvae: the agile frog.
->
-> Did you know the dragonflies of summer spend most of their lives under water?
+The larva is a hunter. It waits in the mud and the water plants, and shoots out a hinged lower lip to catch insect larvae, tadpoles and small fish. In late spring it climbs a reed or a standing stem out of the water and the adult breaks free of its larval skin. A pond needs clean water, water plants and tall stems on its banks for the whole cycle, which is why dragonflies are used to read the state of a wetland.
 
 ## Cultural value and status
 

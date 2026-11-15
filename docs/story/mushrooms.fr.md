@@ -46,18 +46,6 @@ Le GBIF compte 18 296 observations de champignons en Seine-et-Marne depuis 2000,
 
 (iv) **Partagez l'observation.** Une photo datée et localisée sur iNaturalist ou un atlas régional finit dans le GBIF, et dans des cartes comme celles-ci.
 
-## Le post
-
-> 🍄🌳 Que trouve un cueilleur de champignons dans une zone humide ?
->
-> Par un matin mouillé d'octobre dans les vallées de Seine-et-Marne, les champignons sont sur les saules et les aulnes plus qu'au sol : pleurotes sur les vieux saules, tramète rougissante dont les pores rougissent au toucher, et lactaire des flaques, un petit chapeau orangé qui ne pousse que là où le sol reste mouillé. Le GBIF compte 18 296 observations de champignons dans le département depuis 2000, dont 53 % de septembre à novembre, mais très peu en zones humides.
->
-> La balade est aussi une leçon de prudence. La pholiote changeante des souches est comestible, mais elle pousse à côté de la galère marginée, qui contient les mêmes toxines mortelles que l'amanite phalloïde. Les champignons font tourner la zone humide : ils ramollissent les feuilles des ruisseaux, décomposent le bois mort et nourrissent les racines des arbres qui tiennent les berges. Photographiez-les, faites-les vérifier, et partagez l'observation.
->
-> Le récit, les photos et les cartes : 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/fr/story/mushrooms/
->
-> #Champignons #Mycologie #ZonesHumides #SeineEtMarne #Cueillette #Biodiversite #GBIF #DonneesOuvertes #Automne #Prudence
-
 ## Sources
 
 (i) GBIF.org, recherche d'occurrences, 15 nov. 2026 : champignons (règne Fungi) et chaque espèce en Seine-et-Marne (GADM FRA.8.4_1), 2000 à 2026, avec coordonnées ; comptes par mois.

@@ -4,23 +4,11 @@
 
 ![Meadowsweet, little grebe, emperor dragonfly and agile frog over the wet soils of the lower Loing and the Bassée](../maps/day6-ecosystem.png)
 
-## The post
+## The story
 
-> 🌾🐸 What holds a wetland together in November?
->
-> This week I followed one wetland in Seine-et-Marne as winter sets in, piece by piece. Under it, the soil: fluviosols and réductisols that fill with water as the autumn rain raises the water table. On the banks, the mégaphorbiaie and its flagship species, meadowsweet, now brown stems that will stand all winter. In the ponds, the larvae of the emperor dragonfly hunting in the mud. In the woods nearby, agile frogs waiting to spawn in those same ponds in February. On the open water, little grebes that dive for larvae and small fish. Around Episy and Moret, where the Loing, the Lunain and the Seine meet, GBIF holds records of all four species within a few kilometres of each other.
->
-> Each piece depends on the others. Drain the soil and the tall herbs give way to crops; cut the stems every year and the dragonfly has nothing to climb out on; fill the pond and the frog has nowhere to spawn and the grebe nothing to eat. None of these species is rare or threatened on the IUCN Red List, but the frog and the grebe are protected, and the habitats they share cover a small part of catchments where arable land takes 58.7 % of the area. A wetland is read catchment by catchment, because what happens upstream arrives here.
->
-> The whole week, maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #Ecosystems #Catchment #BassinVersant #Biodiversity #Natura2000 #GBIF #OpenData
+*What holds a wetland together in November?*
 
-**Author comment, under the post:**
-
-> The maps of the week are open: soils from INRAE, land cover from CORINE, protected sites from the INPN and species from GBIF, all clipped to the 14 catchments that drain the department.
->
-> Which piece of your local wetland would you add?
+Each piece depends on the others. Drain the soil and the tall herbs give way to crops; cut the stems every year and the dragonfly has nothing to climb out on; fill the pond and the frog has nowhere to spawn and the grebe nothing to eat. None of these species is rare or threatened on the IUCN Red List, but the frog and the grebe are protected, and the habitats they share cover a small part of catchments where arable land takes 58.7 % of the area. A wetland is read catchment by catchment, because what happens upstream arrives here.
 
 ## Cultural value and status
 
@@ -37,7 +25,7 @@
 
 ## Sources for the facts
 
-(i) Each species and soil fact: see the sources under [Day 1](day-1-meadowsweet.md), [Day 2](day-2-little-grebe.md), [Day 3](day-3-emperor-dragonfly.md), [Day 4](day-4-agile-frog.md), [Day 5](day-5-wet-soils.md) and the [habitat post](megaphorbiaie.md).
+(i) Each species and soil fact: see the sources under [Day 1](day-1-meadowsweet.md), [Day 2](day-2-little-grebe.md), [Day 3](day-3-emperor-dragonfly.md), [Day 4](day-4-agile-frog.md), [Day 5](day-5-wet-soils.md) and the [habitat story](megaphorbiaie.md).
 
 (ii) The map: GBIF records since 2000 (15 Nov 2026) for the four species in the window of the lower Loing and the Bassée, over the INRAE soils and CORINE water bodies.
 

@@ -1,24 +1,18 @@
 # Winter in the wetlands of Seine-et-Marne
 
-Six posts for December to February: the standing reedbed, the bittern, a beetle under the ice, bats asleep, a scarlet cup on wet twigs, and the winter floods.
+Six stories for December to February: the standing reedbed, the bittern, a beetle under the ice, bats asleep, a scarlet cup on wet twigs, and the winter floods.
 
-**When to post:** from the winter solstice, Monday 21 December 2026, one post a day.
+**Season:** from the winter solstice, Monday 21 December 2026, one story a day.
 
 ## Day 1, plant: Common reed, roseau commun
 
 ![Common reed, roseau commun](../img/species/phragmites-australis.jpg){ width="320" }
 
-> 🌾❄️ Why leave the reeds standing all winter?
->
-> In winter the roselière, the reedbed of roseau commun (Phragmites australis), is a forest of dry, pale stems topped with feathery plumes, still standing in the water. GBIF holds 3,422 records of it in Seine-et-Marne since 2000; 225 of them (7 %) were made from December to February.
->
-> The stems shelter insects and birds, and the reedbed filters the water that runs through it; reed beds are also built on purpose to clean wastewater. Reed was cut in winter for thatch; where it is still cut, a part is left uncut each year.
->
-> Day 1 of six on the wetlands of Seine-et-Marne in winter: a plant, a bird, an insect, an animal, a fungus, then the whole ecosystem.
->
-> Maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/winter/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #Biodiversity #GBIF #OpenData #Reedbed #Phragmites
+*Why leave the reeds standing all winter?*
+
+In winter the roselière, the reedbed of roseau commun (Phragmites australis), is a forest of dry, pale stems topped with feathery plumes, still standing in the water. GBIF holds 3,422 records of it in Seine-et-Marne since 2000; 225 of them (7 %) were made from December to February.
+
+The stems shelter insects and birds, and the reedbed filters the water that runs through it; reed beds are also built on purpose to clean wastewater. Reed was cut in winter for thatch; where it is still cut, a part is left uncut each year.
 
 *Status:* Least Concern (IUCN).
 
@@ -26,17 +20,11 @@ Six posts for December to February: the standing reedbed, the bittern, a beetle 
 
 ![Eurasian bittern, butor étoilé](../img/species/botaurus-stellaris.jpg){ width="320" }
 
-> 🐦🌾 Can you see the heron hiding in the reeds?
->
-> The butor étoilé, Eurasian bittern (Botaurus stellaris), is a heron striped brown like dry reeds; when alarmed it points its bill to the sky and sways with the stems. Wintering birds from further north and east join the few residents. GBIF holds 664 records of it in Seine-et-Marne since 2000; 404 of them (61 %) were made from December to February.
->
-> It needs large, wet reedbeds, the rarest of wetland habitats; in spring the males' booming call carries for kilometres.
->
-> Day 2 of six on the wetlands of Seine-et-Marne in winter: a plant, a bird, an insect, an animal, a fungus, then the whole ecosystem.
->
-> Maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/winter/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #Biodiversity #GBIF #OpenData #Bittern #Birds #Reedbed
+*Can you see the heron hiding in the reeds?*
+
+The butor étoilé, Eurasian bittern (Botaurus stellaris), is a heron striped brown like dry reeds; when alarmed it points its bill to the sky and sways with the stems. Wintering birds from further north and east join the few residents. GBIF holds 664 records of it in Seine-et-Marne since 2000; 404 of them (61 %) were made from December to February.
+
+It needs large, wet reedbeds, the rarest of wetland habitats; in spring the males' booming call carries for kilometres.
 
 *Status:* Least Concern (IUCN); protected in France; Annex I of the EU Birds Directive.
 
@@ -44,17 +32,11 @@ Six posts for December to February: the standing reedbed, the bittern, a beetle 
 
 ![Great diving beetle, dytique bordé](../img/species/dytiscus-marginalis.jpg){ width="320" }
 
-> 🪲🧊 What swims under the ice?
->
-> The dytique bordé, great diving beetle (Dytiscus marginalis), stays active all winter, even under ice, carrying a bubble of air under its wing cases. GBIF holds 173 records of it in Seine-et-Marne since 2000; 9 of them (5 %) were made from December to February.
->
-> Adults and larvae are fierce predators of tadpoles, insect larvae and small fish. A pond with dytiscus is a pond full of life.
->
-> Day 3 of six on the wetlands of Seine-et-Marne in winter: a plant, a bird, an insect, an animal, a fungus, then the whole ecosystem.
->
-> Maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/winter/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #Biodiversity #GBIF #OpenData #WaterBeetles #Insects #Ponds
+*What swims under the ice?*
+
+The dytique bordé, great diving beetle (Dytiscus marginalis), stays active all winter, even under ice, carrying a bubble of air under its wing cases. GBIF holds 173 records of it in Seine-et-Marne since 2000; 9 of them (5 %) were made from December to February.
+
+Adults and larvae are fierce predators of tadpoles, insect larvae and small fish. A pond with dytiscus is a pond full of life.
 
 *Status:* Not evaluated (IUCN).
 
@@ -62,17 +44,11 @@ Six posts for December to February: the standing reedbed, the bittern, a beetle 
 
 ![Daubenton's bat, murin de Daubenton](../img/species/myotis-daubentonii.jpg){ width="320" }
 
-> 🦇❄️ Where are the bats that hunt over the river in summer?
->
-> The murin de Daubenton, Daubenton's bat (Myotis daubentonii), skims the water at dusk in summer, catching insects just above the surface. In winter it hibernates in caves, cellars, quarries and under old bridges. GBIF holds 835 records of it in Seine-et-Marne since 2000; 200 of them (24 %) were made from December to February.
->
-> Volunteers count bats in their winter roosts each year; a bat woken in winter burns fat it cannot replace, so the counts are short and quiet.
->
-> Day 4 of six on the wetlands of Seine-et-Marne in winter: a plant, a bird, an insect, an animal, a fungus, then the whole ecosystem.
->
-> Maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/winter/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #Biodiversity #GBIF #OpenData #Bats #Mammals #Hibernation
+*Where are the bats that hunt over the river in summer?*
+
+The murin de Daubenton, Daubenton's bat (Myotis daubentonii), skims the water at dusk in summer, catching insects just above the surface. In winter it hibernates in caves, cellars, quarries and under old bridges. GBIF holds 835 records of it in Seine-et-Marne since 2000; 200 of them (24 %) were made from December to February.
+
+Volunteers count bats in their winter roosts each year; a bat woken in winter burns fat it cannot replace, so the counts are short and quiet.
 
 *Status:* Least Concern (IUCN); protected in France, like all bats.
 
@@ -80,17 +56,11 @@ Six posts for December to February: the standing reedbed, the bittern, a beetle 
 
 ![Scarlet elf cup, pézize écarlate](../img/species/sarcoscypha-coccinea.jpg){ width="320" }
 
-> 🍄❤️ What is the red cup on the fallen twig?
->
-> The pézize écarlate, scarlet elf cup (Sarcoscypha coccinea), grows on fallen, mossy, wet twigs in damp woods from the end of winter, a bright red cup when little else is fruiting. GBIF holds 50 records of it in Seine-et-Marne since 2000; 30 of them (60 %) were made from December to February.
->
-> It decomposes small dead wood and needs damp air and clean surroundings. Not recommended for eating.
->
-> Day 5 of six on the wetlands of Seine-et-Marne in winter: a plant, a bird, an insect, an animal, a fungus, then the whole ecosystem.
->
-> Maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/winter/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #Biodiversity #GBIF #OpenData #Fungi #Mushrooms #WinterFungi
+*What is the red cup on the fallen twig?*
+
+The pézize écarlate, scarlet elf cup (Sarcoscypha coccinea), grows on fallen, mossy, wet twigs in damp woods from the end of winter, a bright red cup when little else is fruiting. GBIF holds 50 records of it in Seine-et-Marne since 2000; 30 of them (60 %) were made from December to February.
+
+It decomposes small dead wood and needs damp air and clean surroundings. Not recommended for eating.
 
 *Status:* Not recommended. Not evaluated (IUCN).
 
@@ -98,17 +68,11 @@ Six posts for December to February: the standing reedbed, the bittern, a beetle 
 
 ![Winter floods](../img/species/alnus-glutinosa.jpg){ width="320" }
 
-> 🌊❄️ Where does a river go when it floods?
->
-> In winter, rain falls on soils that are already wet, and the rivers rise. Where the valley is still open, they spread over meadows and alder woods instead of running straight downstream.
->
-> That flooded ground stores water, slows the flood for the towns downstream and refills the water table for the summer. It is also where pike will spawn and toads will lay in a few weeks.
->
-> Day 6 of six on the wetlands of Seine-et-Marne in winter: a plant, a bird, an insect, an animal, a fungus, then the whole ecosystem.
->
-> Maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/winter/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #Biodiversity #GBIF #OpenData #Floods #Floodplain #Ecosystems
+*Where does a river go when it floods?*
+
+In winter, rain falls on soils that are already wet, and the rivers rise. Where the valley is still open, they spread over meadows and alder woods instead of running straight downstream.
+
+That flooded ground stores water, slows the flood for the towns downstream and refills the water table for the summer. It is also where pike will spawn and toads will lay in a few weeks.
 
 ## Sources
 

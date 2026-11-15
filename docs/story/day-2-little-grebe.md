@@ -4,25 +4,13 @@
 
 ![GBIF records of the little grebe in the catchments draining Seine-et-Marne](../maps/day2-grebe.png)
 
-## The post
+## The story
 
-> 🐦💧 Where do the little grebes of Seine-et-Marne spend the winter?
->
-> The grèbe castagneux, little grebe (Tachybaptus ruficollis), is the smallest grebe in Europe, a round brown bird that dives and comes up a few metres further on. In November it leaves the small ponds where it nested and gathers on open water that stays free of ice: the gravel-pit lakes of the Bassée, the loops of the Marne near Meaux and the ponds of the Loing. GBIF holds 11,208 records of the species in the department since 2000, and 1,129 of them were made in November.
->
-> It feeds on what lives under the surface: insect larvae, small fish, tadpoles. That makes it a good sign of a pond with life in its mud. Many of the lakes where it winters exist because the alluvium of the Seine and the Marne was dug for gravel; once the pits filled with water and their banks grew reeds, they became wetlands again.
->
-> Day 2 of a week on the wetlands of Seine-et-Marne as winter sets in: a plant, a bird, an insect, an animal and a soil, then the whole ecosystem on Saturday.
->
-> Maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/day-2-little-grebe/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #LittleGrebe #GrebeCastagneux #Birds #Waterbirds #LaBassee #GBIF #OpenData
+*Where do the little grebes of Seine-et-Marne spend the winter?*
 
-**Author comment, under the post:**
+The grèbe castagneux, little grebe (Tachybaptus ruficollis), is the smallest grebe in Europe, a round brown bird that dives and comes up a few metres further on. In November it leaves the small ponds where it nested and gathers on open water that stays free of ice: the gravel-pit lakes of the Bassée, the loops of the Marne near Meaux and the ponds of the Loing. GBIF holds 11,208 records of the species in the department since 2000, and 1,129 of them were made in November.
 
-> Tomorrow, one of the things it hunts: the larva of the emperor dragonfly, which spends the winter in the pond mud.
->
-> Have you seen a little grebe on your local lake this month?
+It feeds on what lives under the surface: insect larvae, small fish, tadpoles. That makes it a good sign of a pond with life in its mud. Many of the lakes where it winters exist because the alluvium of the Seine and the Marne was dug for gravel; once the pits filled with water and their banks grew reeds, they became wetlands again.
 
 ## Cultural value and status
 

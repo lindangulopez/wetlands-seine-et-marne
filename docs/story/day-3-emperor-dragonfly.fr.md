@@ -4,25 +4,13 @@
 
 ![Observations GBIF de l'anax empereur dans les bassins versants de la Seine-et-Marne](../maps/day3-anax.png)
 
-## Le post
+## Le récit
 
-> 🐉💧 Où est une libellule en novembre ?
->
-> L'anax empereur (Anax imperator) est l'une des plus grandes libellules d'Europe, bleue et verte, qui patrouille au-dessus des mares de la fin du printemps au début de l'automne. Le GBIF en compte 5 151 observations en Seine-et-Marne depuis 2000 : presque toutes entre mai et septembre, et aucune en novembre. Les adultes sont morts. L'espèce passe l'hiver à l'état de larve au fond des mares, où dans le nord de son aire la plupart mettent deux ans à grandir.
->
-> La larve est une chasseuse. Elle attend dans la vase et les herbiers, et projette une lèvre inférieure articulée pour saisir larves d'insectes, têtards et petits poissons. À la fin du printemps, elle grimpe hors de l'eau le long d'un roseau ou d'une tige restée debout, et l'adulte sort de sa peau de larve. Il faut à une mare de l'eau claire, des plantes aquatiques et de hautes tiges sur ses berges pour tout le cycle : c'est pourquoi les libellules servent à lire l'état d'une zone humide.
->
-> Jour 3 d'une semaine sur les zones humides de Seine-et-Marne à l'entrée de l'hiver : une plante, un oiseau, un insecte, un animal et un sol, puis tout l'écosystème samedi.
->
-> Cartes et sources : 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/fr/story/day-3-emperor-dragonfly/
->
-> #ZonesHumides #SeineEtMarne #Libellules #Odonates #AnaxImperator #Insectes #Biodiversite #Novembre #GBIF #DonneesOuvertes
+*Où est une libellule en novembre ?*
 
-**Commentaire de l'autrice, sous le post :**
+L'anax empereur (Anax imperator) est l'une des plus grandes libellules d'Europe, bleue et verte, qui patrouille au-dessus des mares de la fin du printemps au début de l'automne. Le GBIF en compte 5 151 observations en Seine-et-Marne depuis 2000 : presque toutes entre mai et septembre, et aucune en novembre. Les adultes sont morts. L'espèce passe l'hiver à l'état de larve au fond des mares, où dans le nord de son aire la plupart mettent deux ans à grandir.
 
-> Demain, un animal dont les têtards partagent ces mares avec les larves de libellules : la grenouille agile.
->
-> Saviez-vous que les libellules de l'été passent l'essentiel de leur vie sous l'eau ?
+La larve est une chasseuse. Elle attend dans la vase et les herbiers, et projette une lèvre inférieure articulée pour saisir larves d'insectes, têtards et petits poissons. À la fin du printemps, elle grimpe hors de l'eau le long d'un roseau ou d'une tige restée debout, et l'adulte sort de sa peau de larve. Il faut à une mare de l'eau claire, des plantes aquatiques et de hautes tiges sur ses berges pour tout le cycle : c'est pourquoi les libellules servent à lire l'état d'une zone humide.
 
 ## Valeur culturelle et statut
 

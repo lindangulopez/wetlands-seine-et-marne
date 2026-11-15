@@ -4,23 +4,13 @@
 
 ![The mégaphorbiaie plants in the catchments draining Seine-et-Marne](../maps/habitat-megaphorbiaie.png)
 
-## The post
+## The story
 
-> 🌾🦋 Why does a strip of tall wet grass matter in a landscape of fields?
->
-> The mégaphorbiaie is the tall-herb fringe of wet soils along rivers, ditches and wood edges, listed by the EU Habitats Directive as habitat 6430. Its flagship species is meadowsweet, reine-des-prés (Filipendula ulmaria), growing with purple loosestrife, hemp-agrimony, great willowherb, yellow loosestrife and wild angelica. In Seine-et-Marne, GBIF holds between 3,477 and 6,788 records since 2000 for each of these six plants. In November the habitat is turning into a band of brown stems that will stand all winter, easy to read from the path.
->
-> The band is narrow, often a few metres wide, so it never shows on land cover maps, which stop at 25 hectares. In the catchments that drain the department, arable land covers 58.7 % of the area, and wet soils dominate only 12.3 %, along the valleys. That is where the mégaphorbiaie holds the bank, slows runoff from the fields and shelters insects through the coming winter. It is lost to drainage, to mowing every year, and to willow scrub when nobody mows at all, while Himalayan balsam and Japanese knotweed take over disturbed banks. None of these plants is threatened: meadowsweet is Least Concern on the IUCN Red List. It is the habitat that we lose.
->
-> Habitat maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/megaphorbiaie/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #Megaphorbiaie #Natura2000 #Habitat6430 #Meadowsweet #FilipendulaUlmaria #Biodiversity #GBIF
+*Why does a strip of tall wet grass matter in a landscape of fields?*
 
-**Author comment, under the post:**
+The mégaphorbiaie is the tall-herb fringe of wet soils along rivers, ditches and wood edges, listed by the EU Habitats Directive as habitat 6430. Its flagship species is meadowsweet, reine-des-prés (Filipendula ulmaria), growing with purple loosestrife, hemp-agrimony, great willowherb, yellow loosestrife and wild angelica. In Seine-et-Marne, GBIF holds between 3,477 and 6,788 records since 2000 for each of these six plants. In November the habitat is turning into a band of brown stems that will stand all winter, easy to read from the path.
 
-> Managers usually mow a mégaphorbiaie only every few years, late in the season, to keep it open without flattening it.
->
-> Which of these six plants could you name from its winter stems?
+The band is narrow, often a few metres wide, so it never shows on land cover maps, which stop at 25 hectares. In the catchments that drain the department, arable land covers 58.7 % of the area, and wet soils dominate only 12.3 %, along the valleys. That is where the mégaphorbiaie holds the bank, slows runoff from the fields and shelters insects through the coming winter. It is lost to drainage, to mowing every year, and to willow scrub when nobody mows at all, while Himalayan balsam and Japanese knotweed take over disturbed banks. None of these plants is threatened: meadowsweet is Least Concern on the IUCN Red List. It is the habitat that we lose.
 
 ## The six plants, records in Seine-et-Marne since 2000
 

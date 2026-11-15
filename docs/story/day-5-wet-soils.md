@@ -4,25 +4,13 @@
 
 ![Hydromorphic soils in the catchments draining Seine-et-Marne](../maps/day5-soils.png)
 
-## The post
+## The story
 
-> 🟫💧 What does a wetland look like underground?
->
-> Dig an auger into a valley floor in Seine-et-Marne in November and the soil tells you how long it stays wet. Rust-coloured spots mean the water table rises and falls, so iron is dissolved and then oxidised again: a rédoxisol. Grey-blue earth near the surface means water that rarely leaves, so iron stays reduced: a réductisol. With autumn rain the water table is rising now, and these marks are what botanists and soil scientists read. In the catchments that drain the department, soils of this kind dominate 12.3 % of the area: fluviosols on river alluvium 7 %, réductisols 1 %, mostly along the Loing, the Lunain, the Orvanne and the Bassée.
->
-> In French law the soil is enough to make a wetland, even without wetland plants: vegetation or soil, one criterion is enough (Code de l'environnement, article L.211-1). These soils hold water in winter and give it back slowly in summer, and they carry the mégaphorbiaies, the ponds and the alder woods of the whole week. The same alluvium has also been dug for gravel, and the pits became the lakes where the little grebes winter.
->
-> Day 5 of a week on the wetlands of Seine-et-Marne as winter sets in: a plant, a bird, an insect, an animal and a soil, then the whole ecosystem tomorrow.
->
-> Maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/day-5-wet-soils/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #Soils #SoilScience #Pedology #WaterTable #INRAE #OpenData #GIS
+*What does a wetland look like underground?*
 
-**Author comment, under the post:**
+Dig an auger into a valley floor in Seine-et-Marne in November and the soil tells you how long it stays wet. Rust-coloured spots mean the water table rises and falls, so iron is dissolved and then oxidised again: a rédoxisol. Grey-blue earth near the surface means water that rarely leaves, so iron stays reduced: a réductisol. With autumn rain the water table is rising now, and these marks are what botanists and soil scientists read. In the catchments that drain the department, soils of this kind dominate 12.3 % of the area: fluviosols on river alluvium 7 %, réductisols 1 %, mostly along the Loing, the Lunain, the Orvanne and the Bassée.
 
-> The French method reads the soil to about 1.20 m with an auger; rust marks that start within 25 cm of the surface and continue down are a wetland sign.
->
-> Have you ever seen a grey-blue soil come up on an auger?
+In French law the soil is enough to make a wetland, even without wetland plants: vegetation or soil, one criterion is enough (Code de l'environnement, article L.211-1). These soils hold water in winter and give it back slowly in summer, and they carry the mégaphorbiaies, the ponds and the alder woods of the whole week. The same alluvium has also been dug for gravel, and the pits became the lakes where the little grebes winter.
 
 ## Cultural value and status
 

@@ -1,3 +1,4 @@
-site/
+drafts/
 __pycache__/
+site/
 .venv/

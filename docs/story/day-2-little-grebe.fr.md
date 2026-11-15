@@ -4,25 +4,13 @@
 
 ![Observations GBIF du grèbe castagneux dans les bassins versants de la Seine-et-Marne](../maps/day2-grebe.png)
 
-## Le post
+## Le récit
 
-> 🐦💧 Où les grèbes castagneux de Seine-et-Marne passent-ils l'hiver ?
->
-> Le grèbe castagneux (Tachybaptus ruficollis) est le plus petit grèbe d'Europe, un oiseau rond et brun qui plonge et réapparaît quelques mètres plus loin. En novembre, il quitte les petites mares où il a niché et se regroupe sur les eaux libres qui ne gèlent pas : les plans d'eau de gravières de la Bassée, les boucles de la Marne près de Meaux et les étangs du Loing. Le GBIF compte 11 208 observations de l'espèce dans le département depuis 2000, dont 1 129 faites en novembre.
->
-> Il se nourrit de ce qui vit sous la surface : larves d'insectes, petits poissons, têtards. C'est donc le signe d'un étang vivant jusque dans sa vase. Beaucoup des lacs où il hiverne existent parce que les alluvions de la Seine et de la Marne ont été creusées pour le granulat ; une fois les fosses en eau et leurs berges couvertes de roseaux, elles sont redevenues des zones humides.
->
-> Jour 2 d'une semaine sur les zones humides de Seine-et-Marne à l'entrée de l'hiver : une plante, un oiseau, un insecte, un animal et un sol, puis tout l'écosystème samedi.
->
-> Cartes et sources : 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/fr/story/day-2-little-grebe/
->
-> #ZonesHumides #SeineEtMarne #GrebeCastagneux #Oiseaux #OiseauxDEau #LaBassee #Biodiversite #Novembre #GBIF #DonneesOuvertes
+*Où les grèbes castagneux de Seine-et-Marne passent-ils l'hiver ?*
 
-**Commentaire de l'autrice, sous le post :**
+Le grèbe castagneux (Tachybaptus ruficollis) est le plus petit grèbe d'Europe, un oiseau rond et brun qui plonge et réapparaît quelques mètres plus loin. En novembre, il quitte les petites mares où il a niché et se regroupe sur les eaux libres qui ne gèlent pas : les plans d'eau de gravières de la Bassée, les boucles de la Marne près de Meaux et les étangs du Loing. Le GBIF compte 11 208 observations de l'espèce dans le département depuis 2000, dont 1 129 faites en novembre.
 
-> Demain, une de ses proies : la larve de l'anax empereur, qui passe l'hiver dans la vase des mares.
->
-> Avez-vous vu un grèbe castagneux sur votre étang ce mois-ci ?
+Il se nourrit de ce qui vit sous la surface : larves d'insectes, petits poissons, têtards. C'est donc le signe d'un étang vivant jusque dans sa vase. Beaucoup des lacs où il hiverne existent parce que les alluvions de la Seine et de la Marne ont été creusées pour le granulat ; une fois les fosses en eau et leurs berges couvertes de roseaux, elles sont redevenues des zones humides.
 
 ## Valeur culturelle et statut
 

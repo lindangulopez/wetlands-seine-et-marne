@@ -4,25 +4,13 @@
 
 ![GBIF records of the agile frog in the catchments draining Seine-et-Marne](../maps/day4-frog.png)
 
-## The post
+## The story
 
-> 🐸🍂 Why do we see so few frogs in November?
->
-> The grenouille agile, agile frog (Rana dalmatina), is a slim brown frog of damp woods with very long hind legs; it can jump up to two metres. In November it settles into its winter shelter, in the leaf litter, under logs or at the bottom of a pond, and almost disappears from the records. GBIF holds 7,414 records of it in Seine-et-Marne since 2000: only 10 in November, but 70 % in February and March, when it is among the first amphibians back at the ponds to spawn.
->
-> It lays its eggs in clumps fixed to twigs and stems under water, in the same ponds where the dragonfly larvae of yesterday's post hunt and where the little grebes feed. It needs two habitats a few hundred metres apart, a wood and a pond, and the path between them. Drained ponds, filled ditches and busy roads cut that path, which is why the species is protected in France.
->
-> Day 4 of a week on the wetlands of Seine-et-Marne as winter sets in: a plant, a bird, an insect, an animal and a soil, then the whole ecosystem on Saturday.
->
-> Maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/day-4-agile-frog/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #Amphibians #AgileFrog #RanaDalmatina #Ponds #Biodiversity #GBIF #OpenData
+*Why do we see so few frogs in November?*
 
-**Author comment, under the post:**
+The grenouille agile, agile frog (Rana dalmatina), is a slim brown frog of damp woods with very long hind legs; it can jump up to two metres. In November it settles into its winter shelter, in the leaf litter, under logs or at the bottom of a pond, and almost disappears from the records. GBIF holds 7,414 records of it in Seine-et-Marne since 2000: only 10 in November, but 70 % in February and March, when it is among the first amphibians back at the ponds to spawn.
 
-> Tomorrow, what keeps all these ponds and banks wet: the soils of the valleys.
->
-> Do you know where the frogs cross the road near you in February?
+It lays its eggs in clumps fixed to twigs and stems under water, in the same ponds where the dragonfly larvae of yesterday's story hunt and where the little grebes feed. It needs two habitats a few hundred metres apart, a wood and a pond, and the path between them. Drained ponds, filled ditches and busy roads cut that path, which is why the species is protected in France.
 
 ## Cultural value and status
 

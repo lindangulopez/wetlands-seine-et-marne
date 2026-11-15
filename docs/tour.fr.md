@@ -49,20 +49,3 @@ Ouvrez la carte en plein écran et utilisez le même menu : les couches se repli
 !!! note "Bon à savoir"
     La couche des zones humides indique où chercher, pas des limites réglementaires : seul un test de terrain sur la végétation ou le sol délimite une zone humide (arrêté du 24 juin 2008). Les classes A et B ne couvrent que l'Île-de-France (DRIEAT, 2021). Voir la [diapositive 6](wetlands.md) pour la méthode et les onze autres sites.
 
-## Le post
-
-> 🗺️💧 Comment lit-on une zone humide sur une carte ?
->
-> J'ai construit une carte ouverte et bilingue des zones humides des 14 bassins versants qui drainent la Seine-et-Marne, et la Bassée est le meilleur point de départ. Choisissez-la dans les signets : la carte montre 56 km² de zones humides avérées, dont 94 % dans le site Natura 2000 Bassée et plaines adjacentes. Passez à la couche des sols : la zone humide suit les alluvions de la Seine, les fluviosols, entre les sols plus secs des versants. Passez à la photo aérienne : les anciennes gravières apparaissent, avec les observations d'oiseaux d'eau du GBIF sur les plans d'eau.
->
-> Chaque couche répond à une question : où est l'eau, qu'y a-t-il dessous, qu'est-ce qui est protégé, qui vit là. Aucune ne trace de limite réglementaire, qui demande toujours un test de terrain sur la végétation ou le sol, mais ensemble elles montrent où regarder d'abord. Toutes les données sont ouvertes : DRIEAT, agence de l'eau Seine-Normandie, INRAE, IGN, INPN et GBIF.
->
-> Visite guidée, en français et en anglais : 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/fr/tour/
->
-> #ZonesHumides #SeineEtMarne #LaBassee #SIG #DonneesOuvertes #Natura2000 #GBIF #Cartographie #ScienceOuverte #Biodiversite
-
-**Commentaire de l'autrice, sous le post :**
-
-> Essayez la recherche avec votre commune : elle trouve aussi les sites Natura 2000 et les ZNIEFF par leur nom.
->
-> Quelle zone humide près de chez vous regarderiez-vous en premier ?

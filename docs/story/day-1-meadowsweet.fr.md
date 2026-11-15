@@ -4,25 +4,13 @@
 
 ![Observations GBIF de la reine-des-prés dans les bassins versants de la Seine-et-Marne](../maps/day1-filipendula.png)
 
-## Le post
+## Le récit
 
-> 🌾🍂 À quoi ressemble une fleur de zone humide en novembre ?
->
-> La reine-des-prés (Filipendula ulmaria) borde les rivières et les fossés de Seine-et-Marne de fleurs crème et parfumées en juillet. En novembre, ses tiges brunissent, coiffées de petits fruits vrillés, et resteront debout tout l'hiver. Cela suffit pour la repérer, et ces tiges signalent la mégaphorbiaie, la frange de hautes herbes des sols humides que la directive Habitats de l'UE classe comme habitat 6430. Le GBIF compte 4 656 observations de la plante dans le département depuis 2000, par des botanistes et des naturalistes bénévoles.
->
-> Les tiges restées debout abritent insectes et araignées en hiver, et montrent où le sol reste humide. Les mégaphorbiaies sont en général fauchées seulement tous les quelques ans, pour que saules et aulnes ne les referment pas. La plante a aussi sa place en médecine : dans les années 1830, des chimistes ont obtenu de l'acide salicylique de ses boutons floraux, et Bayer a nommé l'aspirine d'après son ancien nom botanique, Spiraea ulmaria.
->
-> Cette semaine, je suis les zones humides de Seine-et-Marne à l'entrée de l'hiver, bassin versant par bassin versant : une plante, un oiseau, un insecte, un animal et un sol, puis tout l'écosystème samedi.
->
-> Cartes et sources : 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/fr/story/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #ReineDesPres #FilipendulaUlmaria #Botanique #Novembre #Natura2000 #GBIF #DonneesOuvertes
+*À quoi ressemble une fleur de zone humide en novembre ?*
 
-**Commentaire de l'autrice, sous le post :**
+La reine-des-prés (Filipendula ulmaria) borde les rivières et les fossés de Seine-et-Marne de fleurs crème et parfumées en juillet. En novembre, ses tiges brunissent, coiffées de petits fruits vrillés, et resteront debout tout l'hiver. Cela suffit pour la repérer, et ces tiges signalent la mégaphorbiaie, la frange de hautes herbes des sols humides que la directive Habitats de l'UE classe comme habitat 6430. Le GBIF compte 4 656 observations de la plante dans le département depuis 2000, par des botanistes et des naturalistes bénévoles.
 
-> Demain, un oiseau qui hiverne sur les mêmes rivières : le grèbe castagneux.
->
-> Quelles plantes de zones humides restent debout dans votre vallée en ce mois de novembre ?
+Les tiges restées debout abritent insectes et araignées en hiver, et montrent où le sol reste humide. Les mégaphorbiaies sont en général fauchées seulement tous les quelques ans, pour que saules et aulnes ne les referment pas. La plante a aussi sa place en médecine : dans les années 1830, des chimistes ont obtenu de l'acide salicylique de ses boutons floraux, et Bayer a nommé l'aspirine d'après son ancien nom botanique, Spiraea ulmaria.
 
 ## Sources des faits
 

@@ -46,18 +46,6 @@ GBIF holds 18,296 records of fungi in Seine-et-Marne since 2000, and 53 % of the
 
 (iv) **Share the record.** A photo with a date and a place on iNaturalist or a regional atlas ends up in GBIF, and in maps like these.
 
-## The post
-
-> 🍄🌳 What does a mushroom hunter find in a wetland?
->
-> On a wet October morning in the valleys of Seine-et-Marne, the fungi are on the willows and alders more than on the ground: oyster mushrooms on old willows, the blushing bracket whose pores turn red when you rub them, and the puddle milkcap, a small orange cap that only grows where the ground stays wet. GBIF holds 18,296 records of fungi in the département since 2000, 53 % of them from September to November, but very few from wetlands.
->
-> The walk is also a lesson in caution. The sheathed woodtuft on the stumps is edible, but it grows beside the funeral bell, which carries the same deadly toxins as the death cap. Fungi are what makes a wetland work: they soften the leaves in the streams, rot the dead wood and feed the roots of the trees that hold the banks. Photograph them, have them checked, and share the record.
->
-> The story, the photos and the maps: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/mushrooms/
->
-> #Fungi #Mushrooms #Mycology #ZonesHumides #Wetlands #SeineEtMarne #MushroomSafety #Biodiversity #GBIF #OpenData
-
 ## Sources
 
 (i) GBIF.org occurrence search, 15 Nov 2026: fungi (kingdom Fungi) and each species in Seine-et-Marne (GADM FRA.8.4_1), 2000 to 2026, with coordinates; counts by month.

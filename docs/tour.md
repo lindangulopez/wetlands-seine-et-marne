@@ -49,20 +49,3 @@ Open the map full screen and use the same menu: the layers fold into an icon, an
 !!! note "Good to know"
     The wetland layer shows where to look, not legal limits: only a field test on vegetation or soil delimits a wetland (decree of 24 June 2008). Class A and B cover Île-de-France only (DRIEAT, 2021). See [slide 6](wetlands.md) for the method and the other eleven sites.
 
-## The post
-
-> 🗺️💧 How do you read a wetland on a map?
->
-> I built an open, bilingual map of the wetlands in the 14 river catchments that drain Seine-et-Marne, and La Bassée is the best place to start. Pick it from the bookmarks and the map shows 56 km² of confirmed wetland, 94 % of it inside the Natura 2000 site Bassée et plaines adjacentes. Switch to the soil layer and the wetland follows the alluvium of the Seine, the Fluviosols, between the drier soils of the slopes. Switch to the aerial photo and the old gravel pits appear, with the waterbird records from GBIF on the lakes.
->
-> Each layer answers one question: where is the water, what is underneath, what is protected, who lives there. None of them draws a legal limit, which still needs a field test on vegetation or soil, but together they show where to look first. All the data are open: DRIEAT, the Seine-Normandie water agency, INRAE, IGN, INPN and GBIF.
->
-> Guided tour, in English and French: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/tour/
->
-> #ZonesHumides #Wetlands #SeineEtMarne #LaBassee #GIS #OpenData #Natura2000 #GBIF #Mapping #OpenScience
-
-**Author comment, under the post:**
-
-> Try the search box with your own commune: it also finds Natura 2000 sites and ZNIEFF by name.
->
-> Which wetland near you would you look up first?
