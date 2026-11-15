@@ -1,6 +1,6 @@
 # Quatre saisons, quatre affiches
 
-Quatre panneaux Art nouveau, un par série saisonnière, d'après la composition des *Saisons* d'Alphonse Mucha (1896) : une femme encadrée d'une auréole en arc, les plantes, animaux et champignons de la saison mêlés à la bordure, et le nom de la saison dans un cartouche. Ici, les quatre femmes sont noires, chacune avec sa coiffure et les couleurs de sa saison.
+Quatre panneaux Art nouveau, un par série saisonnière, d'après la composition des *Saisons* d'Alphonse Mucha (1896) : une femme encadrée d'une auréole en arc, les plantes, animaux et champignons de la saison mêlés à la bordure, et le nom de la saison dans un cartouche. Ici, les quatre femmes sont noires, chacune avec sa coiffure et les couleurs de sa saison, et leurs visages sont dessinés d'après les masques et statues sculptés d'Afrique de l'Ouest et centrale : visage allongé et front haut, arcades en cœur qui se prolongent en un long nez, yeux en amande mi-clos, petite bouche sereine, scarifications en relief sur les tempes, cou annelé et l'éclat du bois poli.
 
 <div class="grid" markdown>
 

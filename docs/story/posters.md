@@ -1,6 +1,6 @@
 # Four seasons, four posters
 
-Four Art Nouveau panels, one for each seasonal series, after the composition of Alphonse Mucha's *The Seasons* (1896): a woman framed by a halo arch, the plants, animals and fungi of the season woven into the border, and the name of the season in a lettered panel. Here the four women are Black, each with her own hair and her season's palette.
+Four Art Nouveau panels, one for each seasonal series, after the composition of Alphonse Mucha's *The Seasons* (1896): a woman framed by a halo arch, the plants, animals and fungi of the season woven into the border, and the name of the season in a lettered panel. Here the four women are Black, each with her own hair and her season's palette, and their faces are drawn after West and Central African carved masks and figures: an elongated face and high forehead, a heart-shaped brow line flowing into a long nose, half-closed almond eyes, a small composed mouth, raised marks on the temples, a ringed neck and the sheen of polished wood.
 
 <div class="grid" markdown>
 

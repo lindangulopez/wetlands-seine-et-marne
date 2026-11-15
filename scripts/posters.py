@@ -107,27 +107,46 @@ SKIN = {"spring": ("#5C3A24", "#7A4E33", "#3E2617"), "summer": ("#4A2C1C", "#6B4
         "autumn": ("#6B4329", "#8A5A3B", "#432816"), "winter": ("#3F2618", "#5E3B27", "#24150C")}
 
 def face(cx, cy, sk):
+    """Face after West and Central African carved masks and figures: elongated oval, high forehead,
+    heart-shaped brow line into a long nose, half-closed almond eyes, small mouth, raised marks, polished sheen."""
     base, hi, dark = sk
-    s = P(f"M{cx - 58},{cy - 10} Q{cx - 60},{cy + 60} {cx},{cy + 88} Q{cx + 60},{cy + 60} {cx + 58},{cy - 10} Q{cx + 54},{cy - 82} {cx},{cy - 84} Q{cx - 54},{cy - 82} {cx - 58},{cy - 10}Z", base, dark, 2)
-    s += ellipse(cx - 30, cy + 30, 16, 10, hi + "66") + ellipse(cx + 30, cy + 30, 16, 10, hi + "66")
-    # closed eyes, brows
+    gid = "wood" + base[1:]
+    s = f'<defs><linearGradient id="{gid}" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{dark}"/><stop offset="0.38" stop-color="{base}"/><stop offset="0.5" stop-color="{hi}"/><stop offset="0.62" stop-color="{base}"/><stop offset="1" stop-color="{dark}"/></linearGradient></defs>'
+    # elongated oval with domed forehead and narrow chin
+    s += P(f"M{cx},{cy - 112} C{cx + 46},{cy - 112} {cx + 56},{cy - 60} {cx + 54},{cy - 6} C{cx + 52},{cy + 52} {cx + 30},{cy + 92} {cx},{cy + 100} C{cx - 30},{cy + 92} {cx - 52},{cy + 52} {cx - 54},{cy - 6} C{cx - 56},{cy - 60} {cx - 46},{cy - 112} {cx},{cy - 112}Z", f"url(#{gid})", dark, 2.2)
+    # forehead sheen
+    s += ellipse(cx, cy - 66, 14, 34, hi + "88")
+    # heart-shaped brow line flowing into the long nose
+    s += P(f"M{cx - 44},{cy - 8} Q{cx - 40},{cy - 40} {cx - 14},{cy - 34} Q{cx - 4},{cy - 30} {cx - 4},{cy - 14} L{cx - 6},{cy + 34} Q{cx - 14},{cy + 44} {cx - 12},{cy + 48}", "none", dark, 3)
+    s += P(f"M{cx + 44},{cy - 8} Q{cx + 40},{cy - 40} {cx + 14},{cy - 34} Q{cx + 4},{cy - 30} {cx + 4},{cy - 14} L{cx + 6},{cy + 34} Q{cx + 14},{cy + 44} {cx + 12},{cy + 48}", "none", dark, 3)
+    s += P(f"M{cx - 12},{cy + 48} Q{cx},{cy + 54} {cx + 12},{cy + 48}", "none", dark, 2.4)
+    s += P(f"M{cx},{cy - 26} L{cx},{cy + 40}", "none", hi + "AA", 3)  # nose ridge highlight
+    # half-closed almond (coffee-bean) eyes
     for sx in (-1, 1):
-        ex = cx + sx * 24
-        s += P(f"M{ex - 14},{cy} Q{ex},{cy + 9} {ex + 14},{cy}", "none", "#1A0E08", 2.6)
-        s += P(f"M{ex - 13},{cy + 2} l-3,4 M{ex - 5},{cy + 6} l-1,5 M{ex + 5},{cy + 6} l1,5", "none", "#1A0E08", 1.4)
-        s += P(f"M{ex - 17},{cy - 18} Q{ex},{cy - 27} {ex + 17},{cy - 17}", "none", "#1A0E08", 3)
-    # nose
-    s += P(f"M{cx - 3},{cy + 8} Q{cx - 6},{cy + 30} {cx - 14},{cy + 38} Q{cx},{cy + 46} {cx + 14},{cy + 38} Q{cx + 6},{cy + 30} {cx + 3},{cy + 8}", "none", dark, 2)
-    # lips
-    s += P(f"M{cx - 20},{cy + 58} Q{cx - 9},{cy + 49} {cx},{cy + 54} Q{cx + 9},{cy + 49} {cx + 20},{cy + 58} Q{cx},{cy + 64} {cx - 20},{cy + 58}Z", "#7E3A34", "#3A1410", 1.4)
-    s += P(f"M{cx - 20},{cy + 58} Q{cx},{cy + 76} {cx + 20},{cy + 58} Q{cx},{cy + 64} {cx - 20},{cy + 58}Z", "#93463E", "#3A1410", 1.4)
-    # earrings
-    s += circle(cx - 60, cy + 30, 7, "none", "#D4A84B", 3) + circle(cx + 60, cy + 30, 7, "none", "#D4A84B", 3)
+        ex = cx + sx * 24; ey = cy - 2
+        s += P(f"M{ex - 15},{ey} Q{ex},{ey - 10} {ex + 15},{ey} Q{ex},{ey + 9} {ex - 15},{ey}Z", dark, "#140A05", 1.6)
+        s += P(f"M{ex - 13},{ey + 1} L{ex + 13},{ey + 1}", "none", hi, 1.6)
+    # small composed mouth
+    s += ellipse(cx, cy + 70, 11, 6.5, "#5E2A22", 0, "#2A0E0A", 1.6) + P(f"M{cx - 10},{cy + 70} L{cx + 10},{cy + 70}", "none", "#2A0E0A", 1.4)
+    # raised marks: three on each temple, a line of dots down the forehead
+    for sx in (-1, 1):
+        for k in range(3):
+            x = cx + sx * (42 - k * 0.5); y = cy + 14 + k * 9
+            s += P(f"M{x - sx * 8},{y} L{x + sx * 6},{y + 2}", "none", hi, 2.6) + P(f"M{x - sx * 8},{y + 1.5} L{x + sx * 6},{y + 3.5}", "none", dark, 1.2)
+    for k in range(5):
+        s += circle(cx, cy - 98 + k * 11, 2.6, hi, dark, 0.8)
+    # stylised ears with ornaments
+    for sx in (-1, 1):
+        s += P(f"M{cx + sx * 52},{cy - 14} Q{cx + sx * 66},{cy + 4} {cx + sx * 54},{cy + 26}", base, dark, 2)
+        s += circle(cx + sx * 60, cy + 36, 7, "none", "#D4A84B", 3)
     return s
 
 def body(cx, top, sk, dress, dress2, trim):
     base, hi, dark = sk
-    s = P(f"M{cx - 26},{top - 10} L{cx - 30},{top + 60} L{cx + 30},{top + 60} L{cx + 26},{top - 10}Z", base, dark, 2)  # neck
+    s = P(f"M{cx - 22},{top - 20} L{cx - 28},{top + 60} L{cx + 28},{top + 60} L{cx + 22},{top - 20}Z", base, dark, 2)  # neck
+    for k in range(4):
+        y = top - 2 + k * 14
+        s += P(f"M{cx - 24 - k},{y} Q{cx},{y + 6} {cx + 24 + k},{y}", "none", "#D4A84B", 3.2)
     s += P(f"M{cx - 30},{top + 50} Q{cx - 110},{top + 70} {cx - 160},{top + 120} L{cx + 160},{top + 120} Q{cx + 110},{top + 70} {cx + 30},{top + 50}Z", base, dark, 2)  # shoulders
     # dress, flowing
     s += P(f"M{cx - 150},{top + 112} Q{cx - 120},{top + 330} {cx - 120},{top + 420} Q{cx - 150},{top + 640} {cx - 190},{top + 860} Q{cx - 100},{top + 895} {cx},{top + 878} Q{cx + 100},{top + 900} {cx + 195},{top + 860} Q{cx + 150},{top + 640} {cx + 120},{top + 420} Q{cx + 120},{top + 330} {cx + 150},{top + 112} Q{cx},{top + 160} {cx - 150},{top + 112}Z", dress, "#2B1A10", 2.4)
