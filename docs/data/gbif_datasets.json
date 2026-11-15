@@ -1,0 +1,96 @@
+{
+ "datasets_total": 593,
+ "records": 66342,
+ "top": [
+  {
+   "n": 15140,
+   "title": "Données acquises par le Conservatoire botanique national du Bassin parisien et son réseau (bénévoles, associations, autres structures professionnelles) - Flore du Bassin parisien (CBNBP)",
+   "doi": "10.15468/vctras",
+   "key": "dd238f50-f594-4e51-82af-033227ccab55"
+  },
+  {
+   "n": 4915,
+   "title": "iNaturalist Research-grade Observations",
+   "doi": "10.15468/ab3s5x",
+   "key": "50c9509d-22c7-4a22-a47d-8c48425ef4a7"
+  },
+  {
+   "n": 3725,
+   "title": "CA des structures-Observations opportunistes de la structure : CPIE Boucles de la Marne",
+   "doi": "10.15468/abmycz",
+   "key": "75085267-1991-4313-9075-6a12e821a51a"
+  },
+  {
+   "n": 3442,
+   "title": "Anciennes données CBNBP-Anciennes données Habitat CBNBP",
+   "doi": "10.15468/4zddkf",
+   "key": "1687706e-abdf-4ded-964d-4e7f4acf1e22"
+  },
+  {
+   "n": 2993,
+   "title": "Pl@ntNet automatically identified occurrences",
+   "doi": "10.15468/mma2ec",
+   "key": "14d5676a-2c54-4f94-9023-1e8dcd822aa0"
+  },
+  {
+   "n": 2284,
+   "title": "INPN - Données flore des CBN agrégées par la FCBN",
+   "doi": "10.15468/omae84",
+   "key": "75956ee6-1a2b-4fa3-b3e8-ccda64ce6c2d"
+  },
+  {
+   "n": 2150,
+   "title": "Système d'Information sur la Nature et les Paysages d'Ile de France - Données du/de la naturaliste Bottinelli Julien provenant de la base de donnée du SINP Île-de-France CETTIA",
+   "doi": "10.15468/qvzekx",
+   "key": "d7bc133c-6427-4e66-a1aa-1132abb28e4c"
+  },
+  {
+   "n": 2075,
+   "title": "Protocole d'inventaire de la flore vasculaire par maille 5 km X 5 km-Inventaire de la flore vasculaire par maille 5 km X 5 km",
+   "doi": "10.15468/m6bxc7",
+   "key": "72114f43-b1c1-46fd-8424-bc500c50e872"
+  },
+  {
+   "n": 1277,
+   "title": "Protocole d'inventaire de la flore vasculaire à l'échelle communale-Inventaire de la flore vasculaire par commune",
+   "doi": "10.15468/fy5vkt",
+   "key": "f94f92b3-6496-40f1-be05-1300d2254629"
+  },
+  {
+   "n": 1266,
+   "title": "Anciennes données CBNBP-Anciennes données Flora CBNBP",
+   "doi": "10.15468/gqfks3",
+   "key": "2700f1e5-0f50-4f53-8810-67bb54852aae"
+  },
+  {
+   "n": 1233,
+   "title": "Système d'Information sur la Nature et les Paysages d'Ile de France - Données de la structure Seine-et-Marne Environnement provenant de la base de donnée du SINP Île-de-France CETTIA",
+   "doi": "10.15468/nlto1y",
+   "key": "ef4bd28b-4a8f-49a1-aea6-85973c073f2c"
+  },
+  {
+   "n": 1227,
+   "title": "Système d'Information sur la Nature et les Paysages d'Ile de France - Données de la structure ANVL (Association des Naturalistes de la Vallée du Loing et du Massif de Fontainebleau) provenant de la base de donnée du SINP Île-de-France CETTIA",
+   "doi": "10.15468/ruvxhy",
+   "key": "96296645-bae3-4114-be50-90bd6398097d"
+  },
+  {
+   "n": 1171,
+   "title": "Observations du Conservatoire botanique national du Bassin parisien.",
+   "doi": "10.15468/megroo",
+   "key": "857aa892-f762-11e1-a439-00145eb45e9a"
+  },
+  {
+   "n": 1155,
+   "title": "Système d'Information sur la Nature et les Paysages d'Ile de France - Données du naturaliste ducourneau philippe provenant de la base de donnée du SINP Île-de-France CETTIA",
+   "doi": "10.15468/kqktar",
+   "key": "a809d28c-110c-43c5-98d4-67b92951f9a5"
+  },
+  {
+   "n": 994,
+   "title": "Pl@ntNet observations",
+   "doi": "10.15468/gtebaa",
+   "key": "7a3679ef-5582-4aaa-81f0-8c2545cafc81"
+  }
+ ]
+}

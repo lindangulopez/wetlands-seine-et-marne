@@ -1,0 +1,65 @@
+site_name: Wetlands of Seine-et-Marne, a catchment view
+site_description: Vegetation, soils and wetland species in the river catchments that drain Seine-et-Marne, mapped from open data (GBIF, INRAE, CORINE Land Cover, IGN, INPN), with a winter wetland story series.
+site_author: Linda Angulo Lopez
+site_url: https://lindangulopez.github.io/wetlands-seine-et-marne/
+repo_url: https://github.com/lindangulopez/wetlands-seine-et-marne
+repo_name: lindangulopez/wetlands-seine-et-marne
+edit_uri: edit/main/docs/
+copyright: Linda Angulo Lopez, November 2026. Written with the help of Claude (Anthropic). Source data under their own licences, see Sources and method.
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: teal
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - toc.follow
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Overview: index.md
+  - 1 · Catchments: catchments.md
+  - 2 · Soils: soils.md
+  - 3 · Vegetation: vegetation.md
+  - 4 · Species: species.md
+  - 5 · Loing valley: loing.md
+  - Interactive map: map.md
+  - Winter story:
+      - story/index.md
+      - "Day 1, meadowsweet": story/day-1-meadowsweet.md
+  - Learn the species: flashcards.md
+  - Sources and method: sources.md

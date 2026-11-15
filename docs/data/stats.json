@@ -1,0 +1,188 @@
+{
+ "total": {
+  "km2": 9318,
+  "in77": 64,
+  "dep_km2": 5924,
+  "lc": {
+   "Terres arables": 58.7,
+   "Forêts": 21.8,
+   "Artificialisé": 13.5,
+   "Autres agricoles": 2.9,
+   "Prairies": 1.5,
+   "Eaux et zones humides": 1.0,
+   "Landes, milieux ouverts": 0.6
+  },
+  "hydro": 12.3,
+  "n2k": 8.6
+ },
+ "catchments": [
+  {
+   "catchment": "Marne",
+   "km2": 1359,
+   "in77": 68,
+   "hydro": 18,
+   "forest": 16,
+   "arable": 48,
+   "artif": 29,
+   "grass": 2,
+   "water": 1,
+   "n2k": 3
+  },
+  {
+   "catchment": "Loing",
+   "km2": 1300,
+   "in77": 59,
+   "hydro": 18,
+   "forest": 22,
+   "arable": 66,
+   "artif": 5,
+   "grass": 1,
+   "water": 1,
+   "n2k": 6
+  },
+  {
+   "catchment": "Grand Morin",
+   "km2": 1196,
+   "in77": 71,
+   "hydro": 7,
+   "forest": 17,
+   "arable": 73,
+   "artif": 6,
+   "grass": 2,
+   "water": 0,
+   "n2k": 0
+  },
+  {
+   "catchment": "Yerres",
+   "km2": 1011,
+   "in77": 94,
+   "hydro": 6,
+   "forest": 24,
+   "arable": 61,
+   "artif": 11,
+   "grass": 1,
+   "water": 0,
+   "n2k": 0
+  },
+  {
+   "catchment": "Seine (Bassée)",
+   "km2": 926,
+   "in77": 63,
+   "hydro": 17,
+   "forest": 22,
+   "arable": 64,
+   "artif": 6,
+   "grass": 1,
+   "water": 4,
+   "n2k": 28
+  },
+  {
+   "catchment": "Crould, Oise",
+   "km2": 683,
+   "in77": 7,
+   "hydro": 11,
+   "forest": 19,
+   "arable": 40,
+   "artif": 37,
+   "grass": 2,
+   "water": 0,
+   "n2k": 13
+  },
+  {
+   "catchment": "Seine (Melun)",
+   "km2": 655,
+   "in77": 81,
+   "hydro": 12,
+   "forest": 44,
+   "arable": 24,
+   "artif": 27,
+   "grass": 1,
+   "water": 2,
+   "n2k": 21
+  },
+  {
+   "catchment": "École",
+   "km2": 390,
+   "in77": 71,
+   "hydro": 4,
+   "forest": 40,
+   "arable": 48,
+   "artif": 8,
+   "grass": 0,
+   "water": 0,
+   "n2k": 26
+  },
+  {
+   "catchment": "Petit Morin",
+   "km2": 337,
+   "in77": 47,
+   "hydro": 15,
+   "forest": 18,
+   "arable": 67,
+   "artif": 3,
+   "grass": 8,
+   "water": 0,
+   "n2k": 11
+  },
+  {
+   "catchment": "Ourcq",
+   "km2": 316,
+   "in77": 36,
+   "hydro": 21,
+   "forest": 26,
+   "arable": 65,
+   "artif": 4,
+   "grass": 2,
+   "water": 0,
+   "n2k": 2
+  },
+  {
+   "catchment": "Almont",
+   "km2": 305,
+   "in77": 100,
+   "hydro": 1,
+   "forest": 26,
+   "arable": 63,
+   "artif": 9,
+   "grass": 1,
+   "water": 0,
+   "n2k": 7
+  },
+  {
+   "catchment": "Essonne",
+   "km2": 303,
+   "in77": 21,
+   "hydro": 4,
+   "forest": 10,
+   "arable": 79,
+   "artif": 5,
+   "grass": 0,
+   "water": 0,
+   "n2k": 4
+  },
+  {
+   "catchment": "Voulzie",
+   "km2": 287,
+   "in77": 98,
+   "hydro": 7,
+   "forest": 10,
+   "arable": 83,
+   "artif": 5,
+   "grass": 0,
+   "water": 0,
+   "n2k": 1
+  },
+  {
+   "catchment": "Yonne",
+   "km2": 250,
+   "in77": 24,
+   "hydro": 18,
+   "forest": 13,
+   "arable": 66,
+   "artif": 8,
+   "grass": 1,
+   "water": 6,
+   "n2k": 7
+  }
+ ]
+}
