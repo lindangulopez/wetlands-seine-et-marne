@@ -1,4 +1,4 @@
-# Day 1, plant: meadowsweet in winter
+# Day 1, plant: meadowsweet in November
 
 **Reine-des-prés**, meadowsweet, *Filipendula ulmaria*. Fleurs crème parfumées ; la mégaphorbiaie.
 
@@ -6,23 +6,23 @@
 
 ## The post
 
-> 🌾❄️ What does a wetland flower look like in January?
+> 🌾🍂 What does a wetland flower look like in November?
 >
-> Reine-des-prés, meadowsweet (Filipendula ulmaria), lines the rivers and ditches of Seine-et-Marne with cream, scented flowers in July. In winter only its brown stems stand, topped with small twisted seed heads. They are enough to find it, and they mark the mégaphorbiaie, the tall-herb fringe of wet soils that the EU Habitats Directive lists as habitat 6430. GBIF holds 4,656 records of the plant in the department since 2000, from botanists and volunteer naturalists.
+> Reine-des-prés, meadowsweet (Filipendula ulmaria), lines the rivers and ditches of Seine-et-Marne with cream, scented flowers in July. In November its stems are turning brown, topped with small twisted seed heads, and they will stand all winter. They are enough to find it, and they mark the mégaphorbiaie, the tall-herb fringe of wet soils that the EU Habitats Directive lists as habitat 6430. GBIF holds 4,656 records of the plant in the department since 2000, from botanists and volunteer naturalists.
 >
 > The standing stems give winter cover to insects and spiders, and they show where the soil stays wet. Mégaphorbiaies are usually left uncut and mown only every few years, so that willows and alders do not close them. The plant also has a place in medicine: in the 1830s chemists obtained salicylic acid from its flower buds, and Bayer named aspirin after its old botanical name, Spiraea ulmaria.
 >
-> This week I follow the wetlands of Seine-et-Marne in winter, catchment by catchment: a plant, a bird, an insect, an animal and a soil, then the whole ecosystem on Saturday.
+> This week I follow the wetlands of Seine-et-Marne as winter sets in, catchment by catchment: a plant, a bird, an insect, an animal and a soil, then the whole ecosystem on Saturday.
 >
 > Maps and sources: 👉 https://lindangulopez.github.io/wetlands-seine-et-marne/story/
 >
-> #ZonesHumides #Wetlands #SeineEtMarne #Meadowsweet #FilipendulaUlmaria #Botany #WinterEcology #Natura2000 #GBIF #OpenData
+> #ZonesHumides #Wetlands #SeineEtMarne #Meadowsweet #FilipendulaUlmaria #Botany #November #Natura2000 #GBIF #OpenData
 
 **Author comment, under the post:**
 
 > Tomorrow, a bird that winters on the same rivers: the little grebe, the grèbe castagneux.
 >
-> Which wetland plants still stand in your valley this winter?
+> Which wetland plants still stand in your valley this November?
 
 ## Sources for the facts
 

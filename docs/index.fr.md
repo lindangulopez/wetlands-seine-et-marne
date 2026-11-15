@@ -16,6 +16,6 @@
 
 (v) [Vallée du Loing](loing.md) : un zoom sur le Loing aval et la forêt de Fontainebleau, avec la sabline à grandes fleurs.
 
-Ensuite : la [carte interactive](map.md), un [récit d'hiver](story/index.md) raconté un post par jour, des [cartes mémoire](flashcards.md) pour apprendre les espèces, et les [sources et la méthode](sources.md).
+Ensuite : la [carte interactive](map.md), un [récit de novembre](story/index.md) raconté un post par jour, des [cartes mémoire](flashcards.md) pour apprendre les espèces, et les [sources et la méthode](sources.md).
 
 *Linda Angulo López, 15 novembre 2026.*

@@ -1,5 +1,5 @@
 site_name: Wetlands of Seine-et-Marne, a catchment view
-site_description: Vegetation, soils and wetland species in the river catchments that drain Seine-et-Marne, mapped from open data (GBIF, INRAE, CORINE Land Cover, IGN, INPN), with a winter wetland story series.
+site_description: Vegetation, soils and wetland species in the river catchments that drain Seine-et-Marne, mapped from open data (GBIF, INRAE, CORINE Land Cover, IGN, INPN), with a November wetland story series.
 site_author: Linda Angulo Lopez
 site_url: https://lindangulopez.github.io/wetlands-seine-et-marne/
 repo_url: https://github.com/lindangulopez/wetlands-seine-et-marne
@@ -66,7 +66,7 @@ plugins:
           name: Français
           build: true
           site_name: Zones humides de Seine-et-Marne, par bassin versant
-          site_description: Végétation, sols et espèces des zones humides dans les bassins versants qui drainent la Seine-et-Marne, cartographiés à partir de données ouvertes (GBIF, INRAE, CORINE Land Cover, IGN, INPN), avec un récit d'hiver.
+          site_description: Végétation, sols et espèces des zones humides dans les bassins versants qui drainent la Seine-et-Marne, cartographiés à partir de données ouvertes (GBIF, INRAE, CORINE Land Cover, IGN, INPN), avec un récit de novembre.
           nav_translations:
             Overview: Présentation
             Slides: Diapositives
@@ -76,9 +76,14 @@ plugins:
             4 · Species: 4 · Espèces
             5 · Loing valley: 5 · Vallée du Loing
             Interactive map: Carte interactive
-            Winter story: Récit d'hiver
+            November story: Récit de novembre
             Day 1, meadowsweet: Jour 1, reine-des-prés
             Habitat, the mégaphorbiaie: Habitat, la mégaphorbiaie
+            Day 2, little grebe: Jour 2, grèbe castagneux
+            Day 3, emperor dragonfly: Jour 3, anax empereur
+            Day 4, agile frog: Jour 4, grenouille agile
+            Day 5, wet soils: Jour 5, sols humides
+            Day 6, the ecosystem: Jour 6, l'écosystème
             Learn the species: Apprendre les espèces
             Sources and method: Sources et méthode
 
@@ -94,9 +99,14 @@ nav:
       - 4 · Species: species.md
       - 5 · Loing valley: loing.md
   - Interactive map: map.md
-  - Winter story:
+  - November story:
       - story/index.md
-      - "Day 1, meadowsweet": story/day-1-meadowsweet.md
       - "Habitat, the mégaphorbiaie": story/megaphorbiaie.md
+      - "Day 1, meadowsweet": story/day-1-meadowsweet.md
+      - "Day 2, little grebe": story/day-2-little-grebe.md
+      - "Day 3, emperor dragonfly": story/day-3-emperor-dragonfly.md
+      - "Day 4, agile frog": story/day-4-agile-frog.md
+      - "Day 5, wet soils": story/day-5-wet-soils.md
+      - "Day 6, the ecosystem": story/day-6-ecosystem.md
   - Learn the species: flashcards.md
   - Sources and method: sources.md

@@ -16,6 +16,6 @@
 
 (v) [Loing valley](loing.md): a close-up of the lower Loing and the Fontainebleau forest, with the large-flowered sandwort.
 
-Then: the [interactive map](map.md), a [winter wetland story](story/index.md) told one post a day, [flashcards](flashcards.md) to learn the species, and the [sources and method](sources.md).
+Then: the [interactive map](map.md), a [November wetland story](story/index.md) told one post a day, [flashcards](flashcards.md) to learn the species, and the [sources and method](sources.md).
 
 *Linda Angulo Lopez, 15 November 2026.*
