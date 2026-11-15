@@ -46,17 +46,46 @@ markdown_extensions:
 
 plugins:
   - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+          site_name: Zones humides de Seine-et-Marne, par bassin versant
+          site_description: Végétation, sols et espèces des zones humides dans les bassins versants qui drainent la Seine-et-Marne, cartographiés à partir de données ouvertes (GBIF, INRAE, CORINE Land Cover, IGN, INPN), avec un récit d'hiver.
+          nav_translations:
+            Overview: Présentation
+            Slides: Diapositives
+            1 · Catchments: 1 · Bassins versants
+            2 · Soils: 2 · Sols
+            3 · Vegetation: 3 · Végétation
+            4 · Species: 4 · Espèces
+            5 · Loing valley: 5 · Vallée du Loing
+            Interactive map: Carte interactive
+            Winter story: Récit d'hiver
+            Day 1, meadowsweet: Jour 1, reine-des-prés
+            Learn the species: Apprendre les espèces
+            Sources and method: Sources et méthode
 
 extra_css:
   - stylesheets/extra.css
 
 nav:
   - Overview: index.md
-  - 1 · Catchments: catchments.md
-  - 2 · Soils: soils.md
-  - 3 · Vegetation: vegetation.md
-  - 4 · Species: species.md
-  - 5 · Loing valley: loing.md
+  - Slides:
+      - 1 · Catchments: catchments.md
+      - 2 · Soils: soils.md
+      - 3 · Vegetation: vegetation.md
+      - 4 · Species: species.md
+      - 5 · Loing valley: loing.md
   - Interactive map: map.md
   - Winter story:
       - story/index.md
