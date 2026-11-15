@@ -10,4 +10,4 @@
 
 (iii) **Les observations.** Les plantes indicatrices se concentrent le long du Loing, autour d'Episy et de Moret ; les plateaux cultivés entre les vallées en comptent peu.
 
-[L'explorer sur la carte interactive →](map.md){ .md-button }
+[Suite : les zones humides seules →](wetlands.md){ .md-button }

@@ -12,6 +12,7 @@ All data are open and were read on 15 November 2026. Each source keeps its own l
 | Land cover | CORINE Land Cover 2018, EU Copernicus, French edition by SDES | Géoplateforme WFS `LANDCOVER.CLC18_FR` |
 | Natura 2000, ZNIEFF type 1 | PatriNat (OFB, MNHN, CNRS, IRD), INPN | Géoplateforme WFS `patrinat_sic`, `patrinat_zps`, `patrinat_znieff1` |
 | World base map (interactive map) | Natural Earth countries, from the QGIS `world_map.gpkg` | Simplified with GDAL ogr2ogr |
+| Wetlands (slide 6) | DRIEAT Île-de-France, Enveloppes d'alerte des zones humides, 2021 update, Licence Ouverte 2.0 | [data.gouv.fr](https://www.data.gouv.fr/datasets/enveloppes-dalerte-des-zones-humides-dile-de-france-1), shapefile, rasterised at 10 m |
 | Species records | GBIF.org occurrence API | [api.gbif.org](https://api.gbif.org/v1/occurrence/search) |
 
 ## Method

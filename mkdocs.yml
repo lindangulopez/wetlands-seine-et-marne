@@ -75,6 +75,7 @@ plugins:
             3 · Vegetation: 3 · Végétation
             4 · Species: 4 · Espèces
             5 · Loing valley: 5 · Vallée du Loing
+            6 · Wetlands: 6 · Zones humides
             Interactive map: Carte interactive
             November story: Récit de novembre
             Day 1, meadowsweet: Jour 1, reine-des-prés
@@ -98,6 +99,7 @@ nav:
       - 3 · Vegetation: vegetation.md
       - 4 · Species: species.md
       - 5 · Loing valley: loing.md
+      - 6 · Wetlands: wetlands.md
   - Interactive map: map.md
   - November story:
       - story/index.md

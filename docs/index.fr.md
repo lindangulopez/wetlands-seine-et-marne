@@ -4,7 +4,7 @@
 
 ![Bassins versants qui drainent la Seine-et-Marne](maps/00-bassins.png)
 
-## En cinq diapositives
+## En six diapositives
 
 (i) [Bassins versants](catchments.md) : 81 zones hydrographiques de la BD CARTO, regroupées en 14 bassins, de l'Ourcq au Loing.
 
@@ -15,6 +15,8 @@
 (iv) [Espèces](species.md) : où le GBIF enregistre les 24 plantes indicatrices de zones humides, les 14 oiseaux d'eau hivernants et les 9 espèces exotiques envahissantes d'un aide-mémoire.
 
 (v) [Vallée du Loing](loing.md) : un zoom sur le Loing aval et la forêt de Fontainebleau, avec la sabline à grandes fleurs.
+
+(vi) [Zones humides](wetlands.md) : les zones humides seules, d'après la cartographie régionale : 28,4 % du département avérées ou probables.
 
 Ensuite : la [carte interactive](map.md), un [récit de novembre](story/index.md) raconté un post par jour, des [cartes mémoire](flashcards.md) pour apprendre les espèces, et les [sources et la méthode](sources.md).
 

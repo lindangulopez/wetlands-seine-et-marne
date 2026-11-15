@@ -4,7 +4,7 @@
 
 ![Catchments draining Seine-et-Marne](maps/00-bassins.png)
 
-## In five slides
+## In six slides
 
 (i) [Catchments](catchments.md): 81 BD CARTO hydrographic zones, grouped into 14 river catchments, from the Ourcq to the Loing.
 
@@ -15,6 +15,8 @@
 (iv) [Species](species.md): where GBIF records the 24 wetland indicator plants, 14 wintering waterbirds and 9 invasive species of a study aide-mémoire.
 
 (v) [Loing valley](loing.md): a close-up of the lower Loing and the Fontainebleau forest, with the large-flowered sandwort.
+
+(vi) [Wetlands](wetlands.md): the wetlands alone, from the regional wetland map: 28.4 % of the département confirmed or probable.
 
 Then: the [interactive map](map.md), a [November wetland story](story/index.md) told one post a day, [flashcards](flashcards.md) to learn the species, and the [sources and method](sources.md).
 

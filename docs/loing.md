@@ -10,4 +10,4 @@
 
 (iii) **The records.** Indicator plant records crowd along the Loing and around Episy and Moret; the plateau fields between the valleys have few.
 
-[Explore it on the interactive map →](map.md){ .md-button }
+[Next: the wetlands alone →](wetlands.md){ .md-button }
