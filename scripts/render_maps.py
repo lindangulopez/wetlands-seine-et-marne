@@ -35,7 +35,8 @@ def lines_of(g):
     if g.geom_type=="LineString": return [g]
     return [x for x in getattr(g,"geoms",[]) if x.geom_type=="LineString"]
 INK="#1C2822"; BG="#FAFBF7"; MUTED="#5B6A61"
-plt.rcParams.update({"font.family":"DejaVu Sans","font.size":9,"text.color":INK})
+plt.rcParams.update({"font.family":"DejaVu Sans","font.size":11,"text.color":INK})
+LEGKW=dict(loc="upper left",bbox_to_anchor=(0.0,0.0),frameon=False,fontsize=10.5,ncol=2,title_fontsize=11.5,columnspacing=1.2,handlelength=1.6)
 def base(ax,bounds=None,pad=3000):
     ax.set_aspect("equal"); ax.axis("off")
     b=bounds or U.bounds
@@ -59,11 +60,12 @@ def towns(ax,names=None,bounds=None):
         if not U.buffer(2000).contains(shape({"type":"Point","coordinates":[x,y]})) and not bounds: continue
         if bounds and not(bounds[0]<x<bounds[2] and bounds[1]<y<bounds[3]): continue
         ax.plot(x,y,"o",ms=3,color=INK,zorder=30)
-        ax.annotate(n,(x,y),xytext=(4,3),textcoords="offset points",fontsize=7.5,zorder=31,bbox=dict(boxstyle="round,pad=0.15",fc=BG,ec="none",alpha=.8))
+        ax.annotate(n,(x,y),xytext=(4,3),textcoords="offset points",fontsize=9.5,zorder=31,bbox=dict(boxstyle="round,pad=0.15",fc=BG,ec="none",alpha=.8))
 def scalebar(ax,km=10):
     x0,x1=ax.get_xlim(); y0,y1=ax.get_ylim(); x=x0+(x1-x0)*.04; y=y0+(y1-y0)*.035
     ax.plot([x,x+km*1000],[y,y],color=INK,lw=2.5,zorder=40); ax.text(x+km*500,y+(y1-y0)*.012,f"{km} km",ha="center",fontsize=8)
-def credit(fig,t): fig.text(0.01,0.005,t,fontsize=6.3,color=MUTED,ha="left",va="bottom",wrap=True)
+import textwrap
+def credit(fig,t): fig.text(0.01,-0.005,textwrap.fill(t,105),fontsize=8,color=MUTED,ha="left",va="top")
 DEPLEG=Line2D([],[],color="#B03A2E",lw=1.4,ls=(0,(4,2)),label="Limite de la Seine-et-Marne")
 CATLEG=Line2D([],[],color=INK,lw=1.3,label="Bassins versants (BD CARTO)")
 
@@ -117,7 +119,7 @@ print(json.dumps(tot,ensure_ascii=False))
 
 # ---------- 00 catchments
 PAL=["#C7DDE8","#E5D7B5","#D3E4C7","#EBC9B7","#CFC9E3","#F0E2A8","#BFDCD2","#E3CAD8","#D9D2C3","#C9D9EE","#E9DCC9","#CDE3DD","#E2D0B0","#D6DDE5"]
-fig,ax=plt.subplots(figsize=(9,9.4),facecolor=BG); base(ax)
+fig,ax=plt.subplots(figsize=(8,11.5),facecolor=BG); base(ax)
 order=sorted(groups,key=lambda x:-x[1].area)
 for i,(n,g) in enumerate(order):
     pa=path_of(g); ax.add_patch(PathPatch(pa,fc=PAL[i%len(PAL)],ec="none",zorder=1))
@@ -125,11 +127,11 @@ draw_rivers(ax)
 frame(ax)
 for n,g in order:
     rp=g.representative_point()
-    if g.area>8e7: ax.text(rp.x,rp.y,n,ha="center",va="center",fontsize=8.5,fontweight="bold",color="#33433A",zorder=35,bbox=dict(boxstyle="round,pad=0.2",fc="#FFFFFFAA",ec="none"))
+    if g.area>8e7: ax.text(rp.x,rp.y,n,ha="center",va="center",fontsize=10,fontweight="bold",color="#33433A",zorder=35,bbox=dict(boxstyle="round,pad=0.2",fc="#FFFFFFAA",ec="none"))
 towns(ax,["Meaux","Melun","Fontainebleau","Provins","Nemours","Montereau","Coulommiers","Château-Thierry","Montargis"])
 scalebar(ax)
-ax.legend(handles=[CATLEG,DEPLEG,Line2D([],[],color="#2C6FB0",lw=1.4,label="Cours d'eau permanents > 5 m")],loc="upper left",bbox_to_anchor=(1.0,1.0),frameon=False,fontsize=8)
-ax.set_title("Les bassins versants qui drainent la Seine-et-Marne",loc="left",fontsize=14,fontweight="bold")
+ax.legend(handles=[CATLEG,DEPLEG,Line2D([],[],color="#2C6FB0",lw=1.4,label="Cours d'eau permanents > 5 m")],**LEGKW)
+ax.set_title("Les bassins versants\nqui drainent la Seine-et-Marne",loc="left",fontsize=17,fontweight="bold")
 credit(fig,"81 zones hydrographiques BD CARTO touchant le département, regroupées en 14 bassins ; "+format(tot['km2'],",").replace(","," ")+f" km², dont {tot['in77']} % en Seine-et-Marne. Données : IGN BD CARTO V5 (Géoplateforme), Admin Express. Lambert-93. L. Angulo López, nov. 2026.")
 fig.savefig(f"{O}/00-bassins.png",dpi=150,bbox_inches="tight",facecolor=BG); plt.close(fig)
 
@@ -139,13 +141,13 @@ SOILC={"FLUVIOSOL":"#3E7CB1","REDUCTISOL":"#1B3F6B","REDOXISOL":"#5FA8A0","LUVIS
  "ARENOSOL":"#F1E6A6","LITHOSOL":"#A39E93","FERSIALSOL":"#C98B6B","COLLUVIOSOL":"#D9C7A8","REGOSOL":"#C2BCAF","ALOCRISOL":"#BBA58C","PEYROSOL":"#AFA89A"}
 sa=collections.Counter()
 for p,g in soils: sa[p["nom_sol_dominant"]]+=g.area
-fig,ax=plt.subplots(figsize=(9,9.4),facecolor=BG); base(ax)
+fig,ax=plt.subplots(figsize=(8,11.5),facecolor=BG); base(ax)
 fill(ax,soils,lambda p:SOILC.get(p["nom_sol_dominant"],"#ccc"))
 frame(ax); towns(ax,["Meaux","Melun","Fontainebleau","Provins","Nemours","Montereau","Coulommiers"]); scalebar(ax)
 keys=[k for k,_ in sa.most_common() if sa[k]/U.area>0.002]
 hand=[Patch(fc=SOILC.get(k,"#ccc"),label=k.capitalize()+" "+(f"{sa[k]/U.area*100:.0f} %" if sa[k]/U.area>=0.005 else "< 1 %")+(" (hydromorphe)" if k in WET else "")) for k in sorted(keys,key=lambda k:(k not in WET,-sa[k]))]
-ax.legend(handles=hand+[Patch(fc="#FFFFFF",ec="#CDD5CB",label="Non cartographié (zones urbaines denses)"),CATLEG,DEPLEG],loc="upper left",bbox_to_anchor=(1.0,1.0),frameon=False,fontsize=8,title="Sol dominant, part de la surface",title_fontsize=9)
-ax.set_title("Bassins versants de la Seine-et-Marne : sols dominants",loc="left",fontsize=14,fontweight="bold")
+ax.legend(handles=hand+[Patch(fc="#FFFFFF",ec="#CDD5CB",label="Non cartographié (zones urbaines denses)"),CATLEG,DEPLEG],title="Sol dominant, part de la surface",**LEGKW)
+ax.set_title("Sols dominants\ndes bassins versants de la Seine-et-Marne",loc="left",fontsize=17,fontweight="bold")
 credit(fig,f"Sols hydromorphes dominants sur {tot['hydro']} % de la surface. Données : INRAE, Les sols dominants de France métropolitaine, carte harmonisée (Géoplateforme, WFS INRAE_CARTE-SOLS) ; IGN BD CARTO. Lambert-93. L. Angulo López, nov. 2026.")
 fig.savefig(f"{O}/01-sols.png",dpi=150,bbox_inches="tight",facecolor=BG); plt.close(fig)
 
@@ -164,14 +166,14 @@ def clcc(p):
     if c[:2]=="33": return "#E6DCC8"
     if c[0]=="4": return "#9A6FB0"
     return "#4F8FCB"
-fig,ax=plt.subplots(figsize=(9,9.4),facecolor=BG); base(ax)
+fig,ax=plt.subplots(figsize=(8,11.5),facecolor=BG); base(ax)
 fill(ax,clc,clcc)
 for p,g in n2k: edge(ax,g,"#B03A2E",0.9,z=15)
 frame(ax); towns(ax,["Meaux","Melun","Fontainebleau","Provins","Nemours","Montereau","Coulommiers"]); scalebar(ax)
 LEG=[("#B9B4B0","Artificialisé (1xx)"),("#F3EBC3","Terres arables (21x)"),("#E8D29A","Zones agricoles hétérogènes (24x)"),("#E3C27E","Vignes, vergers (22x)"),("#C8DF8F","Prairies (231)"),("#5E9A55","Forêts de feuillus (311)"),("#4A7E4A","Forêts mélangées (313)"),("#2F5E3A","Forêts de conifères (312)"),("#A7B86A","Landes, broussailles (32x)"),("#E6DCC8","Sables, rochers, espaces ouverts (33x)"),("#9A6FB0","Zones humides (4xx)"),("#4F8FCB","Eaux (5xx)")]
 lcl=tot["lc"]
-ax.legend(handles=[Patch(fc=c,label=l) for c,l in LEG]+[Line2D([],[],color="#B03A2E",lw=1,label="Natura 2000 (ZSC/SIC et ZPS)"),CATLEG,DEPLEG],loc="upper left",bbox_to_anchor=(1.0,1.0),frameon=False,fontsize=8,title="CORINE Land Cover 2018",title_fontsize=9)
-ax.set_title("Bassins versants de la Seine-et-Marne : végétation et occupation du sol",loc="left",fontsize=14,fontweight="bold")
+ax.legend(handles=[Patch(fc=c,label=l) for c,l in LEG]+[Line2D([],[],color="#B03A2E",lw=1,label="Natura 2000 (ZSC/SIC et ZPS)"),CATLEG,DEPLEG],title="CORINE Land Cover 2018",**LEGKW)
+ax.set_title("Végétation et occupation du sol\ndes bassins versants de la Seine-et-Marne",loc="left",fontsize=17,fontweight="bold")
 credit(fig,"Surface : "+", ".join(f"{k.lower()} {v} %" for k,v in lcl.items())+f" ; Natura 2000 {tot['n2k']} %. Données : CORINE Land Cover 2018 (UE Copernicus, SDES) ; PatriNat/INPN ; IGN. Lambert-93. L. Angulo López, nov. 2026.")
 fig.savefig(f"{O}/02-vegetation.png",dpi=150,bbox_inches="tight",facecolor=BG); plt.close(fig)
 
@@ -179,7 +181,7 @@ fig.savefig(f"{O}/02-vegetation.png",dpi=150,bbox_inches="tight",facecolor=BG); 
 gb=L("gbif_catch")
 water=[(p,g) for p,g in clc if p["code_18"][0] in "45"]
 grp={"plante":("Plantes indicatrices (24 espèces), depuis 2000","#2E6650"),"oiseau":("Oiseaux d'eau hivernants (14), précision ≤ 1 km, depuis 2000","#2C5D8A"),"invasive":("Espèces exotiques envahissantes (9), depuis 2000","#B03A2E")}
-fig,axs=plt.subplots(1,3,figsize=(16,6.6),facecolor=BG)
+fig,axs=plt.subplots(3,1,figsize=(7.2,19.5),facecolor=BG); fig.subplots_adjust(hspace=0.12,top=0.915,bottom=0.04)
 for ax,(k,(t,c)) in zip(axs,grp.items()):
     base(ax)
     fill(ax,soils,lambda p:"#D6E6EC" if p["nom_sol_dominant"] in WET else "#EFEDE4")
@@ -187,17 +189,17 @@ for ax,(k,(t,c)) in zip(axs,grp.items()):
     pts=[f["geometry"]["coordinates"] for f in gb if f["properties"]["g"]==k]
     xs,ys=zip(*[T(*p) for p in pts]) if pts else ([],[])
     ax.scatter(xs,ys,s=3.5,color=c,alpha=.4,lw=0,zorder=10)
-    frame(ax); ax.set_title(t+"\n"+format(len(pts),",").replace(","," ")+" points",fontsize=9.5,loc="left")
+    frame(ax); ax.set_title(t.replace(", ","\n",1)+" · "+format(len(pts),",").replace(","," ")+" points",fontsize=13,loc="left")
     towns(ax,["Meaux","Melun","Fontainebleau","Provins","Nemours"])
-axs[0].legend(handles=[Patch(fc="#D6E6EC",label="Sols hydromorphes dominants"),Line2D([],[],color="#8DB8DE",lw=1,label="Cours d'eau > 5 m"),CATLEG,DEPLEG],loc="lower left",bbox_to_anchor=(0,-0.2),frameon=False,fontsize=8,ncol=2)
-fig.suptitle("Bassins versants de la Seine-et-Marne : où sont observées les espèces de l'aide-mémoire (GBIF)",x=0.01,ha="left",fontsize=14,fontweight="bold")
+axs[2].legend(handles=[Patch(fc="#D6E6EC",label="Sols hydromorphes dominants"),Line2D([],[],color="#8DB8DE",lw=1,label="Cours d'eau > 5 m"),CATLEG,DEPLEG],**LEGKW)
+fig.suptitle("Où sont observées les espèces\nde l'aide-mémoire (GBIF)",x=0.02,y=0.995,ha="left",fontsize=17,fontweight="bold")
 credit(fig,"GBIF.org, API d'occurrences (15 nov. 2026), au plus 2 400 enregistrements lus par espèce dans l'emprise, puis filtrés aux bassins. Jeux principaux : CBNBP, CPIE Boucles de la Marne, iNaturalist, Pl@ntNet, Observation.org, SINP Île-de-France. Données flore souvent floutées à la maille. Fonds : INRAE, IGN.")
 fig.savefig(f"{O}/03-gbif-especes.png",dpi=140,bbox_inches="tight",facecolor=BG); plt.close(fig)
 
 # ---------- 04 Loing
 lo=[g for n,g in groups if n=="Loing"][0]
 x0,y0=T(2.60,48.20); x1,y1=T(3.00,48.45); bnd=(x0,y0,x1,y1)
-fig,ax=plt.subplots(figsize=(9,6.6),facecolor=BG); base(ax,bnd,0)
+fig,ax=plt.subplots(figsize=(8,10),facecolor=BG); base(ax,bnd,0)
 fill(ax,soils,lambda p:SOILC.get(p["nom_sol_dominant"],"#ccc"),alpha=.9)
 fill(ax,water,lambda p:"#4F8FCB",z=3)
 draw_rivers(ax,"#1F5E99",1.2,z=4)
@@ -215,8 +217,8 @@ for n,g in groups:
         q=rp.representative_point(); dx,dy={"Seine (Melun)":(0,4500),"École":(3000,0)}.get(n,(0,0)); ax.text(q.x+dx,q.y+dy,"Bassin : "+n,fontsize=8,fontweight="bold",color=INK,zorder=36,ha="center",bbox=dict(boxstyle="round,pad=0.2",fc="#FFFFFFB0",ec="none"))
 towns(ax,["Fontainebleau","Moret","Episy","Nemours","Montereau"],bounds=bnd); scalebar(ax,5)
 hand=[Patch(fc=SOILC[k],label=k.capitalize()) for k in ["FLUVIOSOL","REDUCTISOL","PODZOSOL","CALCOSOL","LUVISOL","FERSIALSOL"]]+[Patch(fc="#4F8FCB",label="Eaux, zones humides (CLC)"),Line2D([],[],color="#B03A2E",lw=1.2,label="Natura 2000"),Line2D([],[],color="#6B4E9B",lw=1,ls=":",label="ZNIEFF type 1"),Line2D([],[],color=INK,lw=1.2,label="Limites des bassins"),DEPLEG,Line2D([],[],marker="o",ls="",color="#2E6650",label="Plantes indicatrices (GBIF)"),Line2D([],[],marker="*",ls="",color="#E0A100",mec=INK,ms=10,label="Arenaria grandiflora (GBIF)")]
-ax.legend(handles=hand,loc="upper left",bbox_to_anchor=(1.0,1.0),frameon=False,fontsize=8)
-ax.set_title("Bassin du Loing aval et massif de Fontainebleau",loc="left",fontsize=14,fontweight="bold")
+ax.legend(handles=hand,**LEGKW)
+ax.set_title("Bassin du Loing aval\net massif de Fontainebleau",loc="left",fontsize=17,fontweight="bold")
 credit(fig,"Données : INRAE (sols), CLC 2018, IGN BD CARTO (cours d'eau, bassins), PatriNat/INPN (Natura 2000, ZNIEFF), GBIF.org (15 nov. 2026). Lambert-93. L. Angulo López, nov. 2026.")
 fig.savefig(f"{O}/04-loing.png",dpi=150,bbox_inches="tight",facecolor=BG); plt.close(fig)
 print("maps done")

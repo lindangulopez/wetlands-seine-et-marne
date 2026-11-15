@@ -14,6 +14,8 @@
 
 Share of each catchment's area, from the INRAE soil map and CORINE Land Cover 2018, clipped to the catchment. Hydromorphic soils are the dominant soil types Fluviosol, Réductisol, Rédoxisol (and Luvisol- or Brunisol-rédoxisol) and Planosol.
 
+*On a phone, swipe the table sideways.*
+
 | Catchment | km² | In 77 | Hydromorphic soils | Forest | Arable | Built-up | Natura 2000 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Marne | 1,359 | 68 % | 18 % | 16 % | 48 % | 29 % | 3 % |

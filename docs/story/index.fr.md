@@ -4,6 +4,7 @@ Un post par jour pendant six jours, chacun une pièce de la même zone humide en
 
 | Jour | Thème | Espèce ou objet | Pourquoi en hiver |
 | --- | --- | --- | --- |
+| — | Habitat | Mégaphorbiaie, habitat 6430, espèce phare la reine-des-prés | La frange de hautes herbes qui encadre la semaine. [Lire le post](megaphorbiaie.md) |
 | 1 | Plante | Reine-des-prés, *Filipendula ulmaria* | Tiges sèches et fruits restent debout tout l'hiver et signalent la mégaphorbiaie (habitat 6430). [Lire le post](day-1-meadowsweet.md) |
 | 2 | Oiseau | Grèbe castagneux, *Tachybaptus ruficollis* | Hiverne sur les étangs et les plans d'eau de gravières de la Bassée et du Loing. |
 | 3 | Insecte | Anax empereur, *Anax imperator* | Passe l'hiver à l'état de larve sous l'eau, à chasser dans la vase. |

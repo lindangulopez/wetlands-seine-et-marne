@@ -46,6 +46,12 @@ markdown_extensions:
 
 plugins:
   - search
+  - glightbox:
+      touchNavigation: true
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - no-zoom
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
@@ -72,6 +78,7 @@ plugins:
             Interactive map: Carte interactive
             Winter story: Récit d'hiver
             Day 1, meadowsweet: Jour 1, reine-des-prés
+            Habitat, the mégaphorbiaie: Habitat, la mégaphorbiaie
             Learn the species: Apprendre les espèces
             Sources and method: Sources et méthode
 
@@ -90,5 +97,6 @@ nav:
   - Winter story:
       - story/index.md
       - "Day 1, meadowsweet": story/day-1-meadowsweet.md
+      - "Habitat, the mégaphorbiaie": story/megaphorbiaie.md
   - Learn the species: flashcards.md
   - Sources and method: sources.md

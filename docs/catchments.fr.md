@@ -14,6 +14,8 @@
 
 Part de la surface de chaque bassin, d'après la carte des sols de l'INRAE et CORINE Land Cover 2018, découpées au bassin. Les sols hydromorphes sont les sols dominants de type fluviosol, réductisol, rédoxisol (et luvisol- ou brunisol-rédoxisol) et planosol.
 
+*Sur téléphone, faites glisser le tableau.*
+
 | Bassin | km² | En 77 | Sols hydromorphes | Forêt | Terres arables | Artificialisé | Natura 2000 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Marne | 1 359 | 68 % | 18 % | 16 % | 48 % | 29 % | 3 % |

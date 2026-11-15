@@ -4,6 +4,7 @@ One post a day for six days, each a piece of the same wetland in winter, read ca
 
 | Day | Theme | Species or object | Why it fits winter |
 | --- | --- | --- | --- |
+| — | Habitat | Mégaphorbiaie, habitat 6430, flagship species meadowsweet | The tall-herb fringe that frames the week. [Read the post](megaphorbiaie.md) |
 | 1 | Plant | Reine-des-prés, meadowsweet, *Filipendula ulmaria* | Dead stems and seed heads stand all winter and mark the mégaphorbiaie (habitat 6430). [Read the post](day-1-meadowsweet.md) |
 | 2 | Bird | Grèbe castagneux, little grebe, *Tachybaptus ruficollis* | Winters on the ponds and gravel-pit lakes of the Bassée and the Loing. |
 | 3 | Insect | Anax empereur, emperor dragonfly, *Anax imperator* | Spends the winter as a larva under water, hunting in the pond mud. |
