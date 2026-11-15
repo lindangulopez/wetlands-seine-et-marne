@@ -6,7 +6,7 @@
 
 (i) **Catchment by catchment.** Confirmed and probable wetlands cover 38.3 % of the Yerres catchment, 37.4 % of the Seine at Melun and 34.9 % of the Bassée, but only 13.2 % of the École and 12.5 % of the Loing, where the sands and limestone of the south drain fast.
 
-(ii) **The named class A sites.** The twelve largest areas of confirmed wetlands (numbered on the map) are almost all protected sites already: the Bassée alone holds 56 km², inside the Natura 2000 site *Bassée et plaines adjacentes*.
+(ii) **The named class A sites.** The twelve largest areas of confirmed wetlands (numbered on the map) are only partly protected: the Bassée alone holds 56 km², 94 % of it inside the Natura 2000 site *Bassée et plaines adjacentes*, but most of the others lie largely outside protected sites.
 
 (iii) **Why two sources.** Wetland mapping in France is done region by region and catchment by catchment, with different methods. The Île-de-France map (DRIEAT, 2021) has four classes from field studies and models, but stops at the regional border. For the upstream parts of the Loing, Ourcq, Petit Morin, Bassée and Yonne, in the Loiret, Aisne, Marne, Aube and Yonne départements, this slide uses the Seine-Normandie basin pre-localisation (AESN, 2016), which has a single class, "potential wetlands". The two are not equivalent, so they are shown in different colours and counted separately.
 
@@ -16,20 +16,20 @@
 
 | N° | Site | Commune | Class A, km² | Protection |
 | ---: | --- | --- | ---: | --- |
-| 1 | La Bassée | Mouy-sur-Seine | 56.1 | Natura 2000 Bassée et plaines adjacentes |
-| 2 | Étangs et mares de Villefermoy | Coutençon | 14.1 | Natura 2000 Massif de Villefermoy |
-| 3 | Haute vallée de l'Yerres | Liverdy-en-Brie | 13.8 | near ZNIEFF Tourbière du Cormier |
-| 4 | Vallée du Lunain | Villemer | 8.3 | Natura 2000 Rivières du Loing et du Lunain |
-| 5 | Grand Marais de l'Ourcq | May-en-Multien | 6.8 | ZNIEFF Le Grand Marais et marais associés |
-| 6 | Vallée du Petit Morin | Orly-sur-Morin | 6.2 | Natura 2000 Le Petit Morin de Verdelot à Saint-Cyr-sur-Morin |
-| 7 | Boucles de la Marne, Grand-Voyeux | Étrépilly | 4.1 | Natura 2000 Boucles de la Marne |
-| 8 | Anciennes tourbières de la Voulzie et du ru des Méances | Longueville | 4.0 | ZNIEFF |
-| 9 | Marais de Cercanceaux | Souppes-sur-Loing | 4.0 | ZNIEFF Marais de Cercanceaux et plan d'eau de Varennes |
-| 10 | Massif de Villefermoy | Valence-en-Brie | 3.9 | Natura 2000 Massif de Villefermoy |
-| 11 | Vallée de la Marne | Méry-sur-Marne | 3.7 | near ZNIEFF Plan d'eau de Messy |
-| 12 | Plateau de Brie | Fontains | 3.7 | no protected site |
+| 1 | La Bassée | Mouy-sur-Seine | 56.1 | Natura 2000 Bassée et plaines adjacentes (94 %) |
+| 2 | Secteur de Coutençon | Coutençon | 14.1 | partly in Natura 2000 Massif de Villefermoy (24 %) |
+| 3 | Secteur de Liverdy-en-Brie | Liverdy-en-Brie | 13.8 | no protected site |
+| 4 | Secteur de Villecerf | Villecerf | 8.3 | partly in Natura 2000 Rivières du Loing et du Lunain (17 %) |
+| 5 | Secteur de May-en-Multien | May-en-Multien | 6.8 | partly in ZNIEFF 1 Le grand marais et marais associes (17 %) |
+| 6 | Vallée du Petit Morin | Orly-sur-Morin | 6.2 | Natura 2000 Le Petit Morin de Verdelot à Saint-Cyr-sur-Morin (75 %) |
+| 7 | Secteur d'Étrépilly | Étrépilly | 4.1 | partly in Natura 2000 Boucles de la Marne (9 %) |
+| 8 | Secteur de Chalmaison | Chalmaison | 4.0 | partly in ZNIEFF 1 Ancienne tourbiere du ru de meances (9 %) |
+| 9 | Secteur de Souppes-sur-Loing | Souppes-sur-Loing | 4.0 | partly in ZNIEFF 1 Marais de cercanceaux et plan d'eau de varennes (14 %) |
+| 10 | Massif de Villefermoy | Valence-en-Brie | 3.9 | Natura 2000 Massif de Villefermoy (78 %) |
+| 11 | Secteur de Méry-sur-Marne | Méry-sur-Marne | 3.7 | no protected site |
+| 12 | Secteur de Fontains | Fontains | 3.7 | no protected site |
 
-Areas are confirmed wetland (class A) within 200 m of each other, inside the catchments; names from the protected site that covers most of the area, or the commune.
+Areas are confirmed wetland (class A) within 200 m of each other, inside the catchments; a site takes a protected site's name only when that site covers most of it; otherwise it takes the commune's, with the share in a protected site. The number is placed on confirmed wetland, as close as possible to the site's centre.
 
 ## By catchment
 

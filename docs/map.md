@@ -4,6 +4,8 @@
 
 [Open the map full screen](carte.html){ .md-button .md-button--primary }
 
+[Follow the guided tour of La Bassée →](tour.md){ .md-button }
+
 ## How to use the map
 
 (i) **Go to a wetland site.** Top left, the **Sites de classe A** menu lists the twelve largest confirmed wetlands, numbered as on [slide 6](wetlands.md). Pick one: the map zooms to it, switches on the wetland layer and opens the site's card (commune, area of confirmed wetland, protected site).

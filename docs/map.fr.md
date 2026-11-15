@@ -4,6 +4,8 @@
 
 [Ouvrir la carte en plein écran](carte.html){ .md-button .md-button--primary }
 
+[Suivre la visite guidée de la Bassée →](tour.md){ .md-button }
+
 ## Mode d'emploi
 
 (i) **Aller à une zone humide.** En haut à gauche, le menu **Sites de classe A** liste les douze plus grandes zones humides avérées, numérotées comme sur la [diapositive 6](wetlands.md). Choisissez-en une : la carte zoome dessus, affiche la couche des zones humides et ouvre la fiche du site (commune, surface de zone humide avérée, site protégé).

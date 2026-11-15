@@ -6,8 +6,8 @@
   {
    "rank": 1,
    "A_km2": 56.1,
-   "lon": 3.2396,
-   "lat": 48.4377,
+   "lon": 3.2405,
+   "lat": 48.4367,
    "commune": "Mouy-sur-Seine (77)",
    "sites": [
     {
@@ -26,7 +26,7 @@
    "rank": 2,
    "A_km2": 14.1,
    "lon": 2.9885,
-   "lat": 48.4844,
+   "lat": 48.4843,
    "commune": "Coutençon (77)",
    "sites": [
     {
@@ -44,8 +44,8 @@
   {
    "rank": 3,
    "A_km2": 13.8,
-   "lon": 2.7825,
-   "lat": 48.6854,
+   "lon": 2.7798,
+   "lat": 48.6861,
    "commune": "Liverdy-en-Brie (77)",
    "sites": [
     {
@@ -63,9 +63,9 @@
   {
    "rank": 4,
    "A_km2": 8.3,
-   "lon": 2.8438,
-   "lat": 48.3094,
-   "commune": "Villemer (77)",
+   "lon": 2.856,
+   "lat": 48.3246,
+   "commune": "Villecerf (77)",
    "sites": [
     {
      "type": "Natura 2000",
@@ -82,8 +82,8 @@
   {
    "rank": 5,
    "A_km2": 6.8,
-   "lon": 3.0517,
-   "lat": 49.06,
+   "lon": 3.053,
+   "lat": 49.061,
    "commune": "May-en-Multien (77)",
    "sites": [
     {
@@ -101,8 +101,8 @@
   {
    "rank": 6,
    "A_km2": 6.2,
-   "lon": 3.236,
-   "lat": 48.8958,
+   "lon": 3.2353,
+   "lat": 48.896,
    "commune": "Orly-sur-Morin (77)",
    "sites": [
     {
@@ -120,8 +120,8 @@
   {
    "rank": 7,
    "A_km2": 4.1,
-   "lon": 2.9319,
-   "lat": 49.0301,
+   "lon": 2.932,
+   "lat": 49.0306,
    "commune": "Étrépilly (77)",
    "sites": [
     {
@@ -139,9 +139,9 @@
   {
    "rank": 8,
    "A_km2": 4.0,
-   "lon": 3.2491,
+   "lon": 3.2492,
    "lat": 48.508,
-   "commune": "Longueville (77)",
+   "commune": "Chalmaison (77)",
    "sites": [
     {
      "type": "ZNIEFF 1",
@@ -158,8 +158,8 @@
   {
    "rank": 9,
    "A_km2": 4.0,
-   "lon": 2.7227,
-   "lat": 48.1828,
+   "lon": 2.7224,
+   "lat": 48.1826,
    "commune": "Souppes-sur-Loing (77)",
    "sites": [
     {
@@ -177,7 +177,7 @@
   {
    "rank": 10,
    "A_km2": 3.9,
-   "lon": 2.894,
+   "lon": 2.8941,
    "lat": 48.4717,
    "commune": "Valence-en-Brie (77)",
    "sites": [
@@ -191,8 +191,8 @@
   {
    "rank": 11,
    "A_km2": 3.7,
-   "lon": 3.213,
-   "lat": 48.9823,
+   "lon": 3.2135,
+   "lat": 48.9822,
    "commune": "Méry-sur-Marne (77)",
    "sites": [
     {
@@ -210,8 +210,8 @@
   {
    "rank": 12,
    "A_km2": 3.7,
-   "lon": 3.0316,
-   "lat": 48.5198,
+   "lon": 3.0321,
+   "lat": 48.521,
    "commune": "Fontains (77)",
    "sites": []
   }

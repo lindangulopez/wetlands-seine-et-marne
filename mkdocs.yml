@@ -77,6 +77,7 @@ plugins:
             5 · Loing valley: 5 · Vallée du Loing
             6 · Wetlands: 6 · Zones humides
             Interactive map: Carte interactive
+            Guided tour, La Bassée: Visite guidée, la Bassée
             Stories: Récits
             November: Novembre
             Day 1, meadowsweet: Jour 1, reine-des-prés
@@ -106,7 +107,9 @@ nav:
       - 4 · Species: species.md
       - 5 · Loing valley: loing.md
       - 6 · Wetlands: wetlands.md
-  - Interactive map: map.md
+  - Interactive map:
+      - map.md
+      - "Guided tour, La Bassée": tour.md
   - Stories:
       - story/index.md
       - November:

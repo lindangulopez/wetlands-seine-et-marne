@@ -20,7 +20,7 @@ for fn,kind in [("c_znieff1","ZNIEFF 1"),("c_sic","Natura 2000"),("c_zps","Natur
 out=[]
 for i in order:
     L=i+1; ys,xs=np.nonzero((lab==L)&mA)
-    cy,cx=ys.mean(),xs.mean(); X=gt[0]+cx*gt[1]; Y=gt[3]+cy*gt[5]; lon,lat=inv.transform(X,Y)
+    my,mx=ys.mean(),xs.mean(); j0=int(np.argmin((ys-my)**2+(xs-mx)**2)); cy,cx=ys[j0]+0.5,xs[j0]+0.5; X=gt[0]+cx*gt[1]; Y=gt[3]+cy*gt[5]; lon,lat=inv.transform(X,Y)
     # sample points of the patch to find intersecting sites
     idx=np.random.default_rng(0).choice(len(xs),min(300,len(xs)),replace=False)
     cnt={}
